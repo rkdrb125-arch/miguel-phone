@@ -2329,6 +2329,17 @@ html,body{max-width:100%;overflow-x:clip}
 .cm-taste-plate:has(.cm-dish-art){background:none;border:0}
 .cm-taste-plate .cm-dish-art{width:auto;height:1.55em;align-self:end}
 .cm-gallery-item .cm-dish-art{width:48px;height:40px}
+</style><style id="cm-v228-recipe-layout-fix">
+/* v228: recipe book artwork stays inside a dedicated, non-overlapping frame */
+.cook-shell .cm-book-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:14px 12px}
+.cook-shell .cm-book-recipe{box-sizing:border-box;width:100%;min-width:0;min-height:0;height:auto;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:7px;padding:10px 7px 12px;overflow:hidden;isolation:isolate}
+.cook-shell .cm-book-recipe .cm-book-stars{flex:none;min-height:24px;line-height:24px;font-size:19px!important;white-space:nowrap}
+.cook-shell .cm-book-recipe .cm-book-photo{box-sizing:border-box;position:relative;flex:none;display:flex;align-items:center;justify-content:center;width:100%;height:118px;min-height:118px;max-height:118px;margin:0;padding:5px;overflow:hidden;border-radius:7px;background:linear-gradient(150deg,#fffef2,#fff3d1)}
+.cook-shell .cm-book-recipe .cm-book-photo img.cm-dish-art{display:block!important;position:static!important;flex:none!important;box-sizing:border-box!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;min-width:0!important;min-height:0!important;object-fit:contain!important;object-position:center center!important;transform:none!important;margin:0!important;filter:none!important}
+.cook-shell .cm-book-recipe>b{position:relative;display:block;flex:none;width:100%;min-height:32px;margin:0;text-align:center;font-size:12px;line-height:1.35;overflow-wrap:anywhere;word-break:keep-all;color:#386d3f}
+.cook-shell .cm-book-recipe>small{position:relative;display:block;flex:none;width:100%;text-align:center;line-height:1.3;font-size:10px}
+.cook-shell .cm-book-recipe .cm-book-last{position:relative;flex:none}
+@media(max-width:380px){.cook-shell .cm-book{padding:12px 8px}.cook-shell .cm-book-grid{gap:11px 9px}.cook-shell .cm-book-recipe{padding:8px 5px 10px}.cook-shell .cm-book-recipe .cm-book-photo{height:100px;min-height:100px;max-height:100px}}
 </style></head><body><div id="phone"><div class="status"><span id="statusTime">21:06</span><span>5G ◉ ▰</span></div><main id="root"></main><button type="button" class="gesture" aria-label="홈 화면으로 돌아가기" title="홈으로" onclick="go('home')"></button></div><script>
 const archiveImages=[];let archiveFolder=null;
 const key='miguel_ref_style_v2';let data;try{data=JSON.parse(localStorage.getItem(key))||{}}catch{data={}};data.archiveExtra??={story:[],au:[],comedy:[],daily:[]};data.name??='';data.chat??=[];data.chat.forEach(m=>{if(m.me&&m.read===undefined)m.read=true});data.stamps??=[];data.photos??=[];data.notes??=[];data.diary??=[];data.ddays??=[];

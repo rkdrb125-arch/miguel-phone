@@ -3569,7 +3569,26 @@ body.dw302-open{overflow:hidden!important}
  #phone .cook-shell .cm-home .cm-menu-button{min-height:42px!important;padding:5px 8px!important}
 }
 </style>
-</head><body><div id="phone"><div class="status"><span id="statusTime">21:06</span><span>5G ◉ ▰</span></div><main id="root"></main><button type="button" class="gesture" aria-label="홈 화면으로 돌아가기" title="홈으로" onclick="page==='lock'?unlock():go('home')"></button></div><script>
+<style id="cm-v346-no-decorative-tasting-words">.cook-shell .cm-suspense-heart,.cook-shell .cm-chew-anim,.cook-shell .cm-await-beats{display:none!important}</style><style id="cm-v353-cooking-visual-alignment">
+/* Recipe-aware pancakes: batter rather than generic vegetables/meat. */
+.cook-shell .cm-pan-food-pieces:has(.cm353-pancake-batter){left:20%!important;top:64px!important;width:48%!important;height:87px!important;z-index:5!important;transform:translateY(var(--pan-pull,0px))!important}
+.cook-shell .cm353-pancake-batter{position:relative;width:100%;height:100%;border-radius:50%;background:radial-gradient(ellipse at 40% 34%,#fff1ba,#e9b76e 68%,#c98543 95%);border:3px solid #ad793e;box-shadow:inset 0 2px 6px #fff5d3,0 2px 5px #281d1660}
+.cook-shell .cm353-pancake-batter span{position:absolute;border-radius:50%;background:#bc8047;opacity:.7;width:9px;height:6px;top:28%;left:35%}
+.cook-shell .cm353-pancake-batter span:nth-child(2){top:55%;left:64%;width:6px;height:5px}
+.cook-shell .cm353-pancake-batter span:nth-child(3){top:65%;left:30%;width:7px;height:5px}
+.cook-shell .cm353-toast-in-pan{height:100%;display:grid;place-items:center}
+.cook-shell .cm353-toast-in-pan img{max-width:100%;max-height:100%;object-fit:contain}
+.cook-shell .cm-pan-scene .cm-fp-pan-hand{display:none!important}
+/* Place the whole dish on the table, in front of Daniel, within the scene. */
+.cook-shell .cm-taste-screen .cm-dining-scene.cm290-dining-scene{height:clamp(360px,105vw,480px)!important;min-height:360px!important;overflow:hidden!important;position:relative!important}
+.cook-shell .cm-taste-screen .cm-dining-scene .cm-taste-table{position:absolute!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;height:38%!important;min-height:135px!important;z-index:6!important;overflow:visible!important;background:transparent!important;border:0!important}
+.cook-shell .cm-taste-screen .cm-dining-scene .cm-taste-plate{position:absolute!important;left:50%!important;right:auto!important;top:5%!important;bottom:auto!important;width:min(63%,240px)!important;height:clamp(112px,30vw,152px)!important;transform:translateX(-50%)!important;animation:none!important;margin:0!important;padding:7px!important;box-sizing:border-box!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:visible!important;z-index:9!important;border-radius:50%!important;background:radial-gradient(ellipse,#fffefa 0 52%,#e2e9d8 54% 66%,#fffefb 69%)!important;box-shadow:0 4px 9px #2a312b55!important}
+.cook-shell .cm-taste-screen .cm-dining-scene .cm-taste-plate:before,.cook-shell .cm-taste-screen .cm-dining-scene .cm-taste-plate:after{display:none!important}
+.cook-shell .cm-taste-screen .cm-dining-scene .cm-taste-plate img.cm-dish-art{position:static!important;display:block!important;width:95%!important;height:95%!important;max-width:95%!important;max-height:95%!important;object-fit:contain!important;object-position:center!important;transform:none!important;animation:none!important;clip-path:none!important;opacity:1!important;visibility:visible!important;margin:auto!important}
+.cook-shell .cm-taste-screen .cm-dining-scene .cm-fork-pickup{z-index:14!important;bottom:4px!important;left:50%!important;transform:translateX(-50%)!important}
+.cook-shell .cm-taste-screen .cm-dining-scene .cm-drag-fork{z-index:18!important}
+@media(max-width:420px){.cook-shell .cm-taste-screen .cm-dining-scene .cm-taste-plate{width:67%!important;height:130px!important}}
+</style></head><body><div id="phone"><div class="status"><span id="statusTime">21:06</span><span>5G ◉ ▰</span></div><main id="root"></main><button type="button" class="gesture" aria-label="홈 화면으로 돌아가기" title="홈으로" onclick="page==='lock'?unlock():go('home')"></button></div><script>
 const archiveImages=[];let archiveFolder=null;
 const key='miguel_ref_style_v2';let data;try{data=JSON.parse(localStorage.getItem(key))||{}}catch{data={}};data.archiveExtra??={story:[],au:[],comedy:[],daily:[]};data.name??='';data.chat??=[];data.chat.forEach(m=>{if(m.me&&m.read===undefined)m.read=true});data.stamps??=[];data.photos??=[];data.notes??=[];data.diary??=[];data.ddays??=[];
 // 성사 기념일: 최초 날짜를 보존하고 매년 캘린더에 반복 표시합니다.
@@ -3985,11 +4004,31 @@ function rhythmSetDifficultyV159(v){rhythmDifficultyV159=v;render()}
 function rhythmRankV159(r){const t=(r.perfect||0)+(r.good||0)+(r.miss||0);const a=t?((r.perfect||0)+(r.good||0)*.65)/t*100:0;return a>=97?'S':a>=90?'A':a>=80?'B':a>=65?'C':'D'}
 let rhythmTabV158='songs',rhythmSongV158='original',rhythmArchiveV158=[],rhythmArchiveReadyV158=false;
 const rhythmOriginalSongsV158=[
- {id:'original',title:'🌼 미겔의 아침',bpm:126,count:96,scale:[0,2,4,3,5,4,2,1]},
- {id:'forest',title:'🌿 숲속 산책',bpm:108,count:88,scale:[0,2,3,4,3,2,0,1]},
- {id:'starlight',title:'✨ 별빛 작전',bpm:148,count:120,scale:[0,4,5,7,5,4,2,3]},
- {id:'daniel',title:'💛 다니엘의 행진',bpm:132,count:112,scale:[0,0,4,4,5,5,4,2]},
- {id:'night',title:'🌙 한밤의 편지',bpm:94,count:80,scale:[5,4,2,0,1,2,4,3]}
+ {id:'original',title:'🌼 미겔의 아침',bpm:126,count:227,scale:[0,2,4,5,7,5,4,2],audio:'assets/beat_music_original.mp3',audioDuration:111.19},
+ {id:'forest',title:'🌿 숲속 산책',bpm:108,count:194,scale:[0,2,4,5,7,5,4,2],audio:'assets/beat_music_forest.mp3',audioDuration:111.27},
+ {id:'starlight',title:'✨ 별빛 작전',bpm:148,count:266,scale:[0,2,4,5,7,5,4,2],audio:'assets/beat_music_starlight.mp3',audioDuration:110.48},
+ {id:'daniel',title:'💛 다니엘의 행진',bpm:132,count:238,scale:[0,2,4,5,7,5,4,2],audio:'assets/beat_music_daniel.mp3',audioDuration:111.36},
+ {id:'night',title:'🌙 한밤의 편지',bpm:94,count:169,scale:[0,2,4,5,7,5,4,2],audio:'assets/beat_music_night.mp3',audioDuration:110.59},
+ {id:'song06',title:'💌 보고 싶어서 그랬어요',bpm:112,count:202,scale:[0,2,4,5,7,5,4,2],genre:'Sweet Jazz Pop',audio:'assets/beat_music_31.mp3',audioDuration:120.06},
+ {id:'song07',title:'🍰 설탕 두 스푼, 사랑 세 스푼',bpm:124,count:223,scale:[0,2,4,5,7,5,4,2],genre:'Kawaii Swing Pop',audio:'assets/beat_music_33.mp3',audioDuration:120.46},
+ {id:'song08',title:'💓 심장 박동 이상 없음!',bpm:156,count:281,scale:[0,2,4,5,7,5,4,2],genre:'Electro Swing / Kawaii Jazz',audio:'assets/beat_music_34.mp3',audioDuration:112.25},
+ {id:'song09',title:'🎀 당신의 옆자리',bpm:102,count:184,scale:[0,2,4,5,7,5,4,2],genre:'Romantic Bossa Nova',audio:'assets/beat_music_30.mp3',audioDuration:121.04},
+ {id:'song10',title:'🛡️ 작전명: 미겔 보호',bpm:144,count:259,scale:[0,2,4,5,7,5,4,2],genre:'Heroic Orchestral Electro Pop',audio:'assets/beat_music_35.mp3',audioDuration:120.29},
+ {id:'song11',title:'📋 보고드립니다, 사랑입니다',bpm:136,count:245,scale:[0,2,4,5,7,5,4,2],genre:'Big Band Swing',audio:'assets/beat_music_32.mp3',audioDuration:120.00},
+ {id:'song12',title:'💥 계획에 없던 변수',bpm:164,count:295,scale:[0,2,4,5,7,5,4,2],genre:'Kawaii Breakbeat',audio:'assets/beat_music_29.mp3',audioDuration:120.46},
+ {id:'song13',title:'🌅 재건의 아침',bpm:118,count:212,scale:[0,2,4,5,7,5,4,2],genre:'Hopeful Orchestral Pop',audio:'assets/beat_music_36.mp3',audioDuration:120.68},
+ {id:'lantern27',title:'🕯️ 꺼지지 않는 등불',bpm:88,count:158,scale:[0,2,4,5,7,5,4,2],genre:'Cinematic Piano',audio:'assets/beat_music_27.mp3',audioDuration:121.08},
+ {id:'border26',title:'🌧️ 경계선 너머',bpm:140,count:252,scale:[0,2,4,5,7,5,4,2],genre:'Cinematic Electronic',audio:'assets/beat_music_26.mp3',audioDuration:120.70},
+ {id:'temperature28',title:'🩺 체온은 정상입니다',bpm:116,count:209,scale:[0,2,4,5,7,5,4,2],genre:'Romantic Soft Jazz Pop',audio:'assets/beat_music_28.mp3',audioDuration:121.35},
+ {id:'song17',title:'☔ 우산 아래 두 사람',bpm:105,count:189,scale:[0,2,4,5,7,5,4,2],genre:'Romantic City Pop'},
+ {id:'song18',title:'📻 통신 두절, 응답 바랍니다',bpm:152,count:274,scale:[0,2,4,5,7,5,4,2],genre:'Cinematic Synthwave'},
+ {id:'song19',title:'🚪 당신이 떠난 자리',bpm:82,count:148,scale:[0,2,4,5,7,5,4,2],genre:'Melancholic Piano Pop'},
+ {id:'song20',title:'🕊️ AFTER THE COUNT',bpm:118,count:212,scale:[0,2,4,5,7,5,4,2],genre:'Emotional Orchestral Pop'},
+ {id:'song21',title:'🍫 세 개는 당신 몫',bpm:120,count:216,scale:[0,2,4,5,7,5,4,2],genre:'Kawaii Jazz Funk'},
+ {id:'song22',title:'🫶 거리 유지 실패!',bpm:172,count:310,scale:[0,2,4,5,7,5,4,2],genre:'Hyper Kawaii Pop'},
+ {id:'dayoff23',title:'🎡 오늘은 휴무입니다',bpm:128,count:230,scale:[0,2,4,5,7,5,4,2],genre:'Retro City Pop'},
+ {id:'threestars24',title:'🌠 별 세 개를 세는 밤',bpm:76,count:137,scale:[0,2,4,5,7,5,4,2],genre:'Music Box Waltz · 3/4',meter:3},
+ {id:'countthree25',title:'💍 앞으로도, 셋을 세며',bpm:110,count:198,scale:[0,2,4,5,7,5,4,2],genre:'Romantic Orchestral Pop'}
 ];
 function rhythmDBV158(){return new Promise((resolve,reject)=>{const r=indexedDB.open('miguel-beat-archive',1);r.onupgradeneeded=()=>r.result.createObjectStore('songs',{keyPath:'id'});r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)})}
 async function rhythmArchiveLoadV158(){try{const db=await rhythmDBV158();const tx=db.transaction('songs','readonly');const q=tx.objectStore('songs').getAll();q.onsuccess=()=>{rhythmArchiveV158=q.result||[];rhythmArchiveReadyV158=true;if(page==='rhythm'&&!rhythmGame?.running)render();db.close()};q.onerror=()=>db.close()}catch(e){rhythmArchiveReadyV158=true}}
@@ -4021,8 +4060,10 @@ function rhythmTabSetV158(tab){if(rhythmGame?.running)return;rhythmTabV158=tab;r
 function rhythmChartOriginalV158(){
  const song=rhythmOriginalSongsV158.find(x=>x.id===rhythmSongV158)||rhythmOriginalSongsV158[0];
  const bpm=song.bpm,beat=60/bpm,notes=[];
- for(let i=0;i<song.count;i++){
-  const lane=(i*7+Math.floor(i/4)*3+(i%7===0?2:0))%4,time=2.3+i*beat/2+(i%8===7?beat/4:0);
+ const beatSongAudio=!!song.audio;
+ const beatNoteCount=beatSongAudio?Math.floor((song.audioDuration-5)/(beat/2)):song.count;
+ for(let i=0;i<beatNoteCount;i++){
+  const lane=(i*7+Math.floor(i/(song.meter||4))*3+(i%7===0?2:0))%4,time=2.3+i*beat/2+(i%8===7?beat/4:0);
   const type=i>12&&i%16===3?'hold':i>16&&i%12===7?'slide':i>20&&i%10===5?'flick':'tap';
   const endLane=type==='slide'?(lane+2)%4:lane;
   notes.push({lane,time,type,endLane,midLane:endLane,endTime:time+((type==='hold'||type==='slide')?beat*1.35:0)});
@@ -4047,14 +4088,14 @@ function rhythmRecordsHTMLV158(){
 let rhythmV198ScrollTimer=0;
 let rhythmV198SuppressScroll=false;
 function rhythmV198CardsHTML(){
- const arts={original:['🌼','#ffe59a','#9edfb0'],forest:['🌲','#a7dfaa','#568b72'],starlight:['🌟','#b9b5fa','#6875c2'],daniel:['🎖️','#ffe3a3','#d3aa6c'],night:['🌙','#a5b5e3','#535f9c']};
+ const arts={original:['🌼','#ffe59a','#9edfb0'],forest:['🌲','#a7dfaa','#568b72'],starlight:['🌟','#b9b5fa','#6875c2'],daniel:['🎖️','#ffe3a3','#d3aa6c'],night:['🌙','#a5b5e3','#535f9c'],dayoff23:['🎡','#ffcf9e','#7abac0'],threestars24:['🌠','#b4b3e8','#465a89'],countthree25:['💍','#ffe7b2','#d9a6b5']};
  return rhythmOriginalSongsV158.map((x,i)=>{
  const art=arts[x.id]||arts.original;
  const active=rhythmSongV158===x.id;
  const best=(data.rhythmRecords||[]).filter(r=>r.songId===x.id&&(r.difficulty||'NORMAL')===rhythmDifficultyV159).sort((a,b)=>b.score-a.score)[0];
  return '<button type="button" class="rh-v198-card'+(active?' active':'')+'" data-song-id="'+x.id+'" data-song-index="'+i+'" aria-label="'+safe(x.title)+' 곡 선택" aria-pressed="'+active+'" onclick="rhythmV205Tap(\''+x.id+'\')">'+
  '<span class="rh-v198-cover" style="--art1:'+art[1]+';--art2:'+art[2]+'"><span>'+art[0]+'</span><i>♪</i></span>'+
- '<b>'+safe(x.title)+'</b><small>'+x.bpm+' BPM · ORIGINAL</small>'+
+ '<b>'+safe(x.title)+'</b><small>'+x.bpm+' BPM · '+safe(x.genre||'ORIGINAL')+'</small>'+
  (best?'<em>🏆 '+rhythmRankV159(best)+' · '+best.score.toLocaleString()+'</em>':'<em>✦ NEW TRACK ✦</em>')+'</button>';
  }).join('');
 }
@@ -5982,13 +6023,20 @@ function rhythmStart(){
  rhythmShowResultsV157=false;rhythmPausedV162=false;
  if(rhythmMode==='upload'&&!rhythmObjectURL){toast('먼저 MP3 파일을 선택해 주세요.');return}if(rhythmAnalyzingV153){toast('음악을 분석하는 중이에요. 잠시만 기다려 주세요.');return}
  rhythmStop();const ctx=rhythmEnsureAudio();if(!ctx){toast('이 브라우저에서는 오디오를 재생할 수 없습니다.');return}
+ const beatSelectedAudioV356=rhythmMode==='original'?rhythmOriginalSongsV158.find(x=>x.id===rhythmSongV158)?.audio:null;
  const rawChart=(rhythmMode==='upload'&&rhythmAnalyzedChartV153)|| (rhythmMode==='original'?rhythmChartOriginalV158():rhythmChart(rhythmMode));
  const chart=rhythmLoadChartV163()||rhythmDefaultChartV163();
  const start=performance.now()+350;
  rhythmGame={running:true,mode:rhythmMode,notes:chart.notes.map(n=>({...n,hit:false,miss:false,active:false,pointer:undefined,keyLane:undefined})),duration:chart.duration,bpm:chart.bpm,beat:chart.beat,start,score:0,combo:0,maxCombo:0,perfect:0,good:0,miss:0,judgment:'READY',judgmentUntil:0,lastTick:-1,timingSamplesV182:[]};
  render();
  rhythmBgAttachV178();
- if(rhythmMode==='upload'){
+ if(beatSelectedAudioV356){
+  rhythmGame.mode='upload';
+  rhythmAudio=new Audio(beatSelectedAudioV356);rhythmAudio.preload='auto';rhythmAudio.volume=rhythmVolumeV162/100;
+  rhythmAudio.addEventListener('ended',()=>{if(rhythmGame?.running)rhythmFinish()},{once:true});
+  rhythmAudio.play().catch(()=>{rhythmStop();toast('내장 음원을 재생할 수 없습니다.');render()});
+  rhythmGame.start=performance.now();
+ }else if(rhythmMode==='upload'){
   rhythmAudio=new Audio(rhythmObjectURL);rhythmAudio.preload='auto';rhythmAudio.volume=rhythmVolumeV162/100;
   rhythmAudio.addEventListener('ended',()=>{if(rhythmGame?.running)rhythmFinish()},{once:true});
   rhythmAudio.play().catch(()=>{rhythmStop();toast('음악을 재생할 수 없습니다. 다른 파일을 선택해 주세요.');render()});
@@ -6589,17 +6637,23 @@ function tickMiguelFeatures(){
   const events=data.ddays.filter(x=>x.date===date||(x.annual&&x.date.slice(5)===date.slice(5)));
   if(events.length){data.lastCalendarNotice=date;save();appAlert('📅 오늘의 일정',events.map(x=>x.name).join(', '))}
  }
- // 선톡은 앱을 열어 둔 상태에서만, 최소 8~20분 간격으로 발생합니다.
- if(data.name&&data.firstTalk&&Date.now()-data.lastFirstTalk>=data.nextFirstTalkDelay){
+ // v348: 선톡은 드물게, 하루 최대 두 번. 대화창을 보고 있을 때는 보내지 않습니다.
+ const firstTalkDay=today();
+ if(data.firstTalkDay!==firstTalkDay){data.firstTalkDay=firstTalkDay;data.firstTalkDailyCount=0;}
+ if(data.name&&data.firstTalk&&page!=='chat'&&page!=='chatlist'&&
+    (data.firstTalkDailyCount||0)<2&&Date.now()-data.lastFirstTalk>=data.nextFirstTalkDelay){
   const lines=dan()?['다니엘. 지금 바쁜가.','식사는 했나. 거르지 마라.','별일 없는지 확인하려고 연락했다.','오늘은 좀 쉬어라. 무리하지 말고.','다니엘, 잠깐 이야기할 수 있나.']:['지금 잠깐 시간 있나.','식사는 제때 챙겨라.','별일 없는지 확인차 연락했다.','오늘 하루는 어떤가.','필요한 게 있으면 말해라.'];
   const line=lines[Math.floor(Math.random()*lines.length)];
   data.chat.push({me:false,text:miguelDada(line),date:date,time:time,firstTalk:true,id:'first-'+Date.now()+'-'+Math.random().toString(36).slice(2)});
-  data.lastFirstTalk=Date.now();data.nextFirstTalkDelay=(8+Math.floor(Math.random()*13))*60000;save();
+  data.lastFirstTalk=Date.now();data.firstTalkDailyCount=(data.firstTalkDailyCount||0)+1;
+  data.nextFirstTalkDelay=(4+Math.random()*4)*3600000;save();
   if(page==='chat'||page==='chatlist'||page==='lock')render();
   appAlert('💬 미겔 · 제5사관학교 메신저',line);
  }
 }
-data.nextFirstTalkDelay??= (8+Math.floor(Math.random()*13))*60000;
+// Migrate the old 8–20 minute interval without erasing messages or preferences.
+if(!data.firstTalkFrequencyV348){data.nextFirstTalkDelay=(4+Math.random()*4)*3600000;data.lastFirstTalk=Date.now();data.firstTalkFrequencyV348=true;save();}
+data.nextFirstTalkDelay??=(4+Math.random()*4)*3600000;
 
 setInterval(()=>{tickMiguelFeatures();const t=$('#statusTime');if(t)t.textContent=now();if(page==='lock')render()},30000);tickMiguelFeatures();render();
 
@@ -7916,6 +7970,14 @@ function cmFryerFoodArt(r){
  return '<div class="cm-fryer-bites">'+tones.map((tone,i)=>'<svg class="cm-fryer-bite cm-fryer-bite-'+i+'" viewBox="0 0 58 48" aria-hidden="true"><path d="M8 19 Q5 10 18 8 L30 6 Q39 5 45 14 L52 26 Q52 36 39 39 L21 41 Q8 37 8 27Z" fill="'+tone+'" stroke="#b67a35" stroke-width="3"/><path d="M13 21 Q20 10 31 13 M27 33 Q35 28 43 31" stroke="#fff1b1" stroke-width="4" stroke-linecap="round" fill="none" opacity=".9"/><circle cx="19" cy="29" r="2" fill="#b87b37"/><circle cx="38" cy="19" r="2" fill="#c08739"/></svg>').join('')+'</div>';
 }
 function cmPanPiecesArt(r){
+ const recipeName=String(r?.name||'');
+ if(/팬케이크|핫케이크/.test(recipeName)){
+  return '<div class="cm353-pancake-batter" aria-label="팬에서 익는 팬케이크"><span></span><span></span><span></span></div>';
+ }
+ if(/토스트|프렌치토스트/.test(recipeName)){
+  return '<div class="cm353-toast-in-pan" aria-label="팬에서 굽는 토스트">'+cm340IngredientArt('빵','after')+'</div>';
+ }
+
  const name=(r.name||'')+' '+(r.ingredients||[]).join(' ');
  const meat=/고기|돼지|소고기|닭|스테이크|불고기|삼겹|베이컨/.test(name);
  const seafood=/새우|오징어|생선|연어|조개/.test(name);
@@ -8256,15 +8318,26 @@ function cmDanielExpectedRating(){
  return Math.max(1,Math.min(5,Math.round(cookPoints/23)+(favorite?1:0)));
 }
 function cmDanielMood(rating){return rating>=5?'love':rating===4?'happy':rating===3?'okay':rating===2?'unsure':'oops'}
+const cmDanielDialoguePoolV351={"5":[["미겔, 오늘은 제가 먼저 먹어도 되겠습니까?","…준비하느라 고생 많으셨습니다. 잘 먹겠습니다.","이렇게까지 차려 주실 줄은 몰랐습니다. 정말 감사합니다.","제가 좋아하는 걸 기억하고 계셨군요. 그럼, 시식하겠습니다.","잠깐만요. 이런 날은 제대로 앉아서 먹어야겠습니다."],["…! 미겔, 이건 정말 맛있습니다.","잠시만요. 제가 지금 표정을 관리하지 못하고 있는 것 같습니다.","맛있습니다. 아주 많이요. 다른 말이 필요 없겠군요.","이건… 저를 위해 만든 게 맞습니까? 믿기 어려울 정도입니다.","이런 맛이라면 당분간 다른 생각은 못 하겠습니다."],["한 입만 더 먹겠습니다. 괜찮겠습니까?","이걸 여기서 멈추기는 아깝습니다. 조금만 더 주십시오.","미겔도 드셔 보십시오. 혼자 먹기에는 아깝습니다.","잠깐, 아직 접시를 치우시면 안 됩니다.","한 입만 더… 아니, 두 입 정도면 되겠습니다."],["정말 잘 먹었습니다. 오늘 일은 오래 기억하겠습니다.","다음 휴무에도 같이 식사할 수 있으면 좋겠습니다.","미겔, 고맙습니다. 제가 참 운이 좋은 사람입니다.","이건 제 기준으로도 최고입니다. 이견 없습니다.","…이런 평범한 저녁이 계속되었으면 좋겠습니다."]],"4":[["식사 준비를 마치셨군요. 그럼 먹겠습니다.","미겔, 고생 많으셨습니다. 제가 먼저 맛보겠습니다.","오늘도 직접 만드셨습니까? 기대하고 있었습니다.","접시가 아주 단정하군요. 잘 먹겠습니다.","저도 뭔가 도왔어야 했는데요. 일단 먹겠습니다."],["음, 맛있습니다. 간이 좋습니다.","잘 만드셨습니다. 재료 맛이 살아 있습니다.","이 정도면 충분히 훌륭합니다. 진심입니다.","식감도 좋습니다. 연습하신 보람이 있군요.","아, 이건 제가 좋아하는 맛입니다."],["조금 더 먹어도 되겠습니까?","이번에는 소스와 함께 먹어 보겠습니다.","미겔, 본인 것도 남겨 두셨습니까?","좋습니다. 두 번째 한 입도 만족스럽습니다.","저만 먹고 있군요. 함께 드시지요."],["정말 잘 먹었습니다. 감사합니다.","다음에는 제가 식탁을 차리겠습니다.","미겔과 함께 먹으니 더 좋군요.","오늘 저녁은 아주 만족스럽습니다.","다음에 또 만들어 주시면 기쁘겠습니다."]],"3":[["그럼 제가 먼저 맛을 보겠습니다.","미겔, 시식하겠습니다. 너무 긴장하지 마십시오.","접시부터 살펴보겠습니다. 준비는 잘하셨군요.","자, 먹어 보겠습니다.","고생 많으셨습니다. 잘 먹겠습니다."],["음… 나쁘지 않습니다.","기본은 잘 지키셨습니다. 다만 간이 조금 아쉽군요.","조금 더 익혔으면 좋았겠습니다.","음, 이 부분은 제법 괜찮습니다.","전체적으로 무난합니다. 조금만 더 다듬으면 되겠습니다."],["한 입 더 먹어 보겠습니다.","이번에는 다른 부분도 확인하겠습니다.","미겔, 너무 걱정스러운 표정 짓지 마십시오.","음… 소스를 곁들이면 더 좋겠습니다.","조금만 더 먹고 말씀드리겠습니다."],["잘 먹었습니다. 다음에는 더 좋아질 겁니다.","조리 시간을 함께 맞춰 보면 좋겠습니다.","오늘 결과도 분명 다음 요리에 도움이 될 겁니다.","괜찮습니다. 처음부터 완벽할 필요는 없습니다.","다음에는 제가 재료 손질을 맡겠습니다."]],"2":[["그럼, 시식하겠습니다.","미겔, 우선 한 입 먹어 보겠습니다.","…걱정하지 마십시오. 먹어 보겠습니다.","조금 조심스럽긴 합니다만, 시작하겠습니다.","준비하신 걸 아니까 제대로 맛보겠습니다."],["음… 간이 조금 강합니다.","식감이 예상과 다릅니다. 조리 시간을 다시 보시지요.","솔직히 말씀드리면, 조금 아쉽습니다.","이 부분은 덜 익은 것 같습니다.","잠시만요. 물을 한 모금 마시겠습니다."],["다른 부분도 먹어 보겠습니다.","한 번 더 확인하겠습니다. 서두르지 마십시오.","음… 이번에는 소스를 빼고 먹어 보겠습니다.","미겔, 제가 너무 심각한 얼굴을 하고 있습니까?","조금만 더 먹어 보겠습니다."],["아쉬운 부분은 있지만, 다시 만들면 됩니다.","다음에는 불 조절을 제가 도와드리겠습니다.","미겔, 실망하지 마십시오. 연습하면 됩니다.","어디서 달라졌는지 함께 확인해 보시지요.","정성은 느껴졌습니다. 다음에는 더 잘될 겁니다."]],"1":[["…알겠습니다. 먹어 보겠습니다.","미겔, 제가 먼저 확인하겠습니다.","일단 한 입 먹겠습니다. 걱정하지 마십시오.","잠시만요. 물부터 가까이 두겠습니다.","그럼 시식하겠습니다. 천천히 먹겠습니다."],["크흠… 죄송합니다. 물을 좀 마시겠습니다.","…잠시만요. 생각보다 훨씬 강한 맛입니다.","솔직히 말씀드리면, 지금은 먹기가 어렵습니다.","미겔, 혹시 소금을 두 번 넣으셨습니까?","…괜찮습니다. 놀라서 그런 겁니다."],["다른 부분은 괜찮을 수도 있습니다. 확인하겠습니다.","한 입만 더 먹어 보고 말씀드리겠습니다.","미겔, 제 표정은 신경 쓰지 마십시오.","…잠깐 쉬었다가 다시 먹겠습니다.","제가 판단을 너무 빨리 내리면 안 되겠지요."],["이번에는 실패한 것 같습니다. 다음에는 함께 해 보시지요.","미겔, 괜찮습니다. 요리 한 번으로 달라지는 건 없습니다.","다음에는 제가 옆에서 순서를 확인하겠습니다.","무리해서 더 먹지는 않겠습니다. 대신 같이 다시 만들어 보지요.","오늘은 여기까지 합시다. 다음 휴무에 다시 도전하면 됩니다."]]}
+let cmDanielDialogueSeedV351=0;
+const cmDanielRecentLinesV351={};
+function cmDanielPickV351(lines,key){
+ if(!Array.isArray(lines)||!lines.length)return '';
+ const previous=cmDanielRecentLinesV351[key]??-1;
+ let idx=Math.floor(Math.random()*lines.length);
+ if(lines.length>1&&idx===previous)idx=(idx+1+Math.floor(Math.random()*(lines.length-1)))%lines.length;
+ cmDanielRecentLinesV351[key]=idx;
+ return lines[idx];
+}
+function cmDanielStartVoiceV351(){
+ cmDanielDialogueSeedV351=(Math.random()*2147483647)|0;
+}
 function cmDanielBiteLine(rating,bites){
- const lines={
-  5:['오! 향부터 정말 좋은데?','우와! 이거 진짜 맛있다!','미겔, 한입만 더!','이거 또 만들어 주면 안 되나?'],
-  4:['오, 기대되는군!','음! 맛있다!','이 정도면 훌륭한데?','잘 먹었다. 꽤 만족스럽다!'],
-  3:['좋아, 먹어 보겠다!','음… 나쁘지 않군.','조금 더 간을 하면 좋겠다.','잘 먹었다! 다음엔 더 기대하겠다.'],
-  2:['음… 먹어 보겠다.','어라, 조금 싱거운데?','으음… 식감이 좀 아쉽군.','그래도 열심히 만들었구나.'],
-  1:['어… 일단 먹어 보겠다.','콜록! 잠깐, 물 좀…!','이건 조금 힘든데…','다음엔 함께 연습하자, 미겔.']
- };
- return lines[rating][Math.max(0,Math.min(3,bites))];
+ const r=Math.max(1,Math.min(5,Number(rating)||3));
+ const b=Math.max(0,Math.min(3,Number(bites)||0));
+ const lines=cmDanielDialoguePoolV351[r][b];
+ const idx=(Math.abs(cmDanielDialogueSeedV351+ r*157+b*1013)>>>0)%lines.length;
+ return lines[idx];
 }
 function cmV237MehResult(){
  const a=document.getElementById('cm-v237-meh-result');
@@ -8305,13 +8378,33 @@ let cmSuspenseTimer=null;
 function cmHeartbeat(){if(!cmSoundOn||cookTastePhase!==1||page!=='cooking'){cmStopSuspense();return;}cmTone(94,.11,'sine',.12,.76);setTimeout(()=>{if(cookTastePhase===1)cmTone(80,.16,'sine',.105,.7)},210)}
 function cmStartSuspense(){cmStopSuspense();cmHeartbeat();cmSuspenseTimer=setInterval(cmHeartbeat,970)}
 function cmStopSuspense(){if(cmSuspenseTimer!==null){clearInterval(cmSuspenseTimer);cmSuspenseTimer=null}}
+function cookDanielRatePreviewV350(){
+ const r=cookRecipes[cookIndex];
+ if(!r)return 3;
+ const favorite=/고기|육류|디저트|스테이크|meat|dessert/i.test(String(r.category||'')+' '+r.name);
+ return Math.max(1,Math.min(5,Math.round(cookPoints/23)+(favorite?1:0)));
+}
+function cmDanielSavedCommentV350(entry){
+ if(!entry)return '';
+ const old=String(entry.comment||'');
+ if(!old)return '';
+ const informal=/맛있어[!.]|최고야|먹어도 돼|만들어 줘|만들었네|해 보자|잘할 수 있어|좋겠어|같이 만들어|아쉽네|알겠어/.test(old);
+ if(!informal)return old;
+ return ({5:'정말 맛있습니다, 미겔. 오늘은 제가 참 운이 좋은 사람입니다.',4:'잘 먹었습니다. 다음에는 제가 식탁을 차리겠습니다.',3:'괜찮습니다. 조금만 더 조절하면 좋겠습니다.',2:'아쉽지만 다음에는 함께 만들어 보시지요.',1:'이번에는 어렵겠습니다. 다음에는 제가 옆에서 돕겠습니다.'})[Math.max(1,Math.min(5,Number(entry.rating)||3))];
+}
 function cookDanielRate(){
  const r=cookRecipes[cookIndex],category=String(r.category||'');
  const favorite=/고기|육류|디저트|스테이크|meat|dessert/i.test(category+' '+r.name);
  const bonus=favorite?7:0;
  const rating=Math.max(1,Math.min(5,Math.round(cookPoints/23)+bonus/7));
- const comments=rating===5?['이거 정말 맛있어! 한 접시 더 먹어도 돼?','와, 이건 진짜 최고야! 또 만들어 줘!']:rating===4?['맛있어! 미겔도 한 입 먹어 봐.','꽤 잘 만들었네! 다음에도 부탁해.']:rating===3?['음, 괜찮아! 조금만 더 익히면 좋겠어.','나쁘지 않은데? 다음엔 더 맛있을 것 같아.']:rating===2?['조금 아쉽네. 그래도 열심히 만든 건 알겠어.','간이 조금 애매해. 다음엔 같이 만들어 보자.']:['으음… 다음에는 조금 더 연습해 보자.','오늘은 실수가 있었나 봐. 다음엔 잘할 수 있어.'];
- const entry={rating,score:cookPoints,comment:comments[(cookIndex+cookPoints)%comments.length],date:new Date().toLocaleDateString('ko-KR'),food:r.name};
+ const comments=({
+ 5:['미겔, 이렇게 맛있는 걸 혼자 먹기는 아깝습니다. 함께 드시지요.','오늘 저녁은 오래 기억하겠습니다. 정말 고맙습니다.','다음 휴무에도 함께 식사할 수 있으면 좋겠습니다.','제가 참 운이 좋은 사람입니다. 이렇게까지 챙겨 주시다니요.','이건 최고입니다. 제가 보증하겠습니다.','…이런 평범한 시간이 계속되었으면 좋겠습니다.'],
+ 4:['정말 잘 먹었습니다. 다음에는 제가 식탁을 차리겠습니다.','미겔이 만든 음식이라 그런지 더 좋군요.','맛있습니다. 다음에도 부탁드려도 되겠습니까?','재료도 간도 잘 맞았습니다. 훌륭합니다.','오늘은 제가 설거지를 맡겠습니다.','함께 먹으니 훨씬 좋습니다. 감사합니다.'],
+ 3:['괜찮습니다. 다음에는 조금 더 익혀 보시지요.','간만 조금 조절하면 더 좋아지겠습니다.','기본은 충분합니다. 한 번 더 연습하면 되겠습니다.','다음에는 제가 불 조절을 확인하겠습니다.','실망하지 마십시오. 제 첫 요리보다 훨씬 낫습니다.','오늘도 끝까지 만들어 주셨군요. 고생 많으셨습니다.'],
+ 2:['조금 아쉽습니다. 다음에는 제가 옆에서 돕겠습니다.','간을 다시 맞추면 충분히 나아질 수 있습니다.','미겔, 한 번의 결과로 실력을 판단하지 마십시오.','다음에는 천천히 해 보시지요. 서두를 필요 없습니다.','식감이 아쉽습니다. 조리 시간을 함께 확인하겠습니다.','그래도 끝까지 만든 건 대단합니다. 다음에는 더 나아질 겁니다.'],
+ 1:['솔직히 말씀드리면 이번 요리는 먹기가 어렵습니다.','미겔, 괜찮습니다. 실패했다고 해서 그만둘 필요는 없습니다.','다음에는 제가 재료부터 함께 확인하겠습니다.','이번에는 조리 순서를 다시 살펴봐야겠습니다.','물 한 잔 마시고 같이 정리합시다. 다음에는 잘될 겁니다.','오늘은 여기까지 하고, 다음 휴무에 다시 도전합시다.']
+ })[rating];
+ const entry={rating,score:cookPoints,comment:cmDanielPickV351(comments,'result-'+rating),date:new Date().toLocaleDateString('ko-KR'),food:r.name};
  cookTastingRecords[r.name]=entry;
  try{localStorage.setItem('miguel_daniel_tastings_v56',JSON.stringify(cookTastingRecords))}catch(e){}
  return entry;
@@ -8341,7 +8434,7 @@ function cm290BiteFeedback(scene){
  if(!mouth)return;
  const r=scene.getBoundingClientRect(),m=mouth.getBoundingClientRect();
  const x=m.left+m.width/2-r.left,y=m.top+m.height/2-r.top;
- const fx=document.createElement('span');fx.className='cm290-bite-pop';fx.textContent=['냠!','냠냠!','맛을 음미하는 중…'][Math.min(2,cookBites)];
+ const fx=document.createElement('span');fx.className='cm290-bite-pop';fx.textContent='';
  fx.style.left=x+'px';fx.style.top=(y-14)+'px';scene.appendChild(fx);
  setTimeout(()=>fx.remove(),950);
  scene.classList.remove('cm290-taste-bite');void scene.offsetWidth;scene.classList.add('cm290-taste-bite');
@@ -8390,10 +8483,10 @@ function cookForkUp(e){
 
 function cookDanielTaste(){cmSfx('open');
  if(!cookDone||cookTastePhase!==0)return;
- clearTimeout(cookAwaitTimer);cookAwaitToken++;cookBites=0;cookForkDrag=null;cookForkBusy=false;cookTastePhase=1;render();cmStartSuspense();
+ clearTimeout(cookAwaitTimer);cookAwaitToken++;cookBites=0;cmDanielStartVoiceV351();cookForkDrag=null;cookForkBusy=false;cookTastePhase=1;render();cmStartSuspense();
 }
 function cookDanielMood(rating){
- if(rating>=4)return {id:'happy',label:'',face:'＾▽＾',icon:'',subtitle:'',badge:'🌟 대성공! 맛있다!'};
+ if(rating>=4)return {id:'happy',label:'',face:'＾▽＾',icon:'',subtitle:'',badge:'🌟 대성공! 최고의 요리!'};
  if(rating===3)return {id:'meh',label:'',face:'•_•',icon:'',subtitle:'',badge:''};
  return {id:'bad',label:'',face:'＞﹏＜',icon:'',subtitle:'',badge:''};
 }
@@ -8464,25 +8557,42 @@ function cm289DishReveal(recipe,score){
  '<div class="cm289-dish-name">'+(typeof safe==='function'?safe(name):name)+'</div><div class="cm289-dish-note">'+quality+'</div></section>';
 }
 function cm339Asset(kind,name,cls){return '<img class="cm339-game-img '+(cls||'')+'" draggable="false" alt="'+name+'" src="assets/cm338_'+kind+'_'+name+'.webp">';}
-function cm339IngredientEmoji(emoji){const map={'🥕':'당근','🥬':'양배추','🍅':'토마토','🫑':'파프리카'};const n=map[emoji];if(!n)return emoji;const id=({'당근':'0','양배추':'10','토마토':'26','파프리카':'28'})[n];return id?'<img class="cm339-game-img cm339-veg" src="assets/cm321_'+id+'_after.webp" alt="'+n+'">':emoji;}
+function cm339IngredientEmoji(emoji){const map={'🥕':'당근','🥬':'양배추','🍅':'토마토','🫑':'파프리카'};return map[emoji]?cm340IngredientArt(map[emoji],'after'):emoji;}
 
 /* v340: Actual supplied cooking assets; no emoji fallback for known ingredients. */
-const cm340IngredientNames=['당근','양파','적양파','대파','쪽파','마늘','감자','고구마','무','단호박','양배추','배추','상추','시금치','케일','오이','애호박','주키니','파프리카','토마토','방울토마토','브로콜리','아스파라거스','버섯','표고버섯','느타리버섯','래디시','샬롯','부추','숙주','아보카도','레몬','라임','사과','오렌지','딸기','망고','패션프루트','바질','파슬리','고수','민트','소고기','돼지고기','삼겹살','닭가슴살','닭다리살','베이컨','연어','참치','새우','오징어','전복','고등어','장어','홍합','바지락','두부','달걀','어묵','김','김치','단무지','모차렐라','페타치즈'];
+const cm352IngredientImageMap={"아스파라거스": 0, "토마토": 22, "방울토마토": 1, "느타리버섯": 2, "비트": 3, "치즈": 4, "고추": 5, "파프리카": 6, "브로콜리": 7, "표고버섯": 8, "아보카도": 9, "소고기": 10, "닭가슴살": 11, "닭다리살": 12, "양송이버섯": 13, "두부": 63, "적양파": 15, "고구마": 16, "단호박": 17, "양배추": 18, "시금치": 19, "애호박": 20, "주키니": 21, "래디시": 23, "오렌지": 24, "파슬리": 25, "돼지고기": 26, "삼겹살": 27, "베이컨": 28, "오징어": 29, "고등어": 30, "바지락": 31, "버터": 32, "초콜릿": 33, "완두콩": 34, "당근": 35, "양파": 36, "대파": 37, "쪽파": 38, "마늘": 39, "감자": 40, "배추": 41, "상추": 42, "케일": 43, "오이": 44, "버섯": 45, "샬롯": 46, "부추": 47, "숙주": 48, "레몬": 49, "라임": 50, "사과": 51, "딸기": 52, "망고": 53, "바질": 54, "고수": 55, "민트": 56, "연어": 57, "참치": 58, "새우": 59, "전복": 60, "장어": 61, "홍합": 62, "달걀": 64, "계란": 64, "어묵": 65, "김치": 66, "빵": 67, "땅콩": 68, "피칸": 69, "생강": 70, "무": 71, "김": 72, "모차렐라": 4, "페타치즈": 4, "계란후라이": 64, "계란프라이": 64, "달걀프라이": 64};
+const cm352IngredientAliases={'계란':'달걀','계란프라이':'달걀','계란후라이':'달걀','달걀프라이':'달걀'};
+function cm352IngredientName(text){
+ const label=String(text||'');
+ const matches=Object.keys(cm352IngredientImageMap).filter(n=>label.includes(n));
+ matches.sort((a,b)=>b.length-a.length);
+ return matches[0]||'';
+}
 function cm340IngredientArt(text,state){
  const label=String(text||'');
- const name=cm340IngredientNames.filter(n=>label.includes(n)).sort((a,b)=>b.length-a.length)[0];
- if(!name)return '<span class="cm340-unknown-ingredient">'+safe(label)+'</span>';
- const i=cm340IngredientNames.indexOf(name);
- const id=String(i);
- return '<img class="cm340-ingredient-img" src="assets/cm321_'+id+'_'+(state==='after'?'after':'before')+'.webp" alt="'+safe(name)+'" loading="lazy" draggable="false">';
+ const name=cm352IngredientName(label);
+ if(!name)return '<span class="cm340-unknown-ingredient" title="전용 이미지 없음">'+safe(label)+'</span>';
+ const id=cm352IngredientImageMap[name];
+ const stage=state==='after'?'after':'before';
+ return '<img class="cm340-ingredient-img" src="assets/cm321_'+id+'_'+stage+'.webp" alt="'+safe(name)+'" title="'+safe(label)+'" loading="lazy" draggable="false">';
 }
 function cm340StageIcon(i){const names=['칼','믹싱볼','프라이팬','빈접시'];return cm339Asset(i===3?'dishware':'tool',names[i],'cm340-stage-icon');}
 function cm340CookingArt(r,kind){
- const label=String(r.name||'')+' '+String(r.ingredients?.join(' ')||'');
- const what=/새우/.test(label)?'새우':/달걀|계란/.test(label)?'달걀':/소고기|스테이크|고기/.test(label)?'소고기':null;
- if(what){const key={'새우':'04_새우','달걀':'02_달걀','소고기':'01_소고기'}[what];return '<img class="cm340-cooking-img" src="assets/cm338_cooking_'+key+'_'+(kind==='grill'||kind==='pan'?'후':'전')+'.webp" alt="'+what+' 조리 중" draggable="false">';}
- return cm340IngredientArt(r.ingredients?.[0]||'당근','after');
+ const name=String(r?.name||'');
+ const ingredients=Array.isArray(r?.ingredients)?r.ingredients:[];
+ const stage=(kind==='grill'||kind==='pan')?'후':'전';
+ const nameMain=/새우/.test(name)?'새우':/달걀|계란/.test(name)?'달걀':/소고기|스테이크/.test(name)?'소고기':null;
+ const first=String(ingredients[0]||'');
+ const firstMain=/새우/.test(first)?'새우':/달걀|계란/.test(first)?'달걀':/소고기/.test(first)?'소고기':null;
+ const what=nameMain||firstMain;
+ if(what){
+  const key={'새우':'04_새우','달걀':'02_달걀','소고기':'01_소고기'}[what];
+  return '<img class="cm340-cooking-img" src="assets/cm338_cooking_'+key+'_'+stage+'.webp" alt="'+what+' 조리 중" draggable="false">';
+ }
+ const chosen=ingredients.find(v=>cm352IngredientName(v));
+ return chosen?cm340IngredientArt(chosen,kind==='grill'||kind==='pan'?'after':'before'):'<span class="cm340-unknown-ingredient">'+safe(name||'요리')+'</span>';
 }
+
 function cookRender(){
  const progress='<div class="cook-progress cm-progress-animated">'+Array.from({length:cookCurrentPlan().length},(_,i)=>'<span class="'+(i<cookOrderPosition?'done':'')+'"></span>').join('')+'</div>';
  let body='';
@@ -8525,11 +8635,11 @@ function cookRender(){
   if(cookTastePhase===4){
    body+='<div class="cm-v240-eyes-scene" aria-label="다니엘의 눈 클로즈업"><div class="cm-v240-flash"></div><div class="cm-v249-camera-track"><div class="cm-v240-eye-panel"><div class="cm-v240-brow left"></div><div class="cm-v240-brow right"></div><div class="cm-v240-eye left"><i></i></div><div class="cm-v240-eye right"><i></i></div><span class="cm-v240-glint">✦</span></div></div></div>';
   }else if(cookTastePhase===3){
-   body+='<div class="cm-miguel-await-scene"><div class="cm-await-stamp">✦ CUTSCENE ✦</div><div class="cm-await-tasting"><span>🍽️</span><b>다니엘이 마지막 한입을 삼켰다…</b><span>🍴</span></div><div class="cm-await-miguel"><div class="cm-await-hat"><i></i><i></i><i></i></div><div class="cm-await-hair"></div><div class="cm-await-face"><span class="cm-await-eye left"></span><span class="cm-await-eye right"></span><span class="cm-await-blush left"></span><span class="cm-await-blush right"></span><span class="cm-await-mouth">ᴗ</span></div><div class="cm-await-body">✿</div><div class="cm-await-hands"><span>●</span><span>●</span></div></div><div class="cm-await-hearts"><span>💗</span><span>💗</span><span>💗</span></div><div class="cm-await-dialog"><b>미겔</b><p>“어, 어떤가…? 맛있게 먹었으면 좋겠다…!”</p></div><div class="cm-await-beats">두근 <span>두근</span> <span>두근!</span></div><div class="cm-await-auto">다니엘의 반응을 기다리는 중… <span>잠시 후 자동으로 넘어갑니다</span><div class="cm-await-track"><i></i></div></div></div>';
+   body+='<div class="cm-miguel-await-scene"><div class="cm-await-stamp">✦ CUTSCENE ✦</div><div class="cm-await-tasting"><span>🍽️</span><b>다니엘이 마지막 한입을 삼켰다…</b><span>🍴</span></div><div class="cm-await-miguel"><div class="cm-await-hat"><i></i><i></i><i></i></div><div class="cm-await-hair"></div><div class="cm-await-face"><span class="cm-await-eye left"></span><span class="cm-await-eye right"></span><span class="cm-await-blush left"></span><span class="cm-await-blush right"></span><span class="cm-await-mouth">ᴗ</span></div><div class="cm-await-body">✿</div><div class="cm-await-hands"><span>●</span><span>●</span></div></div><div class="cm-await-hearts"><span>💗</span><span>💗</span><span>💗</span></div><div class="cm-await-dialog"><b>미겔</b><p>“어, 어떤가…? 맛있게 먹었으면 좋겠다…!”</p></div><div class="cm-await-auto">다니엘의 반응을 기다리는 중… <span>잠시 후 자동으로 넘어갑니다</span><div class="cm-await-track"><i></i></div></div></div>';
   }else if(cookTastePhase===0){
    body+='<div class="kitsch-final-banner">🏅 요리 성적 발표! 🏅</div><div class="cook-stage"><span class="cook-emoji">'+cookDishArt(r.name)+'</span></div><div class="cook-stars">'+stars+'</div><div class="cook-score">'+cookPoints+'점</div><div class="cm-final-scoreboard"><div class="cm-final-scoreboard-head">🏅 최종 성적표 <span>'+stars+'</span></div><div class="cm-final-scoreboard-rows">'+cookStageHistory.map((v,i)=>'<div><span>'+(v.label||'요리하기')+'</span><b>'+v.points+' <small>/25</small></b></div>').join('')+'<div class="cm-final-total"><span>총점</span><b>'+cookPoints+' <small>/100</small></b></div></div><div class="cm-final-miguel"><strong>💚 미겔의 코멘트</strong><p>“'+cookMiguelComment(cookPoints)+'”</p></div></div><div class="cm-score-next"><p>🍽️ 완성한 음식을 다니엘에게 가져가 볼까요?</p><button class="kitsch-next" onclick="cookDanielTaste()">💛 다니엘에게 먹이기 ❯</button></div>';
   }else{
-   body+='<div class="cm-taste-screen cm-mood-'+(cookTastePhase===2?cookDanielMood(current.rating).id:'suspense')+' '+(cookTastePhase===2?'cm-taste-reveal':'')+'"><div class="daniel-taste-ribbon">'+(cookTastePhase===1?'💓 두근두근… 시식 중! 💓':'🍽️ 다니엘의 시식 결과 🍽️')+'</div>'+(cookTastePhase===2?'<div class="cm-v310-result-banner" aria-live="polite">'+(current.rating>=4?'🌟 대성공!':current.rating===3?'🌼 잘했어요!':'💛 다음엔 더 잘할 수 있어요!')+'</div>':'')+'<div class="cm-dining-scene cm290-dining-scene cm290-phase-'+cookTastePhase+' cm290-rating-'+(cookTastePhase===2?cookDanielMood(current.rating).id:'waiting')+'">'+'<div class="cm-dining-spark cm-spark-one">✦</div><div class="cm-dining-spark cm-spark-two">✧</div><div class="cm-dining-spark cm-spark-three">♥</div><div class="cm-daniel-avatar"><div class="cm-daniel-hair">'+(cookTastePhase===2?cookDanielMood(current.rating).face:(cookBites===0?'◕‿◕':'•ᴗ•'))+'</div><div class="cm-daniel-glasses">⌐□ □</div>'+(cookTastePhase===1?'<div class="cm-daniel-mouth-target" aria-label="다니엘 입"><span>ᴗ</span></div>':'')+'<div class="cm-daniel-shirt">✦</div>'+(cookTastePhase===2?'<div class="cm-daniel-motion-hands"><span>✋</span><span>✋</span></div><div class="cm-daniel-motion-emote">'+cookDanielMood(current.rating).icon+'</div>':'')+'</div><div class="cm-taste-table"><div class="cm-taste-plate '+(cookTastePhase===1?'cm-plate-bite-'+cookBites:'cm-plate-bite-3')+(cookTastePhase===1&&cookBites===0?' cm-v248-fluffy-delivery':'')+'">'+cookDishArt(r.name)+'</div></div>'+(cookTastePhase===1&&cookBites<3?'<div class="cm-fork-pickup" onpointerdown="cookForkDown(event)" onpointermove="cookForkMove(event)" onpointerup="cookForkUp(event)" onpointercancel="cookForkUp(event)" aria-label="음식 위의 포크를 잡고 다니엘 입으로 드래그"><span>🍴</span><small>여기서 잡기</small></div><div class="cm-drag-fork" aria-hidden="true"><span>🍴</span><b>'+cookDishArt(r.name)+'</b></div>':'<div class="cm-taste-fork">🍴</div>')+'</div>'+(cookTastePhase===1?'<div class="cm290-tasting-caption">'+(cookBites===0?'미겔의 요리를 기다리는 중':cookBites===1?'첫 한입을 맛보는 중':cookBites===2?'두 번째 한입, 신중한 표정':'마지막 한입, 평가를 기다리는 중')+'</div><div class="daniel-bubble">'+['오, 미겔이 만든 요리군. 어디 한입…','냠냠… 음, 과연 어떨까?','잠깐, 조금만 더 먹어 보겠다.','다 먹었다. 이제 솔직하게 평가해 보겠다!'][cookBites]+'</div><div class="cm-bite-track">'+[0,1,2].map(i=>'<span class="'+(i<cookBites?'eaten':'')+'">♥</span>').join('')+'</div><div class="cm-suspense-heart">💗 <span>두근</span> 💗 <span>두근</span></div><div class="cm-chew-anim">'+(cookBites===0?'포크로 음식을 먹여 주세요!':cookBites===3?'냠냠 완료! ♥':'냠 <span>냠</span> 냠 <span>♥</span>')+'</div>'+(cookBites<3?'<div class="cm-feed-instruction">🍴 접시 위 포크를 잡고 다니엘의 입까지 드래그하세요! <small>'+(cookBites+1)+'/3번째 한입</small></div>':'<div class="cm-feed-instruction" aria-live="polite">💗 세 입 완료! 다니엘의 반응을 기다리는 중…</div>'): '<div class="cm-daniel-reaction cm-reaction-'+cookDanielMood(current.rating).id+'"><div class="cm-reaction-confetti" aria-hidden="true"><i>✦</i><i>♥</i><i>✧</i><i>★</i><i>✿</i><i>✦</i><i>♥</i><i>✧</i></div><div class="cm-reaction-burst">'+cookDanielMood(current.rating).icon+'</div><div class="cm-reaction-big">'+cookDanielMood(current.rating).label+'</div><div class="cm-reaction-subtitle">'+cookDanielMood(current.rating).subtitle+'</div></div><div class="daniel-bubble">'+safe(current.comment)+'</div><div class="cm-mood-badge">'+cookDanielMood(current.rating).badge+'</div><div class="daniel-rating-title">💗 다니엘의 평점</div><div class="daniel-rating-stars">'+Array.from({length:5},(_,i)=>i<current.rating?'💗':'🤍').join('')+'</div><div class="daniel-rating-value">'+current.rating+'.0 / 5.0</div><div class="daniel-rating-note">'+cookPoints+'점 · '+safe(r.name)+'</div><div class="cm-taste-final">💚 미겔의 요리 평가 '+stars+'</div>')+'</div>';
+   body+='<div class="cm-taste-screen cm-mood-'+(cookTastePhase===2?cookDanielMood(current.rating).id:'suspense')+' '+(cookTastePhase===2?'cm-taste-reveal':'')+'"><div class="daniel-taste-ribbon">'+(cookTastePhase===1?'💓 두근두근… 시식 중! 💓':'🍽️ 다니엘의 시식 결과 🍽️')+'</div>'+(cookTastePhase===2?'<div class="cm-v310-result-banner" aria-live="polite">'+(current.rating>=4?'🌟 대성공!':current.rating===3?'🌼 잘했어요!':'💛 다음엔 더 잘할 수 있어요!')+'</div>':'')+'<div class="cm-dining-scene cm290-dining-scene cm290-phase-'+cookTastePhase+' cm290-rating-'+(cookTastePhase===2?cookDanielMood(current.rating).id:'waiting')+'">'+'<div class="cm-dining-spark cm-spark-one">✦</div><div class="cm-dining-spark cm-spark-two">✧</div><div class="cm-dining-spark cm-spark-three">♥</div><div class="cm-daniel-avatar"><div class="cm-daniel-hair">'+(cookTastePhase===2?cookDanielMood(current.rating).face:(cookBites===0?'◕‿◕':'•ᴗ•'))+'</div><div class="cm-daniel-glasses">⌐□ □</div>'+(cookTastePhase===1?'<div class="cm-daniel-mouth-target" aria-label="다니엘 입"><span>ᴗ</span></div>':'')+'<div class="cm-daniel-shirt">✦</div>'+(cookTastePhase===2?'<div class="cm-daniel-motion-hands"><span>✋</span><span>✋</span></div><div class="cm-daniel-motion-emote">'+cookDanielMood(current.rating).icon+'</div>':'')+'</div><div class="cm-taste-table"><div class="cm-taste-plate '+(cookTastePhase===1?'cm-plate-bite-'+cookBites:'cm-plate-bite-3')+(cookTastePhase===1&&cookBites===0?' cm-v248-fluffy-delivery':'')+'">'+cookDishArt(r.name)+'</div></div>'+(cookTastePhase===1&&cookBites<3?'<div class="cm-fork-pickup" onpointerdown="cookForkDown(event)" onpointermove="cookForkMove(event)" onpointerup="cookForkUp(event)" onpointercancel="cookForkUp(event)" aria-label="음식 위의 포크를 잡고 다니엘 입으로 드래그"><span>🍴</span><small>여기서 잡기</small></div><div class="cm-drag-fork" aria-hidden="true"><span>🍴</span><b>'+cookDishArt(r.name)+'</b></div>':'<div class="cm-taste-fork">🍴</div>')+'</div>'+(cookTastePhase===1?'<div class="daniel-bubble">'+cmDanielBiteLine(cookDanielRatePreviewV350(),cookBites)+'</div><div class="cm-bite-track">'+[0,1,2].map(i=>'<span class="'+(i<cookBites?'eaten':'')+'">♥</span>').join('')+'</div>'+(cookBites<3?'<div class="cm-feed-instruction">🍴 접시 위 포크를 잡고 다니엘의 입까지 드래그하세요! <small>'+(cookBites+1)+'/3번째 한입</small></div>':'<div class="cm-feed-instruction" aria-live="polite">💗 세 입 완료! 다니엘의 반응을 기다리는 중…</div>'): '<div class="cm-daniel-reaction cm-reaction-'+cookDanielMood(current.rating).id+'"><div class="cm-reaction-confetti" aria-hidden="true"><i>✦</i><i>♥</i><i>✧</i><i>★</i><i>✿</i><i>✦</i><i>♥</i><i>✧</i></div><div class="cm-reaction-burst">'+cookDanielMood(current.rating).icon+'</div><div class="cm-reaction-big">'+cookDanielMood(current.rating).label+'</div><div class="cm-reaction-subtitle">'+cookDanielMood(current.rating).subtitle+'</div></div><div class="daniel-bubble">'+safe(cmDanielSavedCommentV350(current))+'</div><div class="cm-mood-badge">'+cookDanielMood(current.rating).badge+'</div><div class="daniel-rating-title">💗 다니엘의 평점</div><div class="daniel-rating-stars">'+Array.from({length:5},(_,i)=>i<current.rating?'💗':'🤍').join('')+'</div><div class="daniel-rating-value">'+current.rating+'.0 / 5.0</div><div class="daniel-rating-note">'+cookPoints+'점 · '+safe(r.name)+'</div><div class="cm-taste-final">💚 미겔의 요리 평가 '+stars+'</div>')+'</div>';
   }
   if(cookReplayV233)body+='<button class="cm-v233-return" onclick="cookReplayCloseV233()">↩ 시식 기록으로</button>';
   else if(cookTastePhase===2)body+='<button class="cook-mainbtn" onclick="cmV242TransitionRecipe('+cookIndex+')">🔁 다시 요리하기</button><button class="cook-subbtn" onclick="cookBack()">📖 레시피 북으로</button>';

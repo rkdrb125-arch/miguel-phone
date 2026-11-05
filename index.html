@@ -2943,6 +2943,185 @@ html,body{max-width:100%;overflow-x:clip}
 /* The legacy three-step art stacked its plate, food and seasoning bottle in the same spot. */
 .cm-v143-stage{position:relative;overflow:hidden;min-height:225px;isolation:isolate;touch-action:none}.cm-v143-stage .cm-v143-action,.cm-v143-stage .cm-v224-task{position:absolute;z-index:3;left:8%;right:8%;text-align:center;font-size:12px;white-space:normal}.cm-v143-stage .cm-v143-action{top:7px}.cm-v143-stage .cm-v224-task{bottom:7px}.cm-v143-stage .cm-v224-art{position:absolute;inset:35px 10px 35px;display:grid;place-items:center;overflow:hidden}.cm-v143-stage .cm-v143-gesture{position:absolute;right:10px;bottom:8px;z-index:4}.cm-v224-scene{position:relative;width:min(100%,280px);height:155px;overflow:hidden}.cm-v224-food{position:absolute;inset:40px 30px 18px;display:flex;align-items:center;justify-content:center;gap:3px;z-index:2}.cm-v224-piece{font-size:30px;max-width:25%;flex:1;text-align:center}.cm-v224-utensil{position:absolute;right:5px;top:0;z-index:3;font-size:29px}.cm-v224-board,.cm-v224-bowl,.cm-v224-pan,.cm-v224-plate{position:absolute!important;left:8%!important;right:8%!important;top:34px!important;bottom:5px!important;width:auto!important;height:auto!important;transform:none!important}.cm-v147-canvas{pointer-events:none}
 @media(max-width:390px){.cm293-board{height:210px}.cm293-piece{font-size:35px}.cm-v143-stage .cm-v224-art{inset:38px 6px 32px}}
+</style><style id="cm-v295-cut-interaction">
+.cm295-cut .cm293-board{isolation:isolate;background:repeating-linear-gradient(0deg,#f5e2c0 0 18px,#f0d8b0 19px 20px);box-shadow:0 7px 0 #a7835d,inset 0 3px 12px #9d74453a}
+.cm295-cut .cm293-food{inset:43px 0 30px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:center;justify-items:center;pointer-events:none}
+.cm295-cut .cm293-piece{font-size:clamp(26px,7vw,44px);position:relative;transform-origin:center 70%;filter:drop-shadow(2px 4px 2px #70502c33)}
+.cm295-cut .cm293-piece.cut{transform:translate(calc(var(--slice)*6px),22px) rotate(calc(var(--slice)*14deg)) scale(.84);filter:drop-shadow(3px 5px 2px #70502c40) saturate(.82)}
+.cm295-cut.thin .cm293-piece.cut{transform:translate(calc(var(--slice)*11px),20px) rotate(calc(var(--slice)*24deg)) scale(.70,.9)}
+.cm295-cut.dice .cm293-piece.cut{transform:translate(calc(var(--slice)*8px),23px) rotate(calc(var(--slice)*9deg)) scale(.72)}
+.cm295-cut .cm293-guides{inset:12px 0 18px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));justify-items:center}
+.cm295-cut .cm293-guides i{height:100%;border-left:2px dashed #907b5480;opacity:.35}
+.cm295-cut .cm293-guides i.next{border-left:3px dashed #e58b36;opacity:1;filter:drop-shadow(0 0 2px #fff7a8)}
+.cm295-cut .cm293-guides i.done{border-left-color:#5e9b69;opacity:.55}
+.cm295-cut .cm295-stroke{position:absolute;z-index:4;width:4px;left:10%;top:15%;height:0;border-radius:8px;background:#fff2a8;box-shadow:0 0 7px #f4b851;pointer-events:none;transform:translateX(-50%)}
+.cm295-cut .cm293-knife{z-index:5;transition:left .045s linear,top .045s linear}
+.cm295-cut .cm293-count{min-height:22px}
+@media(max-width:390px){.cm295-cut .cm293-piece{font-size:29px}}
+@media(prefers-reduced-motion:reduce){.cm295-cut .cm293-piece,.cm295-cut .cm293-knife{transition:none!important}}
+</style><style id="cm-v296-easy-cut">.cm295-cut .cm293-board{height:clamp(285px,42vh,390px);width:100%;min-height:285px;touch-action:none;cursor:crosshair}.cm295-cut .cm293-guides i.next{border-left-width:7px;opacity:.65}.cm295-cut .cm293-wrap p{font-size:14px;line-height:1.6}@media(max-width:390px){.cm295-cut .cm293-board{height:300px}}</style><style id="miguel-v297-fit-home">
+/* Compact the two home pages into the visible phone viewport without changing app ordering. */
+#phone #root>.screen.home{box-sizing:border-box;padding-top:6px!important;padding-bottom:5px!important;overflow-y:auto;overscroll-behavior-y:contain}
+#phone .home .miguel-v189-widgets{margin-top:0!important;margin-bottom:4px!important}
+#phone .home .miguel-v195-toolbar{padding:3px 2px!important;margin:2px auto 5px!important;gap:5px!important}
+#phone .home .miguel-v195-toolbar button{padding:6px 3px!important;font-size:clamp(10px,2.8vw,12px)!important;min-height:32px!important}
+#phone .home .miguel-v201-viewport{overflow:hidden}
+#phone .home .miguel-v201-page{padding:0 2px!important}
+#phone .home .cards{gap:7px!important;margin:4px 0!important}
+#phone .home .card{min-height:88px!important;padding:10px!important;border-radius:16px!important;gap:4px!important}
+#phone .home .card b{font-size:12px!important}
+#phone .home .card p{font-size:11px!important;margin:4px 0!important}
+#phone .home .feedstrip{margin:7px 0!important;padding:8px 10px!important;min-height:48px!important;border-radius:16px!important;font-size:12px!important}
+#phone .home .feedstrip .avatar{width:37px!important;height:37px!important;min-width:37px!important;font-size:21px!important}
+#phone .home .apps{grid-template-columns:repeat(4,minmax(0,1fr))!important;column-gap:4px!important;row-gap:clamp(5px,1.15dvh,10px)!important;margin:8px 0 0!important}
+#phone .home .home-app-slot{min-height:0!important}
+#phone .home .app{gap:3px!important;font-size:clamp(9px,2.45vw,11px)!important;line-height:1.14!important;min-width:0!important}
+#phone .home .ico{width:clamp(43px,10.7dvh,57px)!important;height:clamp(43px,10.7dvh,57px)!important;font-size:clamp(22px,4.6dvh,27px)!important;border-radius:17px!important}
+#phone .home .dots{margin:7px 0 0!important;padding:0 0 4px!important}
+@media(max-height:760px){
+#phone .home .apps{row-gap:4px!important}
+#phone .home .ico{width:clamp(39px,7.2dvh,49px)!important;height:clamp(39px,7.2dvh,49px)!important;font-size:22px!important}
+#phone .home .app{font-size:9px!important;gap:2px!important}
+#phone .home .card{min-height:72px!important;padding:7px!important}
+#phone .home .feedstrip{min-height:40px!important;padding:5px 8px!important}
+}
+@media(max-height:620px){#phone #root>.screen.home{overflow-y:auto!important}#phone .home .miguel-v189-widgets{max-height:100px;overflow:auto}#phone .home .apps{row-gap:3px!important}}
+@media(prefers-reduced-motion:reduce){#phone .home .ico{transition:none!important}}
+</style><style id="miguel-v298-all-screen-fit">
+/* Use the actual visible phone viewport as the layout boundary. */
+:root{--m298-height:100dvh;--m298-density:1}
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+#phone{height:var(--m298-height)!important;min-height:0!important;max-height:var(--m298-height)!important;display:flex!important;flex-direction:column!important;overflow:hidden!important}
+#phone>.status{flex:0 0 auto!important;height:clamp(39px,6.5dvh,54px)!important;padding:0 18px!important;min-height:0!important}
+#phone>#root{flex:1 1 auto!important;min-height:0!important;max-height:none!important;overflow:hidden!important;display:block!important}
+#phone>#root>.screen{height:100%!important;min-height:0!important;max-height:100%!important;overflow-y:auto!important;overflow-x:hidden!important;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;padding:clamp(8px,1.5dvh,16px) clamp(12px,3.5vw,22px) clamp(32px,5dvh,54px)!important}
+#phone>.gesture{flex:0 0 18px!important;position:relative!important;bottom:auto!important;left:auto!important;align-self:center!important;margin:0 auto 7px!important;transform:none!important;z-index:31!important}
+#phone .screen :is(.panel,.card,.tile,.metric,.notification,.reporthero){max-width:100%;min-width:0}
+#phone .screen img,#phone .screen video{max-width:100%;object-fit:contain}
+#phone .screen :is(.cook-stage,.cm258-stage,.cm250-stage,.cm-game-stage){max-width:100%}
+/* Responsive type and spacing across every app, not just the home page. */
+@media(max-height:850px){
+#phone .screen{--m298-density:.85}
+#phone .screen :is(.panel,.card){margin-block:clamp(4px,1dvh,9px)}
+#phone .screen :is(h1,h2,h3){margin-block:clamp(4px,1dvh,10px)}
+#phone .screen .clock{font-size:clamp(45px,11dvh,76px)!important;margin:3px 0!important}
+#phone .home .apps{gap:clamp(5px,1.1dvh,11px) 3px!important;margin-top:8px!important}
+#phone .home .ico{width:clamp(45px,7dvh,60px)!important;height:clamp(45px,7dvh,60px)!important;min-width:0!important;min-height:0!important}
+#phone .home .app{gap:3px!important;font-size:clamp(10px,1.4dvh,12px)!important}
+}
+@media(max-height:700px){
+#phone>.status{height:36px!important;font-size:13px!important}
+#phone .screen{padding-top:6px!important}
+#phone .home .ico{width:43px!important;height:43px!important;font-size:21px!important}
+#phone .home .apps{gap:5px 2px!important}
+#phone .home .app{font-size:10px!important;line-height:1.15!important}
+#phone .screen :is(.panel,.card){padding:clamp(7px,2vw,12px)}
+}
+@media(max-width:390px){#phone .screen{padding-inline:11px!important}#phone .screen :is(.panel,.card){min-width:0;max-width:100%}}
+/* Prevent native gestures inside minigames from scrolling the app. */
+#phone .screen :is(.cm258-stage,.cm250-stage,.cm-v270-board,[class*="cook-playfield"]){touch-action:none}
+</style><style id="miguel-v299-auto-home-pages">
+#swipe .miguel-v201-track{width:100%!important;display:flex!important;align-items:flex-start!important}
+#swipe .miguel-v201-page{width:100%!important;min-width:100%!important;flex:0 0 100%!important;box-sizing:border-box}
+#swipe .miguel-v201-viewport{overflow:hidden!important}
+#swipe .dots{display:flex;justify-content:center;flex-wrap:wrap;gap:9px}
+#swipe .apps{align-content:start}
+</style><style id="miguel-v300-oneui-home">
+/* Home is a fixed viewport, not a vertically scrolling document. */
+#phone>#root>#swipe.screen.home{display:flex!important;flex-direction:column!important;overflow:hidden!important;overscroll-behavior:none!important;touch-action:pan-x!important;padding:5px clamp(12px,3.5vw,20px) 3px!important;min-height:0!important}
+#swipe .miguel-v189-widgets{flex:0 0 auto!important;padding:2px 0!important;gap:7px!important}
+#swipe .miguel-v189-widget{padding:8px 10px!important;min-height:0!important}
+#swipe .miguel-v195-toolbar{flex:0 0 auto!important;margin:3px 0 5px!important;padding:3px!important}
+#swipe .miguel-v195-toolbar button{padding:6px 3px!important;min-height:33px!important}
+#swipe .miguel-v201-viewport{flex:1 1 0!important;min-height:0!important;overflow:hidden!important;width:100%!important}
+#swipe .miguel-v201-track{height:100%!important;align-items:stretch!important}
+#swipe .miguel-v201-page{height:100%!important;max-height:100%!important;overflow:hidden!important;min-height:0!important;padding:0 2px!important}
+#swipe .cards{margin-top:3px!important;gap:7px!important}
+#swipe .card{min-height:105px!important;height:105px!important;padding:9px 10px!important;border-radius:18px!important;overflow:hidden!important}
+#swipe .card p{margin:4px 0!important;font-size:11px!important}
+#swipe .feedstrip{margin:7px 0!important;padding:7px 9px!important;min-height:47px!important;border-radius:15px!important}
+#swipe .feedstrip .avatar{width:34px!important;height:34px!important}
+#swipe .apps{margin:7px 0 0!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:clamp(7px,1.1dvh,12px) 3px!important;grid-auto-rows:clamp(67px,9.2dvh,84px)!important;align-content:start!important}
+#swipe .home-app-slot{min-height:0!important;max-height:100%!important}
+#swipe .home .app,#swipe .app{height:100%!important;justify-content:flex-start!important;gap:3px!important;font-size:clamp(9px,1.4dvh,11px)!important;line-height:1.2!important}
+#swipe .ico{width:clamp(43px,6.7dvh,60px)!important;height:clamp(43px,6.7dvh,60px)!important;min-width:0!important;min-height:0!important;font-size:clamp(21px,3.5dvh,29px)!important}
+#swipe .dots{flex:0 0 20px!important;min-height:20px!important;margin:0!important;align-items:center!important;gap:7px!important;overflow:hidden!important}
+#swipe .dot{flex:0 0 auto!important}
+#swipe .home-layout-tools{flex:0 0 auto!important;max-height:76px!important;overflow-y:auto!important}
+@media(max-height:680px){#swipe .card{height:80px!important;min-height:80px!important}#swipe .feedstrip{min-height:36px!important;padding:4px 8px!important}#swipe .miguel-v189-widget{padding:5px 8px!important}}
+</style><style id="delharsa-weather-v301">
+.delharsa-weather301{display:flex;flex-direction:column;gap:5px;width:100%;min-height:112px;padding:12px 16px;margin:0 0 8px;border:1px solid #a6c9ac;border-radius:21px;text-align:left;color:#214d3e;background:linear-gradient(125deg,#d5f3e1 0%,#bde6da 55%,#f9f1c8 100%);box-shadow:0 4px 12px #28594422;font:inherit;cursor:pointer;flex-shrink:0}
+.delharsa-weather301-head{display:flex;justify-content:space-between;align-items:center;gap:5px;font-size:12px;font-weight:750}
+.delharsa-weather301-place{font-size:10px;font-weight:500;opacity:.65}
+.delharsa-weather301-main{display:flex;align-items:center;gap:12px;line-height:1}
+.delharsa-weather301-symbol{font-size:30px}.delharsa-weather301-degree{font-size:38px;font-weight:850;letter-spacing:-2px}.delharsa-weather301-condition{font-size:13px;font-weight:700}
+.delharsa-weather301-caption{font-size:11px;opacity:.82;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-height:760px){.delharsa-weather301{min-height:87px;padding:8px 12px;gap:2px;margin-bottom:5px}.delharsa-weather301-main{gap:8px}.delharsa-weather301-degree{font-size:30px}.delharsa-weather301-symbol{font-size:24px}}
+</style><style id="delharsa-weather302-styles">
+#delharsa-weather302-screen{position:fixed;inset:0;z-index:2147483640;color:#fff;background:linear-gradient(170deg,#65b0ec 0%,#91c9e9 31%,#64a99d 63%,#317eaf 100%);font-family:inherit;overscroll-behavior:contain}
+#delharsa-weather302-screen *{box-sizing:border-box}
+#delharsa-weather302-screen .dw302-scroll{height:100%;overflow-y:auto;overscroll-behavior:contain;padding:env(safe-area-inset-top, 12px) 16px calc(30px + env(safe-area-inset-bottom,0px));scrollbar-width:thin}
+#delharsa-weather302-screen .dw302-top{display:flex;align-items:center;gap:12px;padding:18px 5px;font-size:23px;font-weight:800;position:sticky;top:0;z-index:2;background:#4e9bc9bb;backdrop-filter:blur(12px);border-radius:0 0 18px 18px}
+#delharsa-weather302-screen .dw302-top button{background:#ffffff25;border:0;border-radius:50%;color:white;width:42px;height:42px;font-size:32px;line-height:1;cursor:pointer}
+#delharsa-weather302-screen .dw302-fiction{margin-left:auto;font-size:12px;opacity:.9;font-weight:600}
+#delharsa-weather302-screen .dw302-hero{text-align:center;min-height:310px;padding:24px 8px 30px;text-shadow:0 2px 6px #315b7c66}
+#delharsa-weather302-screen .dw302-sky{font-size:65px;filter:drop-shadow(0 0 22px #fff7bd)}
+#delharsa-weather302-screen .dw302-temp{font-size:82px;font-weight:300;line-height:1.18}
+#delharsa-weather302-screen .dw302-cond{font-size:24px;font-weight:700}
+#delharsa-weather302-screen .dw302-range{font-size:15px;margin-top:12px}
+#delharsa-weather302-screen .dw302-hero p{font-size:15px;margin:15px 0 0}
+#delharsa-weather302-screen .dw302-panel{background:#276d9380;border:1px solid #ffffff24;border-radius:28px;padding:20px;margin-bottom:16px;box-shadow:0 5px 20px #24577b16}
+#delharsa-weather302-screen h3{margin:0 0 18px;font-size:17px;color:#fff}
+#delharsa-weather302-screen .dw302-hours{display:flex;overflow-x:auto;gap:4px;scroll-snap-type:x mandatory;padding:4px 0 14px}
+#delharsa-weather302-screen .dw302-hour{min-width:64px;display:flex;align-items:center;flex-direction:column;gap:11px;scroll-snap-align:start;font-size:13px}
+#delharsa-weather302-screen .dw302-hour-icon{font-size:29px}
+#delharsa-weather302-screen .dw302-hour b{font-size:19px}
+#delharsa-weather302-screen .dw302-hour small{font-size:12px;color:#e3f3ff}
+#delharsa-weather302-screen .dw302-hint{font-size:11px;opacity:.75;margin:0}
+#delharsa-weather302-screen .dw302-day{display:grid;grid-template-columns:55px 60px 1fr 90px;align-items:center;gap:4px;min-height:57px;border-bottom:1px solid #ffffff1b;font-size:13px}
+#delharsa-weather302-screen .dw302-day:last-child{border:0}
+#delharsa-weather302-screen .dw302-day-condition{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#delharsa-weather302-screen .dw302-day b{text-align:right;font-size:16px;white-space:nowrap}
+#delharsa-weather302-screen .dw302-day em{opacity:.65;font-style:normal}
+#delharsa-weather302-screen .dw302-training-status{display:flex;align-items:center;gap:15px}
+#delharsa-weather302-screen .dw302-training-status>span{font-size:55px}
+#delharsa-weather302-screen .dw302-training-status strong{font-size:25px}
+#delharsa-weather302-screen .dw302-training-status p{font-size:14px;line-height:1.5;margin:6px 0}
+#delharsa-weather302-screen .dw302-training-hours{display:flex;justify-content:space-between;gap:8px;margin-top:18px;font-size:12px}
+#delharsa-weather302-screen .dw302-sun{display:flex;justify-content:space-between;gap:8px;font-size:15px}
+#delharsa-weather302-screen .dw302-disclaimer{font-size:12px;line-height:1.5;text-align:center;opacity:.8;padding:10px 15px 25px}
+body.dw302-open{overflow:hidden!important}
+@media(max-width:360px){#delharsa-weather302-screen .dw302-day{grid-template-columns:44px 48px 1fr 76px;font-size:11px}#delharsa-weather302-screen .dw302-day b{font-size:13px}#delharsa-weather302-screen .dw302-panel{padding:15px}}
+</style><style id="dw303-atmospheric-sky">
+#delharsa-weather302-screen{isolation:isolate;transition:background 1s ease}
+#delharsa-weather302-screen[data-weather="night"]{background:linear-gradient(175deg,#142a55 0%,#38517d 55%,#597e9d 100%)}
+#delharsa-weather302-screen[data-weather="rain"]{background:linear-gradient(175deg,#647b96 0%,#7b9cad 55%,#467d98 100%)}
+#delharsa-weather302-screen[data-weather="cloud"]{background:linear-gradient(175deg,#83abc7 0%,#9dbdca 60%,#5a9fae 100%)}
+#delharsa-weather302-screen[data-weather="snow"]{background:linear-gradient(175deg,#9bbbd2 0%,#b9d5e1 60%,#8ab4c4 100%)}
+#delharsa-weather302-screen .dw303-atmosphere{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+#delharsa-weather302-screen .dw302-scroll{position:relative;z-index:1}
+#delharsa-weather302-screen .dw303-atmosphere i{position:absolute;display:block;opacity:0;will-change:transform,opacity}
+#delharsa-weather302-screen[data-weather="sun"] .dw303-atmosphere:before{content:"";position:absolute;top:13%;left:50%;width:190px;height:190px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle,#fffbd888 0%,#fff3aa44 18%,transparent 68%);animation:dw303-sunpulse 6s ease-in-out infinite}
+#delharsa-weather302-screen[data-weather="night"] .dw303-atmosphere:before{content:"";position:absolute;top:15%;right:12%;width:100px;height:100px;border-radius:50%;background:radial-gradient(circle,#fff9db 0%,#e2e9ec 45%,#fff8df33 68%,transparent 75%);box-shadow:0 0 70px #e7edff55}
+#delharsa-weather302-screen[data-weather="rain"] .dw303-atmosphere i{width:2px;height:34px;background:linear-gradient(transparent,#e3f5ffb5);border-radius:4px;opacity:.7;top:-10%;animation:dw303-rain 1.25s linear infinite}
+#delharsa-weather302-screen[data-weather="snow"] .dw303-atmosphere i{width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 7px #fff9;opacity:.8;top:-10%;animation:dw303-snow 8s linear infinite}
+#delharsa-weather302-screen[data-weather="cloud"] .dw303-atmosphere i{width:130px;height:45px;border-radius:60%;background:#ffffff40;filter:blur(12px);opacity:.8;animation:dw303-cloud 22s linear infinite}
+#delharsa-weather302-screen .dw303-atmosphere i:nth-child(1){left:5%;animation-delay:-.3s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(2){left:14%;animation-delay:-1.3s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(3){left:24%;animation-delay:-.7s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(4){left:33%;animation-delay:-2.7s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(5){left:42%;animation-delay:-.9s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(6){left:51%;animation-delay:-3.1s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(7){left:61%;animation-delay:-1.9s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(8){left:70%;animation-delay:-4.1s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(9){left:79%;animation-delay:-2.1s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(10){left:87%;animation-delay:-.4s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(11){left:94%;animation-delay:-3.4s}#delharsa-weather302-screen .dw303-atmosphere i:nth-child(12){left:47%;animation-delay:-5.1s}
+@keyframes dw303-sunpulse{50%{opacity:.55;transform:translateX(-50%) scale(1.15)}}
+@keyframes dw303-rain{to{transform:translate(-45px,115vh)}}
+@keyframes dw303-snow{to{transform:translate(55px,115vh) rotate(180deg)}}
+@keyframes dw303-cloud{from{transform:translateX(-160px)}to{transform:translateX(110vw)}}
+@media(prefers-reduced-motion:reduce){#delharsa-weather302-screen .dw303-atmosphere *,#delharsa-weather302-screen .dw303-atmosphere:before{animation:none!important}}
+</style><style id="miguel-v304-compact-header">
+/* Compact the phone's own status row, leaving the browser/system bars alone. */
+#phone>.status{height:38px!important;min-height:38px!important;max-height:38px!important;flex-basis:38px!important;padding:0 14px!important;padding-top:0!important;font-size:13px!important;line-height:1!important;align-items:center!important}
+#phone>#root>#swipe.screen.home{padding-top:0!important}
+/* A single slim control strip rather than three oversized pill cards. */
+#swipe .notify-controls.miguel-v195-toolbar{height:35px!important;min-height:35px!important;max-height:35px!important;flex:0 0 35px!important;gap:5px!important;margin:0 0 5px!important;padding:0!important;align-items:stretch!important}
+#swipe .notify-controls.miguel-v195-toolbar button{height:33px!important;min-height:33px!important;max-height:33px!important;line-height:1!important;padding:4px 5px!important;font-size:clamp(10px,2.8vw,12px)!important;border-radius:12px!important;box-shadow:0 2px 5px #27432b16!important}
+#swipe .notify-controls.miguel-v195-toolbar button:nth-child(2){flex:1.15!important}
+#swipe .miguel-v201-viewport{min-height:0!important}
+@media(max-height:720px){#phone>.status{height:34px!important;min-height:34px!important;max-height:34px!important;flex-basis:34px!important}#swipe .notify-controls.miguel-v195-toolbar{height:31px!important;min-height:31px!important;max-height:31px!important;flex-basis:31px!important}#swipe .notify-controls.miguel-v195-toolbar button{height:30px!important;min-height:30px!important;max-height:30px!important}}
 </style></head><body><div id="phone"><div class="status"><span id="statusTime">21:06</span><span>5G ◉ ▰</span></div><main id="root"></main><button type="button" class="gesture" aria-label="홈 화면으로 돌아가기" title="홈으로" onclick="page==='lock'?unlock():go('home')"></button></div><script>
 const archiveImages=[];let archiveFolder=null;
 const key='miguel_ref_style_v2';let data;try{data=JSON.parse(localStorage.getItem(key))||{}}catch{data={}};data.archiveExtra??={story:[],au:[],comedy:[],daily:[]};data.name??='';data.chat??=[];data.chat.forEach(m=>{if(m.me&&m.read===undefined)m.read=true});data.stamps??=[];data.photos??=[];data.notes??=[];data.diary??=[];data.ddays??=[];
@@ -3056,7 +3235,7 @@ function formatChatTime(t){if(!t)return '시간 미기록';const v=String(t).tri
 function formatChatDate(d){const dt=new Date(String(d)+'T12:00:00');return Number.isNaN(dt.getTime())?safe(String(d)):dt.toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'long'})}
 let homeEditMode=false,homeSelectedApp=null,homeDragState=null,homeHoldTimer=null;
 function homeAppCatalog(){
- const source=[`${app('💌','제5사관학교','chatlist','linear-gradient(135deg,#e8e879,#6bb985)')}${app('🖼️','포토그램','feed','linear-gradient(135deg,#b8d96c,#3e9c74)')}${app('👤','프로필','profile','linear-gradient(135deg,#e2efb5,#9ecfa3)')}${app('📜','세계관','lore','linear-gradient(135deg,#c9dd98,#345f4c)')}${app('📔','일기장','diary','linear-gradient(135deg,#bd7a31,#654128)')}${app('💞','디데이','dday','linear-gradient(135deg,#f6e65a,#d2aa32)')}${app('📅','캘린더','calendar','linear-gradient(135deg,#fff,#e7d9fb)')}${app('🎨','꾸미기','polaroid','linear-gradient(135deg,#fff7d9,#eee4dd)')}${app('📷','폴라로이드','polaroid','linear-gradient(135deg,#ffe2ee,#efa0d4)')}`,`${app('🌈','갤러리','gallery','linear-gradient(135deg,#fff,#f4d3fc)')}${app('🎧','같이 듣기','music','linear-gradient(135deg,#d2e850,#5e9e49)')}${app('⚙️','설정','settings','linear-gradient(135deg,#475a6b,#202636)')}${app(''+`<svg class="ui-lock-icon" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1" fill="currentColor" stroke="none"/></svg>`+'','잠금화면','lock','linear-gradient(135deg,#a4c86b,#396c53)')}${app('🎵','뮤직','music','linear-gradient(135deg,#cce774,#62a75c)')}${app('📝','메모장','notes','linear-gradient(#ffdd54 32%,#fff 32%)')}${app('🔮','오늘의 운세','fortune','linear-gradient(135deg,#3632a1,#8332d9)')}${app('⏰','알람','alarm','linear-gradient(135deg,#fff0b4,#ffb0a0)')}${app('⌛','타임캡슐','capsule','linear-gradient(135deg,#ffde73,#f5b448)')}${app('🔎','검색','search','linear-gradient(135deg,#d5f4ff,#8db4f6)')}${app('💬','오늘의 질문','question','linear-gradient(135deg,#fff4b1,#8bc979)')}${app('🍪','도장판','stamps','linear-gradient(135deg,#fff4a9,#f2c55a)')}${app('🌙','수면 기록','sleep','linear-gradient(135deg,#5361c6,#1b245c)')}${app('🧸','스티커북','stickers','linear-gradient(135deg,#f6ed9e,#90bf71)')}${app('📊','월간 리포트','monthly','linear-gradient(135deg,#cca4d5,#72599b)')}${app('🎁','올해 결산','yearly','linear-gradient(135deg,#99d9cc,#3c9989)')}${app('📚','로그 보관함','archive','linear-gradient(135deg,#e4e6b1,#638b61)')}${app('👤','프로필','profile','linear-gradient(135deg,#e2efb5,#9ecfa3)')}${app('🍱','오늘 뭐 먹지?','food','linear-gradient(135deg,#f7e4b5,#9fcb98)')}${app('🍳','쿠킹 미겔','cooking','linear-gradient(135deg,#ffe5a5,#e6a86e)')}${app('🎵','미겔 BEAT!','rhythm','linear-gradient(135deg,#ffe78d,#86c981)')}${app('🏡','단겔랜드','danguelland','linear-gradient(135deg,#fff1a0,#8cbd79)')}`];
+ const source=[`${app('💌','제5사관학교','chatlist','linear-gradient(135deg,#e8e879,#6bb985)')}${app('🖼️','포토그램','feed','linear-gradient(135deg,#b8d96c,#3e9c74)')}${app('👤','프로필','profile','linear-gradient(135deg,#e2efb5,#9ecfa3)')}${app('📜','세계관','lore','linear-gradient(135deg,#c9dd98,#345f4c)')}${app('📔','일기장','diary','linear-gradient(135deg,#bd7a31,#654128)')}${app('💞','디데이','dday','linear-gradient(135deg,#f6e65a,#d2aa32)')}${app('📅','캘린더','calendar','linear-gradient(135deg,#fff,#e7d9fb)')}${app('🎨','꾸미기','polaroid','linear-gradient(135deg,#fff7d9,#eee4dd)')}${app('📷','폴라로이드','polaroid','linear-gradient(135deg,#ffe2ee,#efa0d4)')}`,`${app('🌈','갤러리','gallery','linear-gradient(135deg,#fff,#f4d3fc)')}${app('🎧','같이 듣기','music','linear-gradient(135deg,#d2e850,#5e9e49)')}${app('⚙️','설정','settings','linear-gradient(135deg,#475a6b,#202636)')}${app(''+`<svg class="ui-lock-icon" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1" fill="currentColor" stroke="none"/></svg>`+'','잠금화면','lock','linear-gradient(135deg,#a4c86b,#396c53)')}${app('🎵','뮤직','music','linear-gradient(135deg,#cce774,#62a75c)')}${app('📝','메모장','notes','linear-gradient(#ffdd54 32%,#fff 32%)')}${app('🔮','오늘의 운세','fortune','linear-gradient(135deg,#3632a1,#8332d9)')}${app('⏰','알람','alarm','linear-gradient(135deg,#fff0b4,#ffb0a0)')}${app('⌛','타임캡슐','capsule','linear-gradient(135deg,#ffde73,#f5b448)')}${app('🔎','검색','search','linear-gradient(135deg,#d5f4ff,#8db4f6)')}${app('💬','오늘의 질문','question','linear-gradient(135deg,#fff4b1,#8bc979)')}${app('🍪','도장판','stamps','linear-gradient(135deg,#fff4a9,#f2c55a)')}${app('🌙','수면 기록','sleep','linear-gradient(135deg,#5361c6,#1b245c)')}${app('🧸','스티커북','stickers','linear-gradient(135deg,#f6ed9e,#90bf71)')}${app('📊','월간 리포트','monthly','linear-gradient(135deg,#cca4d5,#72599b)')}${app('🎁','올해 결산','yearly','linear-gradient(135deg,#99d9cc,#3c9989)')}${app('📚','로그 보관함','archive','linear-gradient(135deg,#e4e6b1,#638b61)')}${app('🍱','오늘 뭐 먹지?','food','linear-gradient(135deg,#f7e4b5,#9fcb98)')}${app('🍳','쿠킹 미겔','cooking','linear-gradient(135deg,#ffe5a5,#e6a86e)')}${app('🎵','미겔 BEAT!','rhythm','linear-gradient(135deg,#ffe78d,#86c981)')}${app('🏡','단겔랜드','danguelland','linear-gradient(135deg,#fff1a0,#8cbd79)')}`];
  const holder=document.createElement('div'),items=[];
  source.forEach((html,p)=>{holder.innerHTML=html;[...holder.children].forEach((node,i)=>{
   const id=p+'-'+i;
@@ -3066,15 +3245,33 @@ function homeAppCatalog(){
 }
 function homeAppLayout(){
  const defaults=homeAppCatalog(),ids=defaults.map(x=>x.id);
+ // Remove legacy second profile shortcut from persisted layouts; keep the original.
+ if(Array.isArray(data.homeAppLayout)){data.homeAppLayout=data.homeAppLayout.filter(x=>x.id!=='1-27');}
  const saved=Array.isArray(data.homeAppLayout)?data.homeAppLayout:[];
  const seen=new Set(),ordered=[];
  for(const entry of saved){if(ids.includes(entry.id)&&!seen.has(entry.id)){ordered.push({id:entry.id,page:entry.page===1?1:0});seen.add(entry.id)}}
  for(const item of defaults)if(!seen.has(item.id))ordered.push({id:item.id,page:item.page});
  return ordered;
 }
+function homeAutoPages299(){
+ const all=homeAppLayout(),first=all.filter(x=>x.page===0),later=all.filter(x=>x.page!==0);
+ const h=Math.max(480,window.visualViewport?.height||window.innerHeight||700);
+ // 4 columns, fixed-height rows. Reserve first-page widgets and toolbar.
+ const row=Math.max(76,Math.min(94,h*.102));
+ const usable=h-52-26-35; // status, home gesture and page indicators
+ const firstRoom=Math.max(0,usable-215-48-18-125); // widgets, cards/feed, toolbar
+ const firstCap=Math.max(0,Math.min(8,Math.floor(firstRoom/row)*4));
+ const otherCap=Math.max(4,Math.min(28,Math.floor(Math.max(100,usable-25)/row)*4));
+ const pages=[first.slice(0,firstCap)];
+ const queue=first.slice(firstCap).concat(later);
+ for(let i=0;i<queue.length;i+=otherCap)pages.push(queue.slice(i,i+otherCap));
+ if(pages.length<2)pages.push([]);
+ return pages;
+}
+function homePageCount299(){return homeAutoPages299().length;}
 function homeAppsHTML(p){
- const items=homeAppCatalog(),layout=homeAppLayout(),byId=Object.fromEntries(items.map(x=>[x.id,x]));
- return '<div class="apps home-sortable" data-home-page="'+p+'">'+layout.filter(x=>x.page===p).map(x=>'<div class="home-app-slot'+(homeSelectedApp===x.id?' home-selected':'')+'" data-app-id="'+x.id+'">'+byId[x.id].html+'</div>').join('')+'</div>';
+ const items=homeAppCatalog(),layout=homeAutoPages299(),byId=Object.fromEntries(items.map(x=>[x.id,x]));
+ return '<div class="apps home-sortable" data-home-page="'+p+'">'+(layout[p]||[]).map(x=>'<div class="home-app-slot'+(homeSelectedApp===x.id?' home-selected':'')+'" data-app-id="'+x.id+'">'+byId[x.id].html+'</div>').join('')+'</div>';
 }
 function homePersistLayout(layout){data.homeAppLayout=layout;save()}
 function homeMoveApp(id,targetPage,targetId){
@@ -3098,9 +3295,9 @@ function homeResetLayout(){if(!confirm('앱 배치를 기본 상태로 되돌릴
 function homeToggleEdit(){homeEditMode=!homeEditMode;homeSelectedApp=null;render()}
 function miguelV201SlideTo(next){
  if(page!=='home'||homeEditMode)return;
- homePage=Math.max(0,Math.min(1,next));
+ homePage=Math.max(0,Math.min(homePageCount299()-1,next));
  const track=document.getElementById('miguel-v201-track');
- if(track){track.style.transition='';track.style.transform='translate3d(-'+(homePage*50)+'%,0,0)'}
+ if(track){track.style.transition='';track.style.transform='translate3d(-'+(homePage*100)+'%,0,0)'}
  const home=document.getElementById('swipe');
  if(home)home.querySelectorAll('.dots .dot').forEach((dot,i)=>dot.classList.toggle('active',i===homePage));
 }
@@ -5515,6 +5712,38 @@ function miguelV206Restore(root,snapshot){
  if(window.scrollY!==snapshot.windowY||window.scrollX!==snapshot.windowX)
   window.scrollTo({left:snapshot.windowX,top:snapshot.windowY,behavior:'instant'});
 }
+
+// Delharsa fictional weather: deterministic in-world forecast, not real-world meteorology.
+function delharsaWeather301(){
+ const d=new Date(), day=Math.floor(new Date(d.getFullYear(),d.getMonth(),d.getDate()).getTime()/86400000);
+ const patterns=[['☀️','맑음',25,'오늘은 햇살이 따뜻하게 비춰요.'],['🌤️','구름 조금',22,'부드러운 바람이 불어요.'],['🌦️','가끔 비',19,'오후에 가벼운 비가 지나갈 수 있어요.'],['☁️','흐림',20,'하늘에 구름이 가득해요.'],['🌙','맑은 밤',17,'밤하늘에 별이 선명해요.'],['🌧️','비',18,'빗방울이 창문을 두드려요.'],['🌥️','대체로 맑음',23,'산책하기 좋은 날씨예요.']];
+ const p=patterns[((day%patterns.length)+patterns.length)%patterns.length];
+ const night=d.getHours()<6||d.getHours()>=19;
+ return {icon:night&&p[1]!=='비'?'🌙':p[0],condition:night&&p[1]!=='비'?'고요한 밤':p[1],temp:p[2]-(night?4:0),message:night&&p[1]!=='비'?'델하르사의 밤하늘이 고요해요.':p[3]};
+}
+function delharsaWeatherWidget301(){
+ const w=delharsaWeather301();
+ return `<button type="button" class="delharsa-weather301" onclick="delharsaWeatherDetails301()" aria-label="델하르사 날씨 자세히 보기"><span class="delharsa-weather301-head"><span>🌿 델하르사 · 오늘의 날씨</span><span class="delharsa-weather301-place">가상 세계</span></span><span class="delharsa-weather301-main"><span class="delharsa-weather301-symbol">${w.icon}</span><span class="delharsa-weather301-degree">${w.temp}°</span><span class="delharsa-weather301-condition">${w.condition}</span></span><span class="delharsa-weather301-caption">${w.message}</span></button>`;
+}
+function delharsaWeatherDetails301(){
+ document.getElementById('delharsa-weather302-screen')?.remove();
+ const w=delharsaWeather301(),now=new Date(),hour=now.getHours();
+ const dayNum=Math.floor(new Date(now.getFullYear(),now.getMonth(),now.getDate()).getTime()/86400000);
+ const types=[['☀️','맑음',0],['🌤️','구름 조금',10],['🌦️','가끔 비',45],['☁️','흐림',20],['🌙','맑은 밤',0],['🌧️','비',75],['🌥️','대체로 맑음',15]];
+ const typeAt=(d,h)=>{let x=types[((d%7)+7)%7];return (h>=19||h<6)&&x[2]<40?['🌙','맑은 밤',x[2]]:x};
+ const hourly=Array.from({length:24},(_,i)=>{const h=(hour+i)%24,d=dayNum+Math.floor((hour+i)/24),t=typeAt(d,h),temp=w.temp+Math.round(3*Math.sin((h-8)*Math.PI/12))-(i>=24-hour?2:0);return `<div class="dw302-hour"><span>${i===0?'지금':String(h).padStart(2,'0')+'시'}</span><span class="dw302-hour-icon">${t[0]}</span><b>${temp}°</b><small>💧${t[2]}%</small></div>`}).join('');
+ const weekdays=['일','월','화','수','목','금','토'];
+ const days=Array.from({length:7},(_,i)=>{const d=new Date(now);d.setDate(d.getDate()+i);const t=typeAt(dayNum+i,12),high=19+((dayNum+i*3)%9),low=high-8;return `<div class="dw302-day"><strong>${i===0?'오늘':weekdays[d.getDay()]+'요일'}</strong><span>💧${t[2]}%</span><span class="dw302-day-condition">${t[0]} ${t[1]}</span><b>${high}° <em>${low}°</em></b></div>`}).join('');
+ const train=typeAt(dayNum,15),trainScore=train[2]>=65?'주의':train[2]>=40?'보통':'좋음';
+ const trainMsg=trainScore==='좋음'?'야외훈련하기 좋은 날씨입니다. 수분을 충분히 챙기세요.':trainScore==='보통'?'가벼운 야외훈련은 가능하지만 기상 변화에 주의하세요.':'강수 가능성이 높습니다. 실내훈련 전환을 고려하세요.';
+ const overlay=document.createElement('section');overlay.id='delharsa-weather302-screen';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','델하르사 상세 날씨');
+ overlay.dataset.weather=(w.condition.includes('비')?'rain':w.condition.includes('눈')?'snow':w.condition.includes('흐')||w.condition.includes('구름')?'cloud':w.condition.includes('밤')?'night':'sun');
+ overlay.innerHTML=`<div class="dw303-atmosphere" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="dw302-scroll"><header class="dw302-top"><button type="button" onclick="delharsaWeatherClose302()" aria-label="뒤로">‹</button><span>📍 델하르사</span><span class="dw302-fiction">가상 기상청</span></header><section class="dw302-hero"><div class="dw302-sky">${w.icon}</div><div class="dw302-temp">${w.temp}°</div><div class="dw302-cond">${w.condition}</div><div class="dw302-range">최고 ${w.temp+3}° / 최저 ${w.temp-7}° · 체감 ${w.temp-1}°</div><p>${w.message}</p></section><section class="dw302-panel"><h3>🕒 시간별 날씨</h3><div class="dw302-hours">${hourly}</div><p class="dw302-hint">좌우로 밀어서 시간별 예보를 확인하세요</p></section><section class="dw302-panel"><h3>📅 7일 날씨 예보</h3>${days}</section><section class="dw302-panel dw302-training"><h3>🏃 야외훈련 지수</h3><div class="dw302-training-status"><span>${trainScore==='좋음'?'😊':trainScore==='보통'?'😐':'🌧️'}</span><div><strong>${trainScore}</strong><p>${trainMsg}</p></div></div><div class="dw302-training-hours"><span>오후 3시 ${train[2]<40?'🟢':'🟡'}</span><span>오후 5시 ${train[2]<40?'🟢':'🟡'}</span><span>오후 7시 🌙</span></div></section><section class="dw302-panel"><h3>🌅 일출과 일몰</h3><div class="dw302-sun">🌅 오전 6:41 <span>🌇 오후 5:38</span></div></section><p class="dw302-disclaimer">델하르사의 가상 날씨 예보입니다. 실제 기상 관측값이 아니며, 훈련 지수도 세계관 연출용입니다.</p></div>`;
+ document.body.appendChild(overlay);
+ document.body.classList.add('dw302-open');
+}
+function delharsaWeatherClose302(){document.getElementById('delharsa-weather302-screen')?.remove();document.body.classList.remove('dw302-open')}
+
 function render(){
  const miguelV206Root=document.getElementById('root');
  const miguelV206SamePage=miguelV206Root?.dataset.renderedPage===page;
@@ -5528,11 +5757,11 @@ function render(){
 }
 
 else if(!data.name){out=`<section class="screen">${head('휴대폰 설정')}<div class="panel"><h2>당신의 이름은?</h2><p>이 휴대폰은 당신의 공간이다. 미겔과 이곳으로 연락할 수 있다.</p><input class="field" id="username" maxlength="32" placeholder="이름을 입력해 주세요" autocomplete="off" onkeydown="if(event.key==='Enter')setName()"><p class="caption">입력한 이름으로 시작합니다.</p><button class="btn" onclick="setName()">시작하기</button></div></section>`}
-else if(page==='home'){out=`<section class="screen home miguel-v185-home" id="swipe" style="${miguelHomeStyleV185()}">${miguelV189WidgetHTML()}<div class="notify-controls miguel-v195-toolbar">
+else if(page==='home'){homePage=Math.min(homePage,homePageCount299()-1);out=`<section class="screen home miguel-v185-home" id="swipe" style="${miguelHomeStyleV185()}">${miguelV189WidgetHTML()}<div class="notify-controls miguel-v195-toolbar">
 <button onclick="miguelV189NotificationCenter()">🔔 알림</button>
 <button onclick="miguelV195Settings()">⚙️ 꾸미기·설정</button>
 <button onclick="homeToggleEdit()" class="home-edit-toggle">${homeEditMode?"✓ 배치 완료":"✥ 앱 배치"}</button>
-</div><div class="miguel-v201-viewport"><div class="miguel-v201-track" id="miguel-v201-track" style="transform:translate3d(-${homePage*50}%,0,0)"><div class="miguel-v201-page"><div class="cards"><div class="card"><div>🌿 <span style="float:right;background:#ffe45b;color:#222;border-radius:20px;padding:5px">D+1</span></div><div><b>Miguel cotreeman 🟢</b><p>${dan()?'다니엘. 식사는 했나.':'무조건 셋이다.'}</p></div></div><div class="card" onclick="playMusic('_Mc_OM5oNA8')" style="cursor:pointer"><div>🎧 <button style="float:right;border:0;border-radius:50%;background:#ed479e;color:white;padding:8px" onclick="event.stopPropagation();playMusic('_Mc_OM5oNA8')">▶</button></div><div><b>함께 듣기</b><p>AURORA - The Seed</p><span class="caption">♪ 등록된 음악 ${data.musicLinks.length}곡 · 눌러서 듣기</span></div></div></div><div class="feedstrip" onclick="go('feed')"><div class="avatar">🌿</div><div><b>NEW · @miguel_cotreeman</b><div class="ellipsis">정확한 기록이 필요하다.</div></div><span style="margin-left:auto">❯</span></div>${homeAppsHTML(0)}</div><div class="miguel-v201-page">${homeAppsHTML(1)}</div></div></div>${homeEditMode?`<div class="home-layout-tools"><span>앱을 선택한 뒤 페이지 이동 또는 순서를 조절하세요.</span><button data-move-page="0" onclick="homeSelectedApp&&homeMoveApp(homeSelectedApp,0)">① 1페이지로</button><button data-move-page="1" onclick="homeSelectedApp&&homeMoveApp(homeSelectedApp,1)">② 2페이지로</button><button onclick="homeShiftApp(-1)">← 앞으로</button><button onclick="homeShiftApp(1)">뒤로 →</button><button onclick="homeResetLayout()">초기화</button></div>`:""}<div class="dots"><button class="dot ${homePage===0?'active':''}" onclick="miguelV201SlideTo(0)"></button><button class="dot ${homePage===1?'active':''}" onclick="miguelV201SlideTo(1)"></button></div></section>`;}
+</div><div class="miguel-v201-viewport"><div class="miguel-v201-track" id="miguel-v201-track" style="transform:translate3d(-${homePage*100}%,0,0)"><div class="miguel-v201-page">${delharsaWeatherWidget301()}<div class="cards"><div class="card"><div>🌿 <span style="float:right;background:#ffe45b;color:#222;border-radius:20px;padding:5px">D+1</span></div><div><b>Miguel cotreeman 🟢</b><p>${dan()?'다니엘. 식사는 했나.':'무조건 셋이다.'}</p></div></div><div class="card" onclick="playMusic('_Mc_OM5oNA8')" style="cursor:pointer"><div>🎧 <button style="float:right;border:0;border-radius:50%;background:#ed479e;color:white;padding:8px" onclick="event.stopPropagation();playMusic('_Mc_OM5oNA8')">▶</button></div><div><b>함께 듣기</b><p>AURORA - The Seed</p><span class="caption">♪ 등록된 음악 ${data.musicLinks.length}곡 · 눌러서 듣기</span></div></div></div><div class="feedstrip" onclick="go('feed')"><div class="avatar">🌿</div><div><b>NEW · @miguel_cotreeman</b><div class="ellipsis">정확한 기록이 필요하다.</div></div><span style="margin-left:auto">❯</span></div>${homeAppsHTML(0)}</div>${Array.from({length:homePageCount299()-1},(_,i)=>`<div class="miguel-v201-page">${homeAppsHTML(i+1)}</div>`).join('')}</div></div>${homeEditMode?`<div class="home-layout-tools"><span>앱을 선택한 뒤 페이지 이동 또는 순서를 조절하세요.</span><button data-move-page="0" onclick="homeSelectedApp&&homeMoveApp(homeSelectedApp,0)">① 1페이지로</button><button data-move-page="1" onclick="homeSelectedApp&&homeMoveApp(homeSelectedApp,1)">② 2페이지로</button><button onclick="homeShiftApp(-1)">← 앞으로</button><button onclick="homeShiftApp(1)">뒤로 →</button><button onclick="homeResetLayout()">초기화</button></div>`:""}<div class="dots">${Array.from({length:homePageCount299()},(_,i)=>`<button class="dot ${homePage===i?'active':''}" onclick="miguelV201SlideTo(${i})" aria-label="${i+1}페이지"></button>`).join('')}</div></section>`;}
 else if(page==='monthly'||page==='yearly'){
  const yearly=page==='yearly',nowDate=new Date(),year=yearly?reportYear:nowDate.getFullYear(),month=yearly?0:(nowDate.getMonth()+reportMonth+120)%12,shownYear=yearly?year:year+Math.floor((nowDate.getMonth()+reportMonth)/12),prefix=shownYear+'-'+String(month+1).padStart(2,'0');
  const chats=data.chat.filter(m=>m.date?String(m.date).startsWith(yearly?String(year):prefix):shownYear===nowDate.getFullYear()&&(yearly||month===nowDate.getMonth()));
@@ -5620,7 +5849,7 @@ root.innerHTML=out;if(page==='cooking')cookFitMobileGame();if(page==='lock'){con
    const dx=e.clientX-startX,dy=e.clientY-startY;
    if(Math.abs(dx)>12&&Math.abs(dx)>Math.abs(dy)*1.4){
     const track=document.getElementById('miguel-v201-track');
-    if(track){track.style.transition='none';const w=el.clientWidth||1;const constrained=Math.max(-w*.35,Math.min(w*.35,dx));track.style.transform='translate3d(calc(-'+(homePage*50)+'% + '+constrained+'px),0,0)'}
+    if(track){track.style.transition='none';const w=el.clientWidth||1;const constrained=Math.max(-w*.35,Math.min(w*.35,dx));track.style.transform='translate3d(calc(-'+(homePage*100)+'% + '+constrained+'px),0,0)'}
    }
   });
   el.addEventListener('pointerup',e=>{
@@ -5629,15 +5858,15 @@ root.innerHTML=out;if(page==='cooking')cookFitMobileGame();if(page==='lock'){con
    startX=null;dragId=null;
    const track=document.getElementById('miguel-v201-track');if(track)track.style.transition='';
    if(Math.abs(dx)>75&&Math.abs(dx)>Math.abs(dy)*1.5&&Date.now()-startTime<1800){
-    const next=dx<0?1:0;
+    const next=Math.max(0,Math.min(homePageCount299()-1,homePage+(dx<0?1:-1)));
     if(homePage!==next)miguelV201SlideTo(next);else miguelV201SlideTo(homePage);
    }else miguelV201SlideTo(homePage);
   });
   el.addEventListener('pointercancel',()=>{startX=null;dragId=null;miguelV201SlideTo(homePage)});
   el.addEventListener('keydown',e=>{
    if(e.target.closest('button,a,input,textarea,select'))return;
-   if(e.key==='ArrowRight'&&homePage!==1)miguelV201SlideTo(1)
-   if(e.key==='ArrowLeft'&&homePage!==0)miguelV201SlideTo(0)
+   if(e.key==='ArrowRight'&&homePage<homePageCount299()-1)miguelV201SlideTo(homePage+1)
+   if(e.key==='ArrowLeft'&&homePage>0)miguelV201SlideTo(homePage-1)
   });
   el.tabIndex=0;
  }
@@ -6310,13 +6539,36 @@ function cookNewAccessV143(){cookNewAdvanceV143();}
 let cm293Cut={key:'',count:0,active:false,pointer:null};
 function cm293CutScene(){
  const key=cookIndex+':'+cookOrderPosition;if(cm293Cut.key!==key)cm293Cut={key,count:0,active:false,pointer:null};
- const title=cookCurrentLabel();const food=/당근/.test(title)?'🥕':/양파/.test(title)?'🧅':/감자/.test(title)?'🥔':/새우/.test(title)?'🍤':/고기/.test(title)?'🥩':'🥬';
- return '<div class="cm293-wrap"><h3>🔪 '+title+'</h3><p>재료 위의 점선을 따라 위에서 아래로 칼질해 주세요.</p><div class="cm293-board" onpointerdown="cm293CutDown(event)" onpointermove="cm293CutMove(event)" onpointerup="cm293CutUp(event)" onpointercancel="cm293CutCancel(event)"><div class="cm293-food">'+Array.from({length:5},(_,i)=>'<span class="cm293-piece '+(i<cm293Cut.count?'cut':'')+'">'+food+'</span>').join('')+'</div><div class="cm293-guides">'+Array.from({length:5},(_,i)=>'<i class="'+(i<cm293Cut.count?'done':i===cm293Cut.count?'next':'')+'"></i>').join('')+'</div><div class="cm293-knife">🔪</div></div><div class="cm293-count">'+cm293Cut.count+' / 5번 정확하게 자르기</div><div class="cook-meter"><i style="width:'+(cm293Cut.count*20)+'%"></i></div></div>';
+ const title=cookCurrentLabel();const food=/당근/.test(title)?'🥕':/양파/.test(title)?'🧅':/감자/.test(title)?'🥔':/새우/.test(title)?'🍤':/고기/.test(title)?'🥩':/오이/.test(title)?'🥒':'🥬';
+ const mode=/채썰/.test(title)?'thin':/깍둑|다지/.test(title)?'dice':/저미|슬라이스/.test(title)?'slice':'regular';
+ return '<div class="cm293-wrap cm295-cut '+mode+'"><h3>🔪 '+title+'</h3><p>도마 어디든 터치하고 아래로 슥! 정확한 선을 맞출 필요 없어요.</p><div class="cm293-board" onpointerdown="cm293CutDown(event)" onpointermove="cm293CutMove(event)" onpointerup="cm293CutUp(event)" onpointercancel="cm293CutCancel(event)" onlostpointercapture="cm293CutCancel(event)"><div class="cm293-food">'+Array.from({length:5},(_,i)=>'<span class="cm293-piece '+(i<cm293Cut.count?'cut':'')+'" style="--slice:'+(i%2?1:-1)+'">'+food+'</span>').join('')+'</div><div class="cm293-guides">'+Array.from({length:5},(_,i)=>'<i class="'+(i<cm293Cut.count?'done':i===cm293Cut.count?'next':'')+'"></i>').join('')+'</div><div class="cm293-knife">🔪</div><div class="cm295-stroke" aria-hidden="true"></div></div><div class="cm293-count" aria-live="polite">'+cm293Cut.count+' / 5번 썰기</div><div class="cook-meter"><i style="width:'+(cm293Cut.count*20)+'%"></i></div></div>';
 }
-function cm293CutDown(e){if(cookReview||cookDone||cookIntroOpen)return;const b=e.currentTarget,r=b.getBoundingClientRect();const x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;const target=(cm293Cut.count+.5)/5; if(Math.abs(x-target)>.095||y>.55)return;cm293Cut.pointer={id:e.pointerId,x,y};try{b.setPointerCapture(e.pointerId)}catch(_){}e.preventDefault()}
-function cm293CutMove(e){const p=cm293Cut.pointer;if(!p||p.id!==e.pointerId)return;const b=e.currentTarget,r=b.getBoundingClientRect();const knife=b.querySelector('.cm293-knife');if(knife){knife.style.left=(e.clientX-r.left)+'px';knife.style.top=(e.clientY-r.top)+'px'}e.preventDefault()}
-function cm293CutCancel(){cm293Cut.pointer=null}
-function cm293CutUp(e){const p=cm293Cut.pointer;if(!p||p.id!==e.pointerId)return;cm293Cut.pointer=null;const r=e.currentTarget.getBoundingClientRect();const x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;if(Math.abs(x-p.x)<.12&&y-p.y>.32){cm293Cut.count++;cmSfx('tap');if(cm293Cut.count>=5){cookStageResult(25,false,'재료를 고르게 손질했어요!');return;}render();}else{const note=document.querySelector('.cm293-count');if(note)note.textContent='점선을 따라 아래로 쓱! 다시 시도해 주세요.';}e.preventDefault()}
+function cm293CutDown(e){
+ if(cookReview||cookDone||cookIntroOpen||cm293Cut.pointer)return;
+ const b=e.currentTarget,r=b.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+ if(y<-.08||y>.82)return;
+ cm293Cut.pointer={id:e.pointerId,startY:y,lastY:y,maxY:y,travel:0,started:performance.now()};
+ try{b.setPointerCapture(e.pointerId)}catch(_){}e.preventDefault();
+}
+function cm293CutMove(e){
+ const p=cm293Cut.pointer;if(!p||p.id!==e.pointerId)return;
+ const b=e.currentTarget,r=b.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+ p.travel+=Math.max(0,y-p.lastY);p.lastY=y;p.maxY=Math.max(p.maxY,y);
+ const knife=b.querySelector('.cm293-knife'),stroke=b.querySelector('.cm295-stroke');
+ if(knife){knife.style.left=(e.clientX-r.left)+'px';knife.style.top=(e.clientY-r.top)+'px'}
+ if(stroke){stroke.style.left=(((cm293Cut.count+.5)/5)*100)+'%';stroke.style.top=(Math.max(0,p.startY)*100)+'%';stroke.style.height=(Math.max(0,p.maxY-p.startY)*100)+'%'}
+ e.preventDefault();
+}
+function cm293CutCancel(e){if(e&&cm293Cut.pointer&&e.pointerId!==cm293Cut.pointer.id)return;cm293Cut.pointer=null}
+function cm293CutUp(e){
+ const p=cm293Cut.pointer;if(!p||p.id!==e.pointerId)return;cm293Cut.pointer=null;
+ const r=e.currentTarget.getBoundingClientRect(),y=(e.clientY-r.top)/r.height;
+ // Easy touch mode: any downward swipe on the board counts, without tiny line targets.
+ const good=(y-p.startY>=.20||p.travel>=.28)&&y>=p.startY+.08;
+ if(good){cm293Cut.count++;if(typeof cmSfx==='function')cmSfx('tap');if(cm293Cut.count>=5){cookStageResult(25,false,'재료를 고르게 손질했어요!');return;}render();}
+ else{const note=document.querySelector('.cm293-count');if(note)note.textContent='도마의 아무 곳에서 아래로 슥 내려주세요!';const stroke=e.currentTarget.querySelector('.cm295-stroke');if(stroke)stroke.style.height='0';}
+ e.preventDefault();
+}
 function cookMiniGameAuditV145(){return cookRecipes.map(r=>({name:r.name,steps:cookUpgradePlanV142(cookRecipePlan(r),r).map(x=>x.method)}));}
 function cookCurrentPlan(){
  const r=cookRecipes[cookIndex]||{name:'요리',ingredients:[]};

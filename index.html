@@ -3284,7 +3284,146 @@ body.dw302-open{overflow:hidden!important}
 .cook-shell .cm-taste-screen .cm-dining-scene.cm290-dining-scene{background:#d9d5bf url("assets/cm_v323_dining.webp") center center/cover no-repeat!important}
 @media(max-width:420px){.cook-shell .cm-home{background-position:45% top}.cook-shell .cook-game{background-position:center center}}
 </style>
-</head><body><div id="phone"><div class="status"><span id="statusTime">21:06</span><span>5G ◉ ▰</span></div><main id="root"></main><button type="button" class="gesture" aria-label="홈 화면으로 돌아가기" title="홈으로" onclick="page==='lock'?unlock():go('home')"></button></div><script>
+<style id="miguel-v330-gestures">
+#swipe{touch-action:pan-y;overscroll-behavior-x:contain}
+#swipe .miguel-v201-viewport,#swipe .miguel-v201-track,#swipe .miguel-v201-page{touch-action:pan-y}
+#miguel-app-drawer314 .drawer-swipe-guide330{font-size:12px;color:#6d8976;white-space:nowrap}
+#miguel-app-drawer314 .drawer-head314{touch-action:pan-y}
+</style>
+<style id="miguel-v331-academy-chat-fit">
+/* Academy messenger: one scrolling message region, no nested side wheel. */
+#phone>#root>.screen:has(> #chatbox){
+ display:flex!important;flex-direction:column!important;
+ height:100%!important;min-height:0!important;max-height:100%!important;
+ box-sizing:border-box!important;overflow:hidden!important;
+ padding-bottom:calc(20px + var(--miguel-safe-bottom, 0px))!important;
+}
+#phone .screen:has(> #chatbox)>:not(#chatbox){flex-shrink:0;min-width:0;max-width:100%;}
+#phone .screen:has(> #chatbox) .miguel-chat-profile{margin-top:5px;margin-bottom:5px;padding-top:7px;padding-bottom:7px;}
+#phone .screen:has(> #chatbox) .affection-sticky{margin-top:3px;margin-bottom:4px;}
+#phone .screen:has(> #chatbox)>#chatbox{
+ flex:1 1 0!important;min-height:70px!important;max-height:none!important;
+ height:auto!important;overflow-y:auto!important;overflow-x:hidden!important;
+ overscroll-behavior-y:contain;scrollbar-width:none!important;
+ -webkit-overflow-scrolling:touch;padding-right:4px;
+}
+#phone .screen:has(> #chatbox)>#chatbox::-webkit-scrollbar,
+#phone .screen:has(> #chatbox)::-webkit-scrollbar{display:none!important;width:0!important;}
+#phone .screen:has(> #chatbox)>.compose{display:flex!important;flex-shrink:0!important;gap:7px;align-items:center;min-height:44px;}
+#phone .screen:has(> #chatbox)>.compose .field{min-width:0;flex:1 1 0;}
+#phone .screen:has(> #chatbox)>.caption{font-size:10px;line-height:1.35;margin-top:4px;}
+@media(max-height:690px){#phone .screen:has(> #chatbox) .miguel-chat-profile{padding:4px 8px;}#phone .screen:has(> #chatbox)>.caption{font-size:9px;}}
+</style>
+<style id="miguel-v333-cooking-home-clean">
+/* One kitchen scene only. Keep logo and actions above it, never tile the scene. */
+.cook-shell .cm-home{box-sizing:border-box!important;max-width:560px!important;margin:0 auto!important;padding:14px 14px 28px!important;background:linear-gradient(180deg,rgba(255,251,239,.88),rgba(255,250,234,.95)),url("assets/cm_v323_kitchen.webp") center center/cover no-repeat!important;border-radius:20px!important;overflow:visible!important;display:flex!important;flex-direction:column!important;gap:14px!important}
+.cook-shell .cm-home .cm-v307-kitchen-banner{box-sizing:border-box!important;min-height:0!important;height:auto!important;aspect-ratio:1.8/1!important;padding:8px!important;border-radius:20px!important;overflow:hidden!important;background:linear-gradient(180deg,rgba(255,249,229,.04),rgba(255,249,229,.12)),url("assets/cm_v323_kitchen.webp") center center/cover no-repeat!important;box-shadow:0 4px 12px #365d3324!important}
+.cook-shell .cm-home .cm-v307-kitchen-banner::before{background:none!important;box-shadow:none!important}
+.cook-shell .cm-home .cm-v307-kitchen-banner .cm-logo.cm-v194-custom-logo{box-sizing:border-box!important;width:100%!important;max-width:100%!important;height:100%!important;min-height:0!important;margin:0!important;padding:0!important;border:0!important;background:none!important;box-shadow:none!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.cook-shell .cm-home .cm-v307-kitchen-banner .cm-logo.cm-v194-custom-logo img{display:block!important;width:100%!important;max-width:100%!important;height:100%!important;max-height:100%!important;object-fit:contain!important;filter:drop-shadow(0 3px 3px #533d2a40)}
+.cook-shell .cm-home .cm-menu-list{display:grid!important;gap:10px!important;margin:0!important;padding:12px!important;background:rgba(255,252,242,.96)!important;border:1px solid #c6d7aa!important;border-radius:20px!important;box-shadow:0 5px 20px #49683b1a!important}
+.cook-shell .cm-home .cm-menu-button{box-sizing:border-box!important;min-height:60px!important;padding:9px 12px!important;border:1px solid #c4d6a6!important;border-radius:14px!important;background:#fffdf5!important;box-shadow:0 2px 0 #d8dfc0!important;gap:11px!important}
+.cook-shell .cm-home .cm-menu-button .cm-menu-icon{font-size:23px!important;flex:0 0 38px!important;width:38px!important;height:38px!important;display:grid!important;place-items:center!important;border-radius:10px!important;background:#f1f6df!important}
+.cook-shell .cm-home .cm-menu-copy b{font-size:17px!important;line-height:1.25!important;color:#345d3d!important}
+.cook-shell .cm-home .cm-menu-copy small{font-size:10px!important;line-height:1.4!important;color:#72816c!important}
+.cook-shell .cm-home .cm-arrow{font-size:17px!important;color:#7d9875!important}
+.cook-shell .cm-home .cm-home-foot{margin:0!important;font-size:10px!important}
+@media(max-width:420px){.cook-shell .cm-home{padding:12px 10px 22px!important;gap:11px!important}.cook-shell .cm-home .cm-v307-kitchen-banner{aspect-ratio:1.7/1!important}.cook-shell .cm-home .cm-menu-list{padding:9px!important;gap:8px!important}.cook-shell .cm-home .cm-menu-button{min-height:57px!important}}
+</style>
+<style id="cm-v334-compact-menu">
+/* Keep only the functional back arrow: the large logo already identifies the app. */
+.cook-shell .cm-v334-nav{display:flex;align-items:center;min-height:37px;padding:4px 14px 0;background:transparent}
+.cook-shell .cm-v334-back{border:0;background:transparent;color:#5e8864;font-size:21px;line-height:1;padding:5px 10px;cursor:pointer}
+.cook-shell .cm-home .cm-menu-list{width:min(88%,350px)!important;max-width:350px!important;margin:10px auto 15px!important;padding:10px!important;gap:9px!important;border-radius:18px!important}
+.cook-shell .cm-home .cm-menu-button{position:relative;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;text-align:center!important;min-height:57px!important;height:auto!important;padding:8px 12px!important;gap:2px!important;border-radius:13px!important;box-shadow:0 2px 0 #d8dfc0!important}
+.cook-shell .cm-home .cm-menu-copy{display:flex!important;flex:0 1 auto!important;align-items:center!important;justify-content:center!important;text-align:center!important;width:100%!important;gap:2px!important}
+.cook-shell .cm-home .cm-menu-copy b{font-size:15px!important;line-height:1.3!important;text-align:center!important}
+.cook-shell .cm-home .cm-menu-copy small{font-size:9px!important;line-height:1.3!important;text-align:center!important}
+.cook-shell .cm-home .cm-menu-icon{font-size:17px!important;line-height:1!important;animation:none!important}
+.cook-shell .cm-home .cm-arrow{display:none!important}
+@media(max-width:390px){.cook-shell .cm-home .cm-menu-list{width:90%!important}.cook-shell .cm-home .cm-menu-button{min-height:54px!important;padding:7px 9px!important}}
+</style><style id="cm-v335-streamlined-game">
+/* No redundant app title/lock/header in Cooking Miguel; keep the slim back arrow. */
+#phone .cook-shell .pagehead,#phone .cook-shell .page-lock-action{display:none!important}
+#phone .cook-shell .cm-v334-nav{min-height:26px!important;padding:0 10px!important;margin:0!important}
+#phone .cook-shell .cm-v334-back{font-size:19px!important;padding:3px 9px!important}
+/* Gameplay should start immediately, without a duplicate recipe banner. */
+#phone .cook-shell:has(.cm-v335-active-game) .cm-v242-audio{margin:2px 10px 5px!important;padding:5px 10px!important}
+#phone .cook-shell:has(.cm-v335-active-game) .cm-v334-nav{min-height:24px!important}
+#phone .cook-shell .cm-v335-active-game{margin-top:0!important;padding-top:3px!important}
+#phone .cook-shell .cm-v335-active-game>.cook-subbtn:first-child{display:none!important}
+/* Larger finished dish while preserving its aspect ratio and plate. */
+#phone .cook-shell .cm289-reveal .cm289-plate-rim .cm289-dish-art{width:98%!important;height:98%!important;overflow:visible!important}
+#phone .cook-shell .cm289-reveal .cm289-plate-rim .cm289-dish-art img.cm-dish-art{width:108%!important;height:108%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;transform:none!important;transform-origin:center!important}
+/* Make result labels prominent and readable, without green marker-like blocks. */
+#phone .cook-shell .cm289-reveal .cm289-dish-name{font-size:clamp(24px,6vw,30px)!important;font-weight:900!important;color:#31583b!important;letter-spacing:-.035em!important;line-height:1.3!important;text-align:center!important;background:none!important;box-shadow:none!important;text-shadow:0 2px 0 #fff8eb,0 3px 8px #fff9e0!important;padding:0 8px!important}
+#phone .cook-shell .cm289-reveal .cm289-dish-note{font-size:clamp(14px,3.8vw,17px)!important;font-weight:750!important;color:#5c5b45!important;line-height:1.45!important;text-align:center!important;background:none!important;box-shadow:none!important;padding:0 8px!important}
+</style><style id="cm-v336-cooking-layout-repair">
+/* Remove duplicated header chrome on every cooking view, including tasting. */
+#root .cook-shell .pagehead,#root .cook-shell .page-lock-action,#root .cook-shell .cook-banner,#root .cook-shell .cm-v334-nav,#root .cook-shell .cook-title{display:none!important}
+#root .cook-shell .cook-game>.cook-subbtn:first-child{display:none!important}
+#root .cook-shell:has(.cook-game)>.cm-v242-audio,#root .cook-shell:has(.cm-taste-screen)>.cm-v242-audio,#root .cook-shell:has(.cm289-reveal)>.cm-v242-audio{display:none!important}
+#root .cook-shell{padding-top:0!important}
+#root .cook-shell .cook-game,#root .cook-shell .cm-taste-screen{margin-top:0!important}
+/* No forced oversized image transforms: center food on its own plate and keep it within bounds. */
+#root .cook-shell .cm-taste-plate img.cm-dish-art,#root .cook-shell .cm-drag-fork img.cm-dish-art,#root .cook-shell .cm289-reveal .cm289-dish-art img.cm-dish-art{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;transform:none!important;margin:auto!important}
+#root .cook-shell .cm289-reveal .cm289-dish-art,#root .cook-shell .cm289-reveal .cm289-plate-rim{display:grid!important;place-items:center!important}
+#root .cook-shell .cm289-reveal .cm289-dish-art{overflow:hidden!important}
+#root .cook-shell .cm289-dish-name,#root .cook-shell .cm289-dish-note{background:transparent!important;box-shadow:none!important}
+</style><style id="rh-v337-visible-scene">
+/* Keep the selected painting visible through the rhythm field, behind notes and hit targets. */
+.rh-board{position:relative!important;isolation:isolate!important}
+.rh-board::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background-image:var(--rh-v337-scene,none);background-size:cover;background-position:center;opacity:.38}
+.rh-board .rh-v176-bg{z-index:0!important;opacity:.38}
+.rh-board .rh-note-area{background:transparent!important;z-index:2!important}
+.rh-board .rh-note-area::before,.rh-board .rh-note-area::after{pointer-events:none}
+.rh-board .rh-note{z-index:5}
+.rh-board .rh-hitline,.rh-board .rh-tap-row,.rh-board .rh-fx,.rh-board .rh-v176-hud{position:relative;z-index:6}
+</style><style id="cm-v338-real-tools">
+.cook-shell .cm338-asset{display:inline-block;vertical-align:middle;object-fit:contain;max-width:100%;pointer-events:none}
+.cook-shell .cook-tool .cm338-asset{width:70px;height:70px;filter:drop-shadow(2px 4px 2px #0003)}
+.cook-shell .cook-emoji .cm338-asset{width:min(45vw,170px);height:min(45vw,170px)}
+.cook-shell .cm-heat-stage .cook-emoji .cm338-asset{width:140px;height:140px}
+.cook-shell .cm-plate-dish .cm338-asset{width:100%;height:100%;max-height:130px}
+.cook-shell .cm338-gallery{margin:12px 0;padding:12px;background:#fffaf0;border:2px solid #b8d7a4;border-radius:15px}
+.cook-shell .cm338-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.cook-shell .cm338-grid figure{margin:0;background:#fff;border:1px solid #e2dfca;border-radius:10px;padding:7px;text-align:center}
+.cook-shell .cm338-grid img{width:100%;height:72px;object-fit:contain}
+.cook-shell .cm338-grid figcaption{font-size:11px;color:#42664b}
+</style><style id="cm-v339-game-assets">
+.cook-shell .cm339-game-img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;pointer-events:none!important;user-select:none!important}
+.cook-shell .cook-tool{width:64px!important;height:85px!important;font-size:0!important;z-index:10!important}
+.cook-shell .cook-tool .cm339-knife{object-fit:contain!important}
+.cook-shell .cm-heat-stage .cook-emoji{width:min(60vw,235px)!important;height:min(60vw,235px)!important;display:block!important;margin:auto!important}
+.cook-shell .cm-plate-dish{display:block!important;width:min(34vw,142px)!important;height:min(34vw,142px)!important;margin:auto!important}
+.cook-shell .cm-plate-drag{width:76px!important;height:76px!important;display:block!important;font-size:0!important}
+.cook-shell .cm-plate-placed{display:flex!important;gap:0!important;align-items:center!important;justify-content:center!important}
+.cook-shell .cm-plate-placed .cm339-veg{width:33px!important;height:33px!important}
+.cook-shell .cm-peel-fruit .cm339-veg{width:140px!important;height:140px!important}
+.cook-shell .cook-bowl{background-image:url('assets/cm338_tool_믹싱볼.webp')!important;background-position:center!important;background-size:contain!important;background-repeat:no-repeat!important}
+.cook-shell .cm-cut-board{background-image:url('assets/cm338_tool_도마.webp')!important;background-position:center!important;background-size:contain!important;background-repeat:no-repeat!important}
+</style><style id="cm340-real-cooking-assets">
+.cook-shell .cm340-ingredient-img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none}
+.cook-shell .cm-ingredient-grid .cm340-recipe-ingredient{display:inline-flex;width:48px;height:48px;align-items:center;justify-content:center;vertical-align:middle}
+.cook-shell .cm-ingredient-grid .cm340-unknown-ingredient{font-size:11px}
+.cook-shell .cm-ready-stage .cm340-ready-tool{height:32px;width:32px;vertical-align:middle;object-fit:contain}
+.cook-shell .cm-intro-emoji .cm340-stage-icon{width:44px;height:44px;object-fit:contain;vertical-align:middle}
+.cook-shell .cm340-cooking-img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none}
+.cook-shell .cm-grill-food,.cook-shell .cm-fryer-food,.cook-shell .cm-water-food{display:flex;align-items:center;justify-content:center;overflow:visible}
+.cook-shell .cm-grill-food .cm340-cooking-img{max-height:125px;max-width:150px}
+.cook-shell .cm-fryer-food .cm340-cooking-img{max-height:100px;max-width:120px}
+.cook-shell .cm-water-food .cm340-ingredient-img{max-height:110px;max-width:140px}
+.cook-shell .cm-pan-food .cm340-cooking-img{width:min(32vw,135px);height:min(32vw,135px);margin:auto}
+.cook-shell .cm340-pot-image,.cook-shell .cm340-pan-image,.cook-shell .cm340-fryer-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;opacity:.88}
+.cook-shell .cm-water-pot,.cook-shell .cm-pan-body,.cook-shell .cm-fryer-basket{position:relative}
+.cook-shell .cm-water-food,.cook-shell .cm-fryer-food{position:relative;z-index:2}
+</style><style id="cm-v341-cooking-assets-repair">
+.cook-shell .cm340-ingredient-img,.cook-shell .cm340-cooking-img,.cook-shell .cm339-game-img{object-fit:contain!important;vertical-align:middle}
+.cook-shell .cm-water-food .cm340-cooking-img,.cook-shell .cm-water-food .cm340-ingredient-img{display:block!important;max-width:76%!important;max-height:120px!important;margin:auto!important}
+.cook-shell .cm340-recipe-ingredient{display:grid!important;place-items:center!important;min-height:56px}
+.cook-shell .cm340-recipe-ingredient img{max-width:100%!important;max-height:72px!important;object-fit:contain!important}
+.cook-shell .cm340-stage-icon{object-fit:contain!important}
+</style></head><body><div id="phone"><div class="status"><span id="statusTime">21:06</span><span>5G ◉ ▰</span></div><main id="root"></main><button type="button" class="gesture" aria-label="홈 화면으로 돌아가기" title="홈으로" onclick="page==='lock'?unlock():go('home')"></button></div><script>
 const archiveImages=[];let archiveFolder=null;
 const key='miguel_ref_style_v2';let data;try{data=JSON.parse(localStorage.getItem(key))||{}}catch{data={}};data.archiveExtra??={story:[],au:[],comedy:[],daily:[]};data.name??='';data.chat??=[];data.chat.forEach(m=>{if(m.me&&m.read===undefined)m.read=true});data.stamps??=[];data.photos??=[];data.notes??=[];data.diary??=[];data.ddays??=[];
 // 성사 기념일: 최초 날짜를 보존하고 매년 캘린더에 반복 표시합니다.
@@ -5761,6 +5900,15 @@ function rhythmFrame(){
  const g=rhythmGame;if(!g?.running||page!=='rhythm')return;
  if(rhythmPausedV162){rhythmRAF=requestAnimationFrame(rhythmFrame);return}
  const t=rhythmNow(),area=document.getElementById('rh-notes'),jud=document.getElementById('rh-judgment');
+  // v337: make bundled scene visible even if older theme layers obscure the legacy background element.
+  const board337=document.querySelector('.rh-board');
+  if(board337){
+    const image337=rhythmMode==='original'?rhythmBuiltInBackgroundV212():null;
+    if(image337){
+      const scene337='url("'+image337.replace(/"/g,'')+'")';
+      if(board337.style.getPropertyValue('--rh-v337-scene')!==scene337)board337.style.setProperty('--rh-v337-scene',scene337);
+    }else board337.style.removeProperty('--rh-v337-scene');
+  }
  rhythmBgSyncV178();
  const bg=document.getElementById('rh-v176-bg');
  if(bg&&!bg.dataset.ready){bg.dataset.ready='1';bg.style.opacity=String(Math.max(0,Math.min(80,rhythmBgOpacityV176))/100);if(rhythmMode==='original'){const image=rhythmBuiltInBackgroundV212()||rhythmBgV176;if(image)bg.style.backgroundImage='url("'+image+'")'}}
@@ -5891,27 +6039,28 @@ function delharsaWeather301(){
  return {icon:night&&p[1]!=='비'?'🌙':p[0],condition:night&&p[1]!=='비'?'고요한 밤':p[1],temp:p[2]-(night?4:0),message:night&&p[1]!=='비'?'델하르사의 밤하늘이 고요해요.':p[3]};
 }
 
+// v332: The home widget reads the same formation anniversary as the D-day app.
+function homeFormationDday332(){
+ const items=Array.isArray(data?.ddays)?data.ddays:[];
+ return items.find(d=>d&&d.builtinAnniversary==='formation')
+     ||items.find(d=>d&&d.date==='2020-08-25'&&/성사/.test(d.name||''))
+     ||{name:'💞 성사된 날',date:'2020-08-25'};
+}
 function homeDday315(){
- let obj={label:'우리의 기념일',date:'2026-11-04'};
- try{const v=JSON.parse(localStorage.getItem('miguel_home_dday315')||'null');if(v&&typeof v.label==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v.date))obj=v}catch(e){}
- const now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
- const [y,m,d]=obj.date.split('-').map(Number),target=new Date(y,m-1,d);
- const days=Math.round((today-target)/86400000);
- return {label:obj.label,days:days===0?'D-DAY':days>0?'+'+days:'D'+days};
+ const item=homeFormationDday332();
+ const date=/^\d{4}-\d{2}-\d{2}$/.test(item.date||'')?item.date:'2020-08-25';
+ const [y,m,d]=date.split('-').map(Number);
+ const start=Date.UTC(y,m-1,d);
+ const now=new Date();
+ const current=Date.UTC(now.getFullYear(),now.getMonth(),now.getDate());
+ const diff=Math.round((current-start)/86400000);
+ return {label:'성사된 날부터',days:diff===0?'D-DAY':diff>0?'D+'+diff:'D-'+Math.abs(diff)};
 }
-function homeEditDday315(){
- const old=homeDday315();
- const label=prompt('디데이 이름을 입력하세요',old.label);if(label===null)return;
- const prev=JSON.parse(localStorage.getItem('miguel_home_dday315')||'null');
- const date=prompt('기준 날짜를 입력하세요 (YYYY-MM-DD)',prev?.date||'2026-11-04');
- if(date===null)return;
- if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||Number.isNaN(new Date(date+'T12:00:00').getTime())){alert('날짜를 YYYY-MM-DD 형식으로 입력해 주세요.');return}
- localStorage.setItem('miguel_home_dday315',JSON.stringify({label:label.trim().slice(0,22)||'기념일',date}));render();
-}
+function homeEditDday315(){go('dday');}
 function homeHeroWidgets315(){
  const d=homeDday315(),w=delharsaWeather301();
  const safe=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- return `<div class="home-hero315"><button type="button" class="home-dday315" onclick="homeEditDday315()" aria-label="디데이 수정"><span class="home-dday315-count">${safe(d.days)}</span><span class="home-dday315-label">${safe(d.label)}</span></button><button type="button" class="home-weather315" onclick="delharsaWeatherDetails301()" aria-label="델하르사 날씨 자세히 보기"><span class="home-weather315-icon">${w.icon}</span><span class="home-weather315-temp">${w.temp}°</span><span class="home-weather315-summary">${safe(w.condition)} · ${safe(w.message)}</span><span class="home-weather315-place">⌖ 델하르사</span></button></div>`;
+ return `<div class="home-hero315"><button type="button" class="home-dday315" onclick="homeEditDday315()" aria-label="디데이 앱에서 성사 기념일 보기"><span class="home-dday315-count">${safe(d.days)}</span><span class="home-dday315-label">${safe(d.label)}</span></button><button type="button" class="home-weather315" onclick="delharsaWeatherDetails301()" aria-label="델하르사 날씨 자세히 보기"><span class="home-weather315-icon">${w.icon}</span><span class="home-weather315-temp">${w.temp}°</span><span class="home-weather315-summary">${safe(w.condition)} · ${safe(w.message)}</span><span class="home-weather315-place">⌖ 델하르사</span></button></div>`;
 }
 
 function delharsaWeatherWidget301(){
@@ -6035,7 +6184,7 @@ root.innerHTML=out;if(page==='cooking')cookFitMobileGame();if(page==='lock'){con
  if(el){
   el.addEventListener('click',e=>{if(el.dataset.swipeConsumed==='1'){e.preventDefault();e.stopImmediatePropagation();el.dataset.swipeConsumed='0'}},true);
   el.addEventListener('pointerdown',e=>{
-   if(homeEditMode||(e.pointerType==='mouse'&&e.button!==0)||e.target.closest('button,a,input,textarea,select'))return;
+   if(homeEditMode||(e.pointerType==='mouse'&&e.button!==0)||e.target.closest('input,textarea,select'))return;
    el.dataset.swipeConsumed='0';
    startX=e.clientX;startY=e.clientY;startTime=Date.now();dragId=e.pointerId;
   });
@@ -6052,7 +6201,7 @@ root.innerHTML=out;if(page==='cooking')cookFitMobileGame();if(page==='lock'){con
    const dx=e.clientX-startX,dy=e.clientY-startY;
    startX=null;dragId=null;
    const track=document.getElementById('miguel-v201-track');if(track)track.style.transition='';
-   if(Math.abs(dx)>32&&Math.abs(dx)>Math.abs(dy)*1.1&&Date.now()-startTime<2500){
+   if(Math.abs(dx)>26&&Math.abs(dx)>Math.abs(dy)*.95&&Date.now()-startTime<3000){
     el.dataset.swipeConsumed='1';
     const next=Math.max(0,Math.min(homePageCount299()-1,homePage+(dx<0?1:-1)));
     if(homePage!==next)miguelV201SlideTo(next);else miguelV201SlideTo(homePage);
@@ -8168,6 +8317,26 @@ function cm289DishReveal(recipe,score){
  '<div class="cm289-dish-stage"><div class="cm289-table-glow"></div><div class="cm289-plate-rim"><div class="cm289-dish-art">'+art+'</div></div><span class="cm289-garnish g1">✦</span><span class="cm289-garnish g2">✧</span><span class="cm289-garnish g3">✦</span></div>'+
  '<div class="cm289-dish-name">'+(typeof safe==='function'?safe(name):name)+'</div><div class="cm289-dish-note">'+quality+'</div></section>';
 }
+function cm339Asset(kind,name,cls){return '<img class="cm339-game-img '+(cls||'')+'" draggable="false" alt="'+name+'" src="assets/cm338_'+kind+'_'+name+'.webp">';}
+function cm339IngredientEmoji(emoji){const map={'🥕':'당근','🥬':'양배추','🍅':'토마토','🫑':'파프리카'};const n=map[emoji];if(!n)return emoji;const id=({'당근':'0','양배추':'10','토마토':'26','파프리카':'28'})[n];return id?'<img class="cm339-game-img cm339-veg" src="assets/cm321_'+id+'_after.webp" alt="'+n+'">':emoji;}
+
+/* v340: Actual supplied cooking assets; no emoji fallback for known ingredients. */
+const cm340IngredientNames=['당근','양파','적양파','대파','쪽파','마늘','감자','고구마','무','단호박','양배추','배추','상추','시금치','케일','오이','애호박','주키니','파프리카','토마토','방울토마토','브로콜리','아스파라거스','버섯','표고버섯','느타리버섯','래디시','샬롯','부추','숙주','아보카도','레몬','라임','사과','오렌지','딸기','망고','패션프루트','바질','파슬리','고수','민트','소고기','돼지고기','삼겹살','닭가슴살','닭다리살','베이컨','연어','참치','새우','오징어','전복','고등어','장어','홍합','바지락','두부','달걀','어묵','김','김치','단무지','모차렐라','페타치즈'];
+function cm340IngredientArt(text,state){
+ const label=String(text||'');
+ const name=cm340IngredientNames.filter(n=>label.includes(n)).sort((a,b)=>b.length-a.length)[0];
+ if(!name)return '<span class="cm340-unknown-ingredient">'+safe(label)+'</span>';
+ const i=cm340IngredientNames.indexOf(name);
+ const id=String(i);
+ return '<img class="cm340-ingredient-img" src="assets/cm321_'+id+'_'+(state==='after'?'after':'before')+'.webp" alt="'+safe(name)+'" loading="lazy" draggable="false">';
+}
+function cm340StageIcon(i){const names=['칼','믹싱볼','프라이팬','빈접시'];return cm339Asset(i===3?'dishware':'tool',names[i],'cm340-stage-icon');}
+function cm340CookingArt(r,kind){
+ const label=String(r.name||'')+' '+String(r.ingredients?.join(' ')||'');
+ const what=/새우/.test(label)?'새우':/달걀|계란/.test(label)?'달걀':/소고기|스테이크|고기/.test(label)?'소고기':null;
+ if(what){const key={'새우':'04_새우','달걀':'02_달걀','소고기':'01_소고기'}[what];return '<img class="cm340-cooking-img" src="assets/cm338_cooking_'+key+'_'+(kind==='grill'||kind==='pan'?'후':'전')+'.webp" alt="'+what+' 조리 중" draggable="false">';}
+ return cm340IngredientArt(r.ingredients?.[0]||'당근','after');
+}
 function cookRender(){
  const progress='<div class="cook-progress cm-progress-animated">'+Array.from({length:cookCurrentPlan().length},(_,i)=>'<span class="'+(i<cookOrderPosition?'done':'')+'"></span>').join('')+'</div>';
  let body='';
@@ -8188,12 +8357,12 @@ function cookRender(){
   body='<div class="cm-catalog"><div class="cm-catalog-top"><button onclick="cookOpenMenu(\'home\')">❮ 메인</button><div><small>MIGUEL\'S KITCHEN · RECIPE BOOK</small><h2>📖 '+(cookMenu==='challenge'?'실력 시험':'요리 레시피 북')+'</h2></div><span>🍋</span></div><div class="cm-catalog-tabs">'+cookBookCategories.map(x=>'<button class="'+(x===cookBookCategory?'active':'')+'" onclick="cookBookSetCategory(\''+x+'\')">'+x+'</button>').join('')+'</div><div class="cm-book"><div class="cm-book-spine"></div><div class="cm-book-grid">'+visible.map((r,i)=>'<button class="cm-book-recipe" onclick="cookBookShow('+r._index+')"><div class="cm-book-stars">'+(cookRecords[r.name]!==undefined?cookStarDisplay(cookRecords[r.name]):'☆☆☆')+'</div><div class="cm-book-photo">'+cookDishArt(r.name)+'</div><b>'+safe(r.name)+'</b><small>'+safe(cookBookGroup(r))+'</small></button>').join('')+'</div></div><div class="cm-book-nav"><button onclick="cookBookTurn(-1)" '+(cookBookPage===0?'disabled':'')+'>❮</button><span>'+ (cookBookPage+1)+' / '+pages+' 페이지 · '+filtered.length+'종</span><button onclick="cookBookTurn(1)" '+(cookBookPage===pages-1?'disabled':'')+'>❯</button></div><p class="cm-catalog-hint">음식 사진을 누르면 필요한 재료와 조리법을 볼 수 있어요.</p></div>';
   if(cookBookDetail>=0){
    const r=cookRecipes[cookBookDetail];
-   body+='<div class="cm-detail-overlay"><div class="cm-detail-card"><div class="cm-detail-header"><span>'+cookDishArt(r.name)+' '+safe(r.name)+'</span><button onclick="cookBookClose()">✕</button></div><div class="cm-detail-scroll"><div class="cm-detail-hero">'+cookDishArt(r.name)+'</div><h3>🧺 필요한 재료</h3><div class="cm-ingredient-grid">'+r.ingredients.map(x=>'<div><span>🥬</span><b>'+safe(x)+'</b></div>').join('')+'</div><p class="cm-detail-measured">'+safe(r.measured)+'</p><h3>📋 조리 정보</h3><p>'+safe(r.description)+'</p><p>⏱️ '+safe(r.time)+' · 👥 '+safe(r.servings)+' · 난이도 '+safe(r.difficulty)+'</p><h3>🍳 만드는 순서</h3><ol>'+r.method.map(x=>'<li>'+safe(x)+'</li>').join('')+'</ol><p class="cm-detail-note">⚠️ 알레르기: '+r.allergens.map(safe).join(', ')+'</p></div><button class="cm-detail-start" onclick="'+(cookMenu==='challenge'?'cookChallengeStart':'cookStart')+'('+cookBookDetail+')">'+(cookMenu==='challenge'?'🏆 실력 시험 시작':'🍳 요리 시작!')+'</button></div></div>';
+   body+='<div class="cm-detail-overlay"><div class="cm-detail-card"><div class="cm-detail-header"><span>'+cookDishArt(r.name)+' '+safe(r.name)+'</span><button onclick="cookBookClose()">✕</button></div><div class="cm-detail-scroll"><div class="cm-detail-hero">'+cookDishArt(r.name)+'</div><h3>🧺 필요한 재료</h3><div class="cm-ingredient-grid">'+r.ingredients.map(x=>'<div><span class="cm340-recipe-ingredient">'+cm340IngredientArt(x,'before')+'</span><b>'+safe(x)+'</b></div>').join('')+'</div><p class="cm-detail-measured">'+safe(r.measured)+'</p><h3>📋 조리 정보</h3><p>'+safe(r.description)+'</p><p>⏱️ '+safe(r.time)+' · 👥 '+safe(r.servings)+' · 난이도 '+safe(r.difficulty)+'</p><h3>🍳 만드는 순서</h3><ol>'+r.method.map(x=>'<li>'+safe(x)+'</li>').join('')+'</ol><p class="cm-detail-note">⚠️ 알레르기: '+r.allergens.map(safe).join(', ')+'</p></div><button class="cm-detail-start" onclick="'+(cookMenu==='challenge'?'cookChallengeStart':'cookStart')+'('+cookBookDetail+')">'+(cookMenu==='challenge'?'🏆 실력 시험 시작':'🍳 요리 시작!')+'</button></div></div>';
   }
 
  }else{
  const r=cookRecipes[cookIndex],stepNames=[cookPeelIngredient()?'껍질 벗기기':'재료 손질','재료 섞기','불 조절','플레이팅'];
- body='<div class="cook-banner"><small>MIGUEL\'S KITCHEN · RECIPE '+(cookIndex+1)+'</small><h2>'+cookDishArt(r.name)+' '+r.name+'</h2><div>쿠킹 미겔 · MIGUEL\'S KITCHEN</div></div><div class="cook-game"><button class="cook-subbtn" onclick="cookBack()">‹ 레시피 선택</button>';
+ body='<div class="cook-game cm-v335-active-game">';
  if(cookCountdown>0){
   const stageIcons=['🔪','🥣','🔥','🍽️'];
   const stageTips=['재료를 가로로 썰어주세요','그릇 안을 둥글게 저어주세요','알맞은 온도에서 멈춰주세요','재료를 접시에 옮겨주세요'];
@@ -8233,28 +8402,28 @@ function cookRender(){
   }else if(['season','baste','coat','fold','drain','shake257','sauce257'].includes(cookSpecialKind())){
    body+=cookSpecialScene();
   }else if(cookStep===2&&(cookActualMethod()==="fry")){
-   body+='<div class="cm-fryer-game '+(cookFryerStarted?'cm-fryer-on':'')+'"><div class="cm-fryer-title">🍤 바삭바삭 튀김 만들기</div><div class="cm-fryer-scene"><div class="cm-fp-fryer-hand cm-grip-hand" aria-hidden="true"><i></i><b></b></div><div class="cm-fryer-oil"><span>◌ ◦ ◌ ◦ ◌</span></div><div class="cm-fryer-basket"><div class="cm-fryer-food">'+cmFryerFoodArt(r)+'</div><div class="cm-fryer-drips"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cm-fryer-mesh">▦ ▦ ▦</div><div class="cm-fryer-handle" onpointerdown="cookFryerDown(event)" onpointermove="cookFryerMove(event)" onpointerup="cookFryerUp(event)" onpointercancel="cookFryerUp(event)">✋ 바구니 손잡이 ↥</div></div><div class="cm-fryer-bubbles">○ ◦ ○ ◌ ○ ◦</div><div class="cm-fryer-splash" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cm-fryer-crunch" aria-hidden="true">✦ 바삭! ✦</div><div class="cm-fryer-finish" aria-live="polite"></div><div class="cm-fryer-crisp-sparks">✦ ✨ ✦ ✧ ✦</div></div><p class="cm-fryer-tip">'+(cookFryerStarted?'게이지가 <b>초록색 65~85%</b>에 왔을 때 손잡이를 <b>위로 쓱!</b>':'바구니를 기름에 담그고 튀기기를 시작하세요!')+'</p><div class="cm-fryer-meter"><span id="cmFryerFill" style="width:'+cookFryerValue+'%"></span><i></i></div><div class="cm-fryer-value">익힘 <b id="cmFryerPct">'+Math.round(cookFryerValue)+'%</b> · 황금빛 65~85%</div>'+(cookFryerStarted?'':'<button class="cook-mainbtn" onclick="cookFryerBegin()">🔥 기름에 넣고 튀기기</button>')+'</div>';
+   body+='<div class="cm-fryer-game '+(cookFryerStarted?'cm-fryer-on':'')+'"><div class="cm-fryer-title">🍤 바삭바삭 튀김 만들기</div><div class="cm-fryer-scene"><div class="cm-fp-fryer-hand cm-grip-hand" aria-hidden="true"><i></i><b></b></div><div class="cm-fryer-oil"><span>◌ ◦ ◌ ◦ ◌</span></div><div class="cm-fryer-basket"><img class="cm340-fryer-image" src="assets/cm338_tool_찜기.webp" alt="조리 바구니"><div class="cm-fryer-food">'+cmFryerFoodArt(r)+'</div><div class="cm-fryer-drips"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cm-fryer-mesh">▦ ▦ ▦</div><div class="cm-fryer-handle" onpointerdown="cookFryerDown(event)" onpointermove="cookFryerMove(event)" onpointerup="cookFryerUp(event)" onpointercancel="cookFryerUp(event)">✋ 바구니 손잡이 ↥</div></div><div class="cm-fryer-bubbles">○ ◦ ○ ◌ ○ ◦</div><div class="cm-fryer-splash" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cm-fryer-crunch" aria-hidden="true">✦ 바삭! ✦</div><div class="cm-fryer-finish" aria-live="polite"></div><div class="cm-fryer-crisp-sparks">✦ ✨ ✦ ✧ ✦</div></div><p class="cm-fryer-tip">'+(cookFryerStarted?'게이지가 <b>초록색 65~85%</b>에 왔을 때 손잡이를 <b>위로 쓱!</b>':'바구니를 기름에 담그고 튀기기를 시작하세요!')+'</p><div class="cm-fryer-meter"><span id="cmFryerFill" style="width:'+cookFryerValue+'%"></span><i></i></div><div class="cm-fryer-value">익힘 <b id="cmFryerPct">'+Math.round(cookFryerValue)+'%</b> · 황금빛 65~85%</div>'+(cookFryerStarted?'':'<button class="cook-mainbtn" onclick="cookFryerBegin()">🔥 기름에 넣고 튀기기</button>')+'</div>';
   }else if(cookStep===2&&(cookActualMethod()==="steam"?"steam":cookActualMethod()==="boil"?"boil":"")){
    const isSteam=(cookActualMethod()==="steam"?"steam":cookActualMethod()==="boil"?"boil":"")==='steam';
-   body+='<div class="cm-water-game '+(isSteam?'cm-water-steaming ':'cm-water-boiling ')+(cookWaterModeStarted?'cm-water-running':'')+'"><h3>'+(isSteam?'♨️ 촉촉한 찌기':'🍲 보글보글 삶기')+'</h3><div class="cm-water-scene"><div class="cm-water-vapor">♨ ♨ ♨</div><div class="cm-water-steam-puffs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><div class="cm-water-lid" onpointerdown="cookWaterLift(event)" onpointermove="cookWaterDrag(event)" onpointerup="cookWaterRelease(event)" onpointercancel="cookWaterRelease(event)"><span>✋ 뚜껑 손잡이 ↑</span></div><div class="cm-water-pot"><div class="cm-water-liquid">'+(isSteam?'☁️ ♨️ ☁️':'◌ ◦ ○ ◌')+'</div><div class="cm-water-food">'+r.base+' '+(isSteam?'🥟 🥦':'🥕 🥚')+'</div><div class="cm-water-bubble-layer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="cm-water-result" aria-live="polite"></div></div><p class="cm-water-tip">'+(cookWaterModeStarted?'초록색 <b>68~88%</b>에서 뚜껑 손잡이를 <b>위로 쓱!</b>':'준비가 되면 '+(isSteam?'찜기를 가열':'물을 끓이기')+' 시작하세요!')+'</p><div class="cm-water-meter"><span id="cmWaterFill" style="width:'+cookWaterValue+'%"></span><i></i></div><p>익힘 <b id="cmWaterPct">'+Math.round(cookWaterValue)+'%</b> · 적정 구간 68~88%</p>'+(cookWaterModeStarted?'':'<button class="cook-mainbtn" onclick="cookWaterBegin()">'+(isSteam?'♨️ 찌기 시작':'💦 삶기 시작')+'</button>')+'</div>';
+   body+='<div class="cm-water-game '+(isSteam?'cm-water-steaming ':'cm-water-boiling ')+(cookWaterModeStarted?'cm-water-running':'')+'"><h3>'+(isSteam?'♨️ 촉촉한 찌기':'🍲 보글보글 삶기')+'</h3><div class="cm-water-scene"><div class="cm-water-vapor">♨ ♨ ♨</div><div class="cm-water-steam-puffs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><div class="cm-water-lid" onpointerdown="cookWaterLift(event)" onpointermove="cookWaterDrag(event)" onpointerup="cookWaterRelease(event)" onpointercancel="cookWaterRelease(event)"><span>✋ 뚜껑 손잡이 ↑</span></div><div class="cm-water-pot"><img class="cm340-pot-image" src="assets/cm338_tool_냄비.webp" alt="냄비"><div class="cm-water-liquid">'+(isSteam?'☁️ ♨️ ☁️':'◌ ◦ ○ ◌')+'</div><div class="cm-water-food">'+r.base+' '+cm340CookingArt(r,'water')+'</div><div class="cm-water-bubble-layer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="cm-water-result" aria-live="polite"></div></div><p class="cm-water-tip">'+(cookWaterModeStarted?'초록색 <b>68~88%</b>에서 뚜껑 손잡이를 <b>위로 쓱!</b>':'준비가 되면 '+(isSteam?'찜기를 가열':'물을 끓이기')+' 시작하세요!')+'</p><div class="cm-water-meter"><span id="cmWaterFill" style="width:'+cookWaterValue+'%"></span><i></i></div><p>익힘 <b id="cmWaterPct">'+Math.round(cookWaterValue)+'%</b> · 적정 구간 68~88%</p>'+(cookWaterModeStarted?'':'<button class="cook-mainbtn" onclick="cookWaterBegin()">'+(isSteam?'♨️ 찌기 시작':'💦 삶기 시작')+'</button>')+'</div>';
   }else if(cookStep===2&&(cookActualMethod()==="grill")){
    const grillFood=/생선|연어|고등어|장어/.test(r.name)?'🐟':/빵|토스트|팬케이크/.test(r.name)?'🍞':/버섯|채소|야채/.test(r.name)?'🍄':'🥩';
    body+='<div class="cm-grill-game"><div class="cm-grill-title">🥩 지글지글 굽기</div><div class="cm-grill-scene"><div class="cm-grill-smoke">♨️ ♨️ ♨️</div><div class="cm-grill-food">'+grillFood+'</div><div class="cm-grill-grid"></div><div class="cm-grill-fire">🔥 🔥 🔥</div></div><p class="cm-grill-guide">재료를 눌러 앞뒤로 노릇하게 뒤집어주세요!</p><button class="cook-mainbtn cm-grill-turn" onclick="cookGrillTurn()">🍴 재료 뒤집기</button><div class="cm-grill-count">뒤집기 '+cookGrillTurns+' / 3</div><div class="cm-grill-meter"><i class="cm-grill-fill" style="width:'+(cookGrillTurns/3*100)+'%"></i></div></div>';
   }else if(cookStep===2&&(cookActualMethod()==="pan")){
-   body+='<div class="cm-pan-game '+(cookPanStarted?'cm-pan-on':'')+'"><div class="cm-pan-caption">'+(/볶/.test(r.name)?'🍳 볶음 요리':'🥩 구이 요리')+' · 팬 뒤집기</div><div class="cm-pan-scene"><div class="cm-fp-pan-hand cm-grip-hand" aria-hidden="true"><i></i><b></b></div><div class="cm-pan-flame">'+(cookPanStarted?'🔥 🔥 🔥':'♨️')+'</div><div class="cm-pan-food cm-pan-food-pieces">'+cmPanPiecesArt(r)+'</div><div class="cm-pan-sparkles" aria-hidden="true">✦ ✧ ✦</div><div class="cm-pan-sizzle-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cm-pan-steam-cloud" aria-hidden="true"><i></i><i></i><i></i></div><div class="cm-pan-body"></div><div class="cm-pan-handle" onpointerdown="cookPanDown(event)" onpointermove="cookPanMove(event)" onpointerup="cookPanUp(event)" onpointercancel="cookPanUp(event)"><span>✋ 손잡이</span></div></div><div class="cm-pan-instruction">'+(cookPanStarted?'손잡이를 잡고 <b>아래로 살짝 → 위로 덜컥!</b>':'불을 켜고 팬을 잡아보세요!')+'</div><div class="cm-pan-meter"><div class="cm-pan-fill" style="width:'+(cookPanFlips/3*100)+'%"></div></div><div class="cm-pan-progress">뒤집기 '+cookPanFlips+' / 3</div>'+(cookPanStarted?'':'<div class="cm-pan-gas-control"><span class="cm-pan-gas-label">🔥 가스레인지 점화</span><div class="cm-pan-knob-track"><span>OFF</span><div class="cm-pan-gas-knob" role="slider" tabindex="0" aria-label="가스불 켜기, 오른쪽으로 돌리세요" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" onpointerdown="cookPanKnobDown(event)" onpointermove="cookPanKnobMove(event)" onpointerup="cookPanKnobUp(event)" onpointercancel="cookPanKnobUp(event)" onkeydown="cookPanKnobKey(event)"><i></i></div><span>ON 🔥</span></div><small>동그란 손잡이를 잡고 <b>오른쪽으로 쓱 돌려주세요!</b></small></div>')+'</div>';
+   body+='<div class="cm-pan-game '+(cookPanStarted?'cm-pan-on':'')+'"><div class="cm-pan-caption">'+(/볶/.test(r.name)?'🍳 볶음 요리':'🥩 구이 요리')+' · 팬 뒤집기</div><div class="cm-pan-scene"><div class="cm-fp-pan-hand cm-grip-hand" aria-hidden="true"><i></i><b></b></div><div class="cm-pan-flame">'+(cookPanStarted?'🔥 🔥 🔥':'♨️')+'</div><div class="cm-pan-food cm-pan-food-pieces">'+cmPanPiecesArt(r)+'</div><div class="cm-pan-sparkles" aria-hidden="true">✦ ✧ ✦</div><div class="cm-pan-sizzle-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="cm-pan-steam-cloud" aria-hidden="true"><i></i><i></i><i></i></div><div class="cm-pan-body"><img class="cm340-pan-image" src="assets/cm338_tool_프라이팬.webp" alt="프라이팬"></div><div class="cm-pan-handle" onpointerdown="cookPanDown(event)" onpointermove="cookPanMove(event)" onpointerup="cookPanUp(event)" onpointercancel="cookPanUp(event)"><span>✋ 손잡이</span></div></div><div class="cm-pan-instruction">'+(cookPanStarted?'손잡이를 잡고 <b>아래로 살짝 → 위로 덜컥!</b>':'불을 켜고 팬을 잡아보세요!')+'</div><div class="cm-pan-meter"><div class="cm-pan-fill" style="width:'+(cookPanFlips/3*100)+'%"></div></div><div class="cm-pan-progress">뒤집기 '+cookPanFlips+' / 3</div>'+(cookPanStarted?'':'<div class="cm-pan-gas-control"><span class="cm-pan-gas-label">🔥 가스레인지 점화</span><div class="cm-pan-knob-track"><span>OFF</span><div class="cm-pan-gas-knob" role="slider" tabindex="0" aria-label="가스불 켜기, 오른쪽으로 돌리세요" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" onpointerdown="cookPanKnobDown(event)" onpointermove="cookPanKnobMove(event)" onpointerup="cookPanKnobUp(event)" onpointercancel="cookPanKnobUp(event)" onkeydown="cookPanKnobKey(event)"><i></i></div><span>ON 🔥</span></div><small>동그란 손잡이를 잡고 <b>오른쪽으로 쓱 돌려주세요!</b></small></div>')+'</div>';
   }else if(cookStep===2){
-   body+='<div class="cook-stage cm-heat-stage"><span class="cm-heat-flames">🔥</span><span class="cook-emoji">🍳</span><span class="cm-heat-steam">♨ ♨ ♨</span></div><p class="cook-tip">불을 켜고 게이지가 <b>67%</b> 근처에 왔을 때 멈추세요!</p><div class="cook-meter"><i id="cookHeatFill" style="width:'+cookHeatValue+'%"></i></div><b id="cookHeatNumber">'+Math.round(cookHeatValue)+'%</b><button class="cook-mainbtn" onclick="'+(cookHeating?'cookStopHeat()':'cookBeginHeat()')+'">'+(cookHeating?'🛑 지금 불 끄기':'🔥 불 켜기')+'</button>';
+   body+='<div class="cook-stage cm-heat-stage"><span class="cm-heat-flames">🔥</span><span class="cook-emoji">'+cm339Asset('tool','프라이팬','cm339-pan')+'</span><span class="cm-heat-steam">♨ ♨ ♨</span></div><p class="cook-tip">불을 켜고 게이지가 <b>67%</b> 근처에 왔을 때 멈추세요!</p><div class="cook-meter"><i id="cookHeatFill" style="width:'+cookHeatValue+'%"></i></div><b id="cookHeatNumber">'+Math.round(cookHeatValue)+'%</b><button class="cook-mainbtn" onclick="'+(cookHeating?'cookStopHeat()':'cookBeginHeat()')+'">'+(cookHeating?'🛑 지금 불 끄기':'🔥 불 켜기')+'</button>';
   }else{
    const target=cookStep===0?5:4;
    const peel=cookStep===0?cookPeelIngredient():null;
    const icon=cookStep===0?(peel?peel.emoji:r.base):cookStep===1?'🥣':r.result;
-   body+='<div class="cook-stage cook-gesture-stage cm-playfield cm-step-'+cookStep+'" onpointerdown="cookTouchStart(event)" onpointermove="cookTouchMove(event)" onpointerup="cookTouchEnd(event)" onpointercancel="cookTouchCancel(event)">'+(cookStep===0&&peel?'<div class="cm-peel-scene"><div class="cm-peel-name">'+peel.name+' 껍질 벗기기</div><div class="cm-peel-fruit">'+peel.emoji+'<div class="cm-peel-strips">'+Array.from({length:5},(_,i)=>'<i class="'+(i<cookHits?'peeled':'')+'"></i>').join('')+'</div></div><div class="cm-peel-guide" style="left:'+(24+cookHits*12)+'%"><span>↓</span></div><div class="cm-peel-shavings">'+Array.from({length:cookHits},()=>'<span>〰️</span>').join('')+'</div></div>':cookStep===0?cookCutGuideHTML():cookStep===1?'<div class="cook-bowl"><div class="cook-bowl-food" style="transform:translate(-50%,-50%) rotate('+cookSpin+'deg)"><span class="cm-mix-veggie cm-mix-leaf"></span><span class="cm-mix-veggie cm-mix-tomato"></span><span class="cm-mix-veggie cm-mix-cucumber"></span><span class="cm-mix-veggie cm-mix-carrot"></span><span class="cm-mix-veggie cm-mix-pepper"></span><span class="cm-mix-veggie cm-mix-corn"></span></div><div class="cm-stir-orbit" aria-hidden="true"><svg viewBox="0 0 200 200" width="200" height="200"><circle cx="100" cy="100" r="71" fill="none" stroke="#fffef2" stroke-width="10" opacity=".88"/><circle class="cm-stir-ring" cx="100" cy="100" r="71" fill="none" stroke="#4b9c61" stroke-width="5" stroke-linecap="round" stroke-dasharray="13 12"/><path d="M 148 48 L 174 49 L 167 75" fill="none" stroke="#357d4c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="cm-stir-orbit-icon">↻</span></div><div class="cm-stir-live">🥄 원을 따라 저어주세요 · '+cookStirPct()+'%</div></div>':'<div class="cm-plate-source"><span class="cm-plate-source-label">재료</span><span class="cm-plate-drag">'+['🥕','🥬','🍅','🫑'][cookHits]+'</span></div><div class="cm-plate-target"><span class="cm-plate-target-label">여기에 놓기 ↓</span><span class="cm-plate-dish">🍽️</span><span class="cm-plate-placed">'+['🥕','🥬','🍅','🫑'].slice(0,cookHits).join('')+'</span></div><div class="cm-plate-route">➜ ➜</div>')+(cookStep===3?'':'<span class="cook-tool">'+(cookStep===0?(peel?'🥔':cmKnifeIllustration()):'🥄')+'</span>')+'<div class="cm-fp-hands cm-fp-hands-'+cookStep+'" aria-hidden="true"><span class="cm-fp-arm cm-fp-left"><span class="cm-fp-palm"><i></i><i></i><i></i><i></i></span></span><span class="cm-fp-arm cm-fp-right"><span class="cm-fp-palm"><i></i><i></i><i></i><i></i></span></span></div>'+(cookStep===0&&!peel?'':'')+'</div><div class="cook-meter"><i style="width:'+(cookStep===1?cookStirPct():cookHits/target*100)+'%"></i></div><p class="cook-tip">'+(cookStep===0?(peel?'🥔 과일 위에서 아래로 가볍게 쓱! 넓은 영역에서 인식해요.':'🔪 '+cookCutLabel()+' · 초록 점선의 시작점부터 끝점까지 정확하게 드래그하세요.' ):cookStep===1?'🥄 초록색 원형 화살표를 따라 빙글빙글! 게이지가 차오릅니다.':'🍽️ 왼쪽 재료를 길게 잡고 오른쪽 접시 안에 놓으세요.')+(cookStep===1?' '+cookStirPct()+'%':' ('+cookHits+'/'+target+')')+'</p><div class="cook-gesture-feedback">'+cookPop+'</div>';
+   body+='<div class="cook-stage cook-gesture-stage cm-playfield cm-step-'+cookStep+'" onpointerdown="cookTouchStart(event)" onpointermove="cookTouchMove(event)" onpointerup="cookTouchEnd(event)" onpointercancel="cookTouchCancel(event)">'+(cookStep===0&&peel?'<div class="cm-peel-scene"><div class="cm-peel-name">'+peel.name+' 껍질 벗기기</div><div class="cm-peel-fruit">'+cm339IngredientEmoji(peel.emoji)+'<div class="cm-peel-strips">'+Array.from({length:5},(_,i)=>'<i class="'+(i<cookHits?'peeled':'')+'"></i>').join('')+'</div></div><div class="cm-peel-guide" style="left:'+(24+cookHits*12)+'%"><span>↓</span></div><div class="cm-peel-shavings">'+Array.from({length:cookHits},()=>'<span>〰️</span>').join('')+'</div></div>':cookStep===0?cookCutGuideHTML():cookStep===1?'<div class="cook-bowl"><div class="cook-bowl-food" style="transform:translate(-50%,-50%) rotate('+cookSpin+'deg)"><span class="cm-mix-veggie cm-mix-leaf"></span><span class="cm-mix-veggie cm-mix-tomato"></span><span class="cm-mix-veggie cm-mix-cucumber"></span><span class="cm-mix-veggie cm-mix-carrot"></span><span class="cm-mix-veggie cm-mix-pepper"></span><span class="cm-mix-veggie cm-mix-corn"></span></div><div class="cm-stir-orbit" aria-hidden="true"><svg viewBox="0 0 200 200" width="200" height="200"><circle cx="100" cy="100" r="71" fill="none" stroke="#fffef2" stroke-width="10" opacity=".88"/><circle class="cm-stir-ring" cx="100" cy="100" r="71" fill="none" stroke="#4b9c61" stroke-width="5" stroke-linecap="round" stroke-dasharray="13 12"/><path d="M 148 48 L 174 49 L 167 75" fill="none" stroke="#357d4c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="cm-stir-orbit-icon">↻</span></div><div class="cm-stir-live">원을 따라 저어주세요 · '+cookStirPct()+'%</div></div>':'<div class="cm-plate-source"><span class="cm-plate-source-label">재료</span><span class="cm-plate-drag">'+cm339IngredientEmoji(['🥕','🥬','🍅','🫑'][cookHits])+'</span></div><div class="cm-plate-target"><span class="cm-plate-target-label">여기에 놓기 ↓</span><span class="cm-plate-dish">'+cm339Asset('dishware','빈접시','cm339-plate')+'</span><span class="cm-plate-placed">'+['🥕','🥬','🍅','🫑'].slice(0,cookHits).map(cm339IngredientEmoji).join('')+'</span></div><div class="cm-plate-route">➜ ➜</div>')+(cookStep===3?'':'<span class="cook-tool">'+(cookStep===0?cm339Asset('tool','칼','cm339-knife'):cm339Asset('dishware','숟가락','cm339-spoon'))+'</span>')+'<div class="cm-fp-hands cm-fp-hands-'+cookStep+'" aria-hidden="true"><span class="cm-fp-arm cm-fp-left"><span class="cm-fp-palm"><i></i><i></i><i></i><i></i></span></span><span class="cm-fp-arm cm-fp-right"><span class="cm-fp-palm"><i></i><i></i><i></i><i></i></span></span></div>'+(cookStep===0&&!peel?'':'')+'</div><div class="cook-meter"><i style="width:'+(cookStep===1?cookStirPct():cookHits/target*100)+'%"></i></div><p class="cook-tip">'+(cookStep===0?(peel?'🥔 과일 위에서 아래로 가볍게 쓱! 넓은 영역에서 인식해요.':'🔪 '+cookCutLabel()+' · 초록 점선의 시작점부터 끝점까지 정확하게 드래그하세요.' ):cookStep===1?'🥄 초록색 원형 화살표를 따라 빙글빙글! 게이지가 차오릅니다.':'🍽️ 왼쪽 재료를 길게 잡고 오른쪽 접시 안에 놓으세요.')+(cookStep===1?' '+cookStirPct()+'%':' ('+cookHits+'/'+target+')')+'</p><div class="cook-gesture-feedback">'+cookPop+'</div>';
   }
   body+='<p class="cook-tip">'+cookFeedback+'</p><p class="cook-tip">⏰ 시간이 끝나면 점수 없이 자동으로 다음 단계로 넘어갑니다.</p>';
  }
  body+='</div>';
  }
- return '<section class="screen cook-shell">'+head('🍳 쿠킹 미겔')+'<details class="cm-v242-audio" '+(cmAudioPanelOpenV242?'open':'')+' ontoggle="cmV242AudioPanel(this.open)"><summary>🎵 사운드 설정 <span>효과음 · 배경음악</span></summary><div class="cm-v242-audio-body"><div class="cm-v242-audio-row"><strong>🎮 게임 효과음</strong><button type="button" aria-pressed="'+cmSoundOn+'" onclick="cmToggleSound()">'+(cmSoundOn?'🔊 켜짐':'🔇 꺼짐')+'</button></div><label>효과음 크기 <input type="range" min="0" max="100" value="'+Math.round(cmSoundVolume*100)+'" oninput="cmSetSoundVolume(this.value)" aria-label="효과음 볼륨"></label><div class="cm-v242-audio-row"><strong>🎶 배경음악</strong><button type="button" aria-pressed="'+cmBgmEnabledV242+'" onclick="cmV242ToggleBgm()">'+(cmBgmEnabledV242?'🔊 켜짐':'🔇 꺼짐')+'</button></div><label>배경음악 크기 <input type="range" min="0" max="100" value="'+Math.round(cmBgmVolumeV242*100)+'" oninput="cmV242BgmVolume(this.value)" aria-label="배경음악 볼륨"><span id="cm-v242-bgm-value">'+Math.round(cmBgmVolumeV242*100)+'%</span></label></div></details>'+body+(cookIndex<0 && cookMenu==='home'?cmV247Gallery:'')+'</section>';
+ return '<section class="screen cook-shell"><div class="cm-v334-nav"><button type="button" class="cm-v334-back" onclick="go(\'home\')" aria-label="홈으로 돌아가기">❮</button></div>'+'<details class="cm-v242-audio" '+(cmAudioPanelOpenV242?'open':'')+' ontoggle="cmV242AudioPanel(this.open)"><summary>🎵 사운드 설정 <span>효과음 · 배경음악</span></summary><div class="cm-v242-audio-body"><div class="cm-v242-audio-row"><strong>🎮 게임 효과음</strong><button type="button" aria-pressed="'+cmSoundOn+'" onclick="cmToggleSound()">'+(cmSoundOn?'🔊 켜짐':'🔇 꺼짐')+'</button></div><label>효과음 크기 <input type="range" min="0" max="100" value="'+Math.round(cmSoundVolume*100)+'" oninput="cmSetSoundVolume(this.value)" aria-label="효과음 볼륨"></label><div class="cm-v242-audio-row"><strong>🎶 배경음악</strong><button type="button" aria-pressed="'+cmBgmEnabledV242+'" onclick="cmV242ToggleBgm()">'+(cmBgmEnabledV242?'🔊 켜짐':'🔇 꺼짐')+'</button></div><label>배경음악 크기 <input type="range" min="0" max="100" value="'+Math.round(cmBgmVolumeV242*100)+'" oninput="cmV242BgmVolume(this.value)" aria-label="배경음악 볼륨"><span id="cm-v242-bgm-value">'+Math.round(cmBgmVolumeV242*100)+'%</span></label></div></details>'+body+(cookIndex<0 && cookMenu==='home'?cmV247Gallery:'')+'</section>';
 }
 
 /* v326: User-supplied sparkle sound synchronized to the eye-opening flash. */
@@ -8439,22 +8608,22 @@ function populate314(query){
 function openDrawer314(){
  if(!isHome()||document.getElementById('miguel-app-drawer314'))return;
  const phone=document.getElementById('phone');if(!phone)return;
- const el=document.createElement('div');el.id='miguel-app-drawer314';el.innerHTML='<div class="drawer-head314"><strong>전체 앱</strong><button class="drawer-close314" type="button">닫기 ×</button></div><input class="drawer-search314" placeholder="앱 검색" aria-label="앱 검색"><div class="drawer-list314"></div>';
+ const el=document.createElement('div');el.id='miguel-app-drawer314';el.innerHTML='<div class="drawer-head314"><strong>전체 앱</strong><span class="drawer-swipe-guide330" aria-hidden="true">↓ 아래로 밀어 닫기</span></div><input class="drawer-search314" placeholder="앱 검색" aria-label="앱 검색"><div class="drawer-list314"></div>';
  phone.appendChild(el);populate314('');
- el.querySelector('.drawer-close314').addEventListener('click',closeDrawer314);
+
  el.querySelector('.drawer-search314').addEventListener('input',e=>populate314(e.target.value));
  el.addEventListener('click',e=>{if(e.target.closest('.drawer-item314 .app'))setTimeout(closeDrawer314,30)});
 }
 document.addEventListener('touchstart',e=>{
  const drawer=e.target.closest('#miguel-app-drawer314');const home=e.target.closest('#swipe');
  if(!drawer&&!home){start=null;return}
- const t=e.touches[0];start={x:t.clientX,y:t.clientY,drawer:!!drawer,home:!!home,time:Date.now()};
+ const t=e.touches[0];start={x:t.clientX,y:t.clientY,drawer:!!drawer,home:!!home,fromList:!!e.target.closest('.drawer-list314'),time:Date.now()};
 },{passive:true,capture:true});
 document.addEventListener('touchend',e=>{
  if(!start)return;const t=e.changedTouches[0],dy=t.clientY-start.y,dx=t.clientX-start.x;
  if(Math.abs(dx)<Math.abs(dy)*.8&&Math.abs(dy)>48){
   if(start.home&&dy<0){blockClickUntil=Date.now()+350;openDrawer314()}
-  else if(start.drawer&&dy>0&&start.y<window.innerHeight*.45){closeDrawer314()}
+  else if(start.drawer&&dy>55){const list=document.querySelector('#miguel-app-drawer314 .drawer-list314');if(!start.fromList||!list||list.scrollTop<=1)closeDrawer314()}
  }
  start=null;
 },{passive:true,capture:true});
@@ -8462,5 +8631,35 @@ document.addEventListener('click',e=>{
  if(Date.now()<blockClickUntil&&e.target.closest('#swipe .app')){e.preventDefault();e.stopPropagation()}
 },true);
 window.miguelOpenAppDrawer314=openDrawer314;
+})();
+</script><script id="cm-v338-asset-renderer">
+(function(){
+ const tools={'🔪':'칼','🥄':'숟가락','🥣':'믹싱볼','🍳':'프라이팬','🍽️':'빈접시','🥢':'집게'};
+ const paths={};
+ Object.keys(tools).forEach(k=>paths[k]='assets/cm338_'+({'칼':'tool','숟가락':'dishware','믹싱볼':'tool','프라이팬':'tool','빈접시':'dishware','집게':'tool'}[tools[k]])+'_'+tools[k]+'.webp');
+ const asset=(src,alt)=>{const img=document.createElement('img');img.src=src;img.alt=alt;img.className='cm338-asset';img.draggable=false;return img};
+ function apply(){
+   const shell=document.querySelector('.screen.cook-shell');
+   if(!shell)return;
+   shell.querySelectorAll('.cook-tool,.cm-heat-stage .cook-emoji,.cm-plate-dish').forEach(el=>{
+     if(el.querySelector('img,svg'))return;
+     const t=el.textContent.trim();
+     const key=Object.keys(paths).find(k=>t===k);
+     if(key){el.replaceChildren(asset(paths[key],tools[key]));}
+   });
+   // Real tool atlas in the existing cooking image gallery; keep the original 27 gallery entries.
+   const gallery=shell.querySelector('.cm-v247-gallery');
+   if(gallery&&!gallery.querySelector('.cm338-gallery')){
+     const section=document.createElement('section');section.className='cm338-gallery';
+     const heading=document.createElement('strong');heading.textContent='🧺 실제 조리도구 · 식기 이미지';section.append(heading);
+     const grid=document.createElement('div');grid.className='cm338-grid';
+     const items=[["디저트접시", "assets/cm338_dishware_디저트접시.webp"], ["밥그릇", "assets/cm338_dishware_밥그릇.webp"], ["빈접시", "assets/cm338_dishware_빈접시.webp"], ["수프볼", "assets/cm338_dishware_수프볼.webp"], ["숟가락", "assets/cm338_dishware_숟가락.webp"], ["트레이", "assets/cm338_dishware_트레이.webp"], ["포크", "assets/cm338_dishware_포크.webp"], ["거품기", "assets/cm338_tool_거품기.webp"], ["냄비", "assets/cm338_tool_냄비.webp"], ["도마", "assets/cm338_tool_도마.webp"], ["믹싱볼", "assets/cm338_tool_믹싱볼.webp"], ["주걱", "assets/cm338_tool_주걱.webp"], ["집게", "assets/cm338_tool_집게.webp"], ["찜기", "assets/cm338_tool_찜기.webp"], ["칼", "assets/cm338_tool_칼.webp"], ["프라이팬", "assets/cm338_tool_프라이팬.webp"], ["01_소고기_전", "assets/cm338_cooking_01_소고기_전.webp"], ["01_소고기_후", "assets/cm338_cooking_01_소고기_후.webp"], ["02_달걀_전", "assets/cm338_cooking_02_달걀_전.webp"], ["02_달걀_후", "assets/cm338_cooking_02_달걀_후.webp"], ["03_반죽_전", "assets/cm338_cooking_03_반죽_전.webp"], ["03_반죽_후", "assets/cm338_cooking_03_반죽_후.webp"], ["04_새우_전", "assets/cm338_cooking_04_새우_전.webp"], ["04_새우_후", "assets/cm338_cooking_04_새우_후.webp"]];
+     for(const [label,path] of items){const fig=document.createElement('figure');const img=asset(path,label);const cap=document.createElement('figcaption');cap.textContent=label;fig.append(img,cap);grid.append(fig);}
+     section.append(grid);gallery.append(section);
+   }
+ }
+ const observer=new MutationObserver(()=>{if(!document.querySelector('.screen.cook-shell'))return;observer.disconnect();try{apply()}finally{observer.observe(document.getElementById('root')||document.body,{childList:true,subtree:true})}});
+ function start(){observer.observe(document.getElementById('root')||document.body,{childList:true,subtree:true});apply()}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
 </script></body></html>

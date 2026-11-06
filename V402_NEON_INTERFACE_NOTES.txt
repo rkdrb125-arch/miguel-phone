@@ -1,0 +1,1 @@
+v402: Scoped dark neon UI redesign for Miguel BEAT. Keeps original neon logo, carousel, difficulty selection, gameplay and other phone apps. Reduces nested boxes, clarifies hierarchy and softens non-selected albums. No JS/gameplay/chart/audio/save data changed. JS syntax and ZIP integrity checked; visual browser testing not performed.

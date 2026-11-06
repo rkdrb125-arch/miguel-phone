@@ -1,0 +1,1 @@
+v406: Removed in-game HOLD/SLIDE instructions and HOLDING label. Only existing PERFECT/GOOD/MISS judgment text remains, with neon effects intact. Removed duplicate judgment text popup. All songs, charts, saves and other apps preserved. JS syntax and ZIP integrity checked.

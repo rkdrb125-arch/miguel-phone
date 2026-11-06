@@ -1,0 +1,1 @@
+v407: Dark-neon glass redesign for TAP (aqua), HOLD (violet with glass sustain ribbon), FLICK (pink angular), SLIDE (lilac asymmetric with bright trail). Scoped CSS only. All 25 MP3s, 75 chart objects, note timings, scoring, saved data and other phone apps unchanged. JS syntax and ZIP integrity verified. No physical mobile browser visual test.

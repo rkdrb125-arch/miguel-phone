@@ -1,0 +1,1 @@
+v401: Active HOLD/SLIDE feedback: glowing note head, shimmering sustain rail, pulsing hit-line beam, HOLDING label. Only visual changes; all audio, charts, scoring and saved data unchanged. JavaScript syntax and ZIP integrity checked. Browser/device testing not performed.

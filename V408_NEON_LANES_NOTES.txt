@@ -1,0 +1,1 @@
+v408: Rhythm BEAT 4-lane visual redesign: dark stage, subtle lane dividers, luminous timing line, simplified touch keys, responsive spacing. CSS-only; unchanged gameplay hitboxes, chart JSON, audio files, save data, other phone apps. JS syntax and ZIP integrity verified; physical-device playtest not performed.

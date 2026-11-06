@@ -1,0 +1,1 @@
+v405: Added layered neon impact rings, 6 directional sparks, brighter PERFECT, distinct flick and slide motion. Effects limited to 6 active bursts and honor reduced-motion. Existing chart JSON, MP3 files, scoring, save keys, other apps preserved. Node.js syntax and ZIP integrity verified; mobile visual playtest not performed.

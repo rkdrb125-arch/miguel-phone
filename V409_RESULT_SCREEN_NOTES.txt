@@ -1,0 +1,1 @@
+v409: Dark neon results layout, animated score count-up (display only), delayed grade reveal, Full Combo / All Pure visual styling. Score/rank conditions and persistent records unchanged. 25 MP3s, 75 charts and other assets unchanged. JavaScript syntax and ZIP integrity checked; browser playtest not performed.

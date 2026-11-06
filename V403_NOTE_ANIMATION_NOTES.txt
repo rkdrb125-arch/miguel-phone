@@ -1,0 +1,1 @@
+v403: Visual feedback for TAP, FLICK, SLIDE and HOLD. All existing MP3 files, chart data, timing, scoring, save keys and other phone apps unchanged. Node.js syntax and ZIP integrity checked. Not browser-playtested.

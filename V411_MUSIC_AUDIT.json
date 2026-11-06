@@ -1,0 +1,192 @@
+{
+  "summary": {
+    "charts": 75,
+    "notes": 11080,
+    "tap": 9367,
+    "hold": 1262,
+    "transient_checked": 9696,
+    "transient_near_90ms": 6382,
+    "holds_with_tap": 1094,
+    "flick": 329,
+    "slide": 122
+  },
+  "songs": [
+    {
+      "song": "original",
+      "audio_seconds": 111.195,
+      "chart_seconds": 111.216,
+      "notes": 439,
+      "strong_transients": 257
+    },
+    {
+      "song": "forest",
+      "audio_seconds": 111.267,
+      "chart_seconds": 111.288,
+      "notes": 488,
+      "strong_transients": 322
+    },
+    {
+      "song": "starlight",
+      "audio_seconds": 110.475,
+      "chart_seconds": 110.475,
+      "notes": 490,
+      "strong_transients": 262
+    },
+    {
+      "song": "daniel",
+      "audio_seconds": 111.363,
+      "chart_seconds": 111.363,
+      "notes": 427,
+      "strong_transients": 244
+    },
+    {
+      "song": "night",
+      "audio_seconds": 110.595,
+      "chart_seconds": 110.595,
+      "notes": 431,
+      "strong_transients": 302
+    },
+    {
+      "song": "song06",
+      "audio_seconds": 120.056,
+      "chart_seconds": 120.056,
+      "notes": 470,
+      "strong_transients": 306
+    },
+    {
+      "song": "song07",
+      "audio_seconds": 120.459,
+      "chart_seconds": 120.459,
+      "notes": 466,
+      "strong_transients": 280
+    },
+    {
+      "song": "song08",
+      "audio_seconds": 112.251,
+      "chart_seconds": 112.251,
+      "notes": 450,
+      "strong_transients": 271
+    },
+    {
+      "song": "song09",
+      "audio_seconds": 121.045,
+      "chart_seconds": 121.045,
+      "notes": 478,
+      "strong_transients": 331
+    },
+    {
+      "song": "song10",
+      "audio_seconds": 120.291,
+      "chart_seconds": 120.291,
+      "notes": 455,
+      "strong_transients": 290
+    },
+    {
+      "song": "song11",
+      "audio_seconds": 120.005,
+      "chart_seconds": 120.005,
+      "notes": 454,
+      "strong_transients": 279
+    },
+    {
+      "song": "song12",
+      "audio_seconds": 120.459,
+      "chart_seconds": 120.459,
+      "notes": 415,
+      "strong_transients": 299
+    },
+    {
+      "song": "song13",
+      "audio_seconds": 120.72,
+      "chart_seconds": 120.72,
+      "notes": 453,
+      "strong_transients": 324
+    },
+    {
+      "song": "lantern27",
+      "audio_seconds": 121.083,
+      "chart_seconds": 121.083,
+      "notes": 287,
+      "strong_transients": 317
+    },
+    {
+      "song": "border26",
+      "audio_seconds": 120.699,
+      "chart_seconds": 120.699,
+      "notes": 517,
+      "strong_transients": 322
+    },
+    {
+      "song": "temperature28",
+      "audio_seconds": 121.35,
+      "chart_seconds": 121.35,
+      "notes": 441,
+      "strong_transients": 329
+    },
+    {
+      "song": "countthree25",
+      "audio_seconds": 120.342,
+      "chart_seconds": 120.342,
+      "notes": 379,
+      "strong_transients": 331
+    },
+    {
+      "song": "threestars24",
+      "audio_seconds": 120.273,
+      "chart_seconds": 120.273,
+      "notes": 434,
+      "strong_transients": 307
+    },
+    {
+      "song": "dayoff23",
+      "audio_seconds": 120.199,
+      "chart_seconds": 120.199,
+      "notes": 489,
+      "strong_transients": 285
+    },
+    {
+      "song": "song22",
+      "audio_seconds": 137.029,
+      "chart_seconds": 137.029,
+      "notes": 521,
+      "strong_transients": 361
+    },
+    {
+      "song": "song20",
+      "audio_seconds": 120.819,
+      "chart_seconds": 120.819,
+      "notes": 442,
+      "strong_transients": 324
+    },
+    {
+      "song": "song18",
+      "audio_seconds": 120.915,
+      "chart_seconds": 120.915,
+      "notes": 488,
+      "strong_transients": 317
+    },
+    {
+      "song": "song21",
+      "audio_seconds": 121.443,
+      "chart_seconds": 121.443,
+      "notes": 398,
+      "strong_transients": 304
+    },
+    {
+      "song": "song17",
+      "audio_seconds": 120.966,
+      "chart_seconds": 120.966,
+      "notes": 442,
+      "strong_transients": 350
+    },
+    {
+      "song": "song19",
+      "audio_seconds": 120.843,
+      "chart_seconds": 120.843,
+      "notes": 326,
+      "strong_transients": 314
+    }
+  ],
+  "method": "Static chart/2-thumb validation; MP3 duration measured; coarse transient proximity at 10ms hop; not beat-level manual playtesting. No chart timing changed because automatic peak snapping risks damaging musical phrasing.",
+  "changes": "Added fallback for audio-ended event lost after playback reaches actual end."
+}

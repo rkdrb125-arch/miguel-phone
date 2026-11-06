@@ -1,0 +1,2 @@
+v400: All 25 songs / 75 charts rebalanced for max 2 simultaneous active inputs (including holds and slides). Tap/flick lanes relocated when possible; excess notes removed only where required. Sustained notes and original audio timestamps prioritized. Static tests: 2-finger concurrency, same-lane collision, JS syntax, ZIP integrity. Not tested on physical touchscreen.
+{'charts': 75, 'notes': 11080, 'holds': 1262, 'slides': 122, 'removed': 101}

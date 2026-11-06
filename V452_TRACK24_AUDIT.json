@@ -1,0 +1,39 @@
+{
+  "track": "24번 곡 〈별 세 개를 세는 밤〉",
+  "audio_seconds": 120.27333333333333,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 110,
+      "new_count": 89,
+      "types": {
+        "tap": 72,
+        "flick": 11,
+        "hold": 6
+      },
+      "preserved_finale": 5
+    },
+    "NORMAL": {
+      "old_count": 200,
+      "new_count": 134,
+      "types": {
+        "flick": 24,
+        "tap": 103,
+        "slide": 5,
+        "hold": 2
+      },
+      "preserved_finale": 6
+    },
+    "HARD": {
+      "old_count": 312,
+      "new_count": 273,
+      "types": {
+        "tap": 203,
+        "flick": 69,
+        "slide": 1
+      },
+      "preserved_finale": 11
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

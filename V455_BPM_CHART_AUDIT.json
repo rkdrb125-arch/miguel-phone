@@ -1,0 +1,942 @@
+{
+  "base": "v454 all charts + 25 covers",
+  "method": "MP3 STFT low/mid/high onset spectral flux + BPM-aware note gap and type; preserved final ~10s",
+  "caveats": "Configured BPM used as tempo prior, not independently proven tempo; automated signal analysis, not manual transcription or device playtest",
+  "tracks": {
+    "original": {
+      "bpm_configured": 126,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 111.195,
+      "charts": {
+        "EASY": {
+          "before": 86,
+          "after": 98,
+          "types": {
+            "tap": 90,
+            "hold": 6,
+            "flick": 2
+          },
+          "finale_retained": 7
+        },
+        "NORMAL": {
+          "before": 181,
+          "after": 123,
+          "types": {
+            "flick": 12,
+            "tap": 100,
+            "slide": 6,
+            "hold": 5
+          },
+          "finale_retained": 12
+        },
+        "HARD": {
+          "before": 298,
+          "after": 220,
+          "types": {
+            "flick": 50,
+            "tap": 167,
+            "slide": 2,
+            "hold": 1
+          },
+          "finale_retained": 21
+        }
+      }
+    },
+    "forest": {
+      "bpm_configured": 108,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 111.267,
+      "charts": {
+        "EASY": {
+          "before": 100,
+          "after": 80,
+          "types": {
+            "tap": 71,
+            "hold": 7,
+            "flick": 2
+          },
+          "finale_retained": 10
+        },
+        "NORMAL": {
+          "before": 175,
+          "after": 115,
+          "types": {
+            "flick": 20,
+            "tap": 89,
+            "slide": 4,
+            "hold": 2
+          },
+          "finale_retained": 15
+        },
+        "HARD": {
+          "before": 222,
+          "after": 175,
+          "types": {
+            "tap": 128,
+            "flick": 46,
+            "slide": 1
+          },
+          "finale_retained": 22
+        }
+      }
+    },
+    "starlight": {
+      "bpm_configured": 148,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 110.475,
+      "charts": {
+        "EASY": {
+          "before": 111,
+          "after": 106,
+          "types": {
+            "tap": 102,
+            "flick": 4
+          },
+          "finale_retained": 7
+        },
+        "NORMAL": {
+          "before": 154,
+          "after": 132,
+          "types": {
+            "tap": 117,
+            "flick": 14,
+            "slide": 1
+          },
+          "finale_retained": 9
+        },
+        "HARD": {
+          "before": 257,
+          "after": 238,
+          "types": {
+            "tap": 187,
+            "flick": 50,
+            "hold": 1
+          },
+          "finale_retained": 15
+        }
+      }
+    },
+    "daniel": {
+      "bpm_configured": 132,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 111.363,
+      "charts": {
+        "EASY": {
+          "before": 116,
+          "after": 78,
+          "types": {
+            "tap": 71,
+            "hold": 5,
+            "flick": 2
+          },
+          "finale_retained": 12
+        },
+        "NORMAL": {
+          "before": 226,
+          "after": 133,
+          "types": {
+            "flick": 16,
+            "tap": 109,
+            "slide": 5,
+            "hold": 3
+          },
+          "finale_retained": 17
+        },
+        "HARD": {
+          "before": 257,
+          "after": 245,
+          "types": {
+            "flick": 51,
+            "tap": 193,
+            "slide": 1
+          },
+          "finale_retained": 28
+        }
+      }
+    },
+    "night": {
+      "bpm_configured": 94,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 110.595,
+      "charts": {
+        "EASY": {
+          "before": 91,
+          "after": 62,
+          "types": {
+            "tap": 54,
+            "hold": 6,
+            "flick": 2
+          },
+          "finale_retained": 9
+        },
+        "NORMAL": {
+          "before": 171,
+          "after": 107,
+          "types": {
+            "tap": 85,
+            "slide": 3,
+            "hold": 3,
+            "flick": 16
+          },
+          "finale_retained": 12
+        },
+        "HARD": {
+          "before": 211,
+          "after": 160,
+          "types": {
+            "tap": 123,
+            "slide": 3,
+            "flick": 34
+          },
+          "finale_retained": 16
+        }
+      }
+    },
+    "song06": {
+      "bpm_configured": 112,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.056,
+      "charts": {
+        "EASY": {
+          "before": 97,
+          "after": 86,
+          "types": {
+            "tap": 79,
+            "hold": 5,
+            "flick": 2
+          },
+          "finale_retained": 7
+        },
+        "NORMAL": {
+          "before": 180,
+          "after": 139,
+          "types": {
+            "flick": 13,
+            "tap": 117,
+            "slide": 6,
+            "hold": 3
+          },
+          "finale_retained": 14
+        },
+        "HARD": {
+          "before": 236,
+          "after": 209,
+          "types": {
+            "flick": 34,
+            "tap": 173,
+            "slide": 2
+          },
+          "finale_retained": 21
+        }
+      }
+    },
+    "song07": {
+      "bpm_configured": 124,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.459,
+      "charts": {
+        "EASY": {
+          "before": 96,
+          "after": 100,
+          "types": {
+            "tap": 92,
+            "hold": 6,
+            "flick": 2
+          },
+          "finale_retained": 9
+        },
+        "NORMAL": {
+          "before": 228,
+          "after": 137,
+          "types": {
+            "tap": 115,
+            "slide": 5,
+            "hold": 5,
+            "flick": 12
+          },
+          "finale_retained": 14
+        },
+        "HARD": {
+          "before": 421,
+          "after": 235,
+          "types": {
+            "tap": 184,
+            "flick": 50,
+            "slide": 1
+          },
+          "finale_retained": 21
+        }
+      }
+    },
+    "song08": {
+      "bpm_configured": 156,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 112.251,
+      "charts": {
+        "EASY": {
+          "before": 131,
+          "after": 110,
+          "types": {
+            "tap": 104,
+            "flick": 6
+          },
+          "finale_retained": 9
+        },
+        "NORMAL": {
+          "before": 207,
+          "after": 144,
+          "types": {
+            "tap": 127,
+            "flick": 16,
+            "hold": 1
+          },
+          "finale_retained": 17
+        },
+        "HARD": {
+          "before": 289,
+          "after": 253,
+          "types": {
+            "tap": 203,
+            "flick": 49,
+            "slide": 1
+          },
+          "finale_retained": 18
+        }
+      }
+    },
+    "song09": {
+      "bpm_configured": 102,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 121.045,
+      "charts": {
+        "EASY": {
+          "before": 115,
+          "after": 82,
+          "types": {
+            "tap": 72,
+            "hold": 8,
+            "flick": 2
+          },
+          "finale_retained": 5
+        },
+        "NORMAL": {
+          "before": 179,
+          "after": 118,
+          "types": {
+            "flick": 17,
+            "tap": 92,
+            "slide": 6,
+            "hold": 3
+          },
+          "finale_retained": 8
+        },
+        "HARD": {
+          "before": 269,
+          "after": 185,
+          "types": {
+            "flick": 38,
+            "tap": 145,
+            "slide": 2
+          },
+          "finale_retained": 13
+        }
+      }
+    },
+    "song10": {
+      "bpm_configured": 144,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 120.291,
+      "charts": {
+        "EASY": {
+          "before": 130,
+          "after": 127,
+          "types": {
+            "flick": 9,
+            "tap": 118
+          },
+          "finale_retained": 10
+        },
+        "NORMAL": {
+          "before": 207,
+          "after": 149,
+          "types": {
+            "flick": 17,
+            "tap": 132
+          },
+          "finale_retained": 19
+        },
+        "HARD": {
+          "before": 333,
+          "after": 285,
+          "types": {
+            "flick": 64,
+            "tap": 221
+          },
+          "finale_retained": 32
+        }
+      }
+    },
+    "song11": {
+      "bpm_configured": 136,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.005,
+      "charts": {
+        "EASY": {
+          "before": 105,
+          "after": 72,
+          "types": {
+            "tap": 65,
+            "hold": 5,
+            "flick": 2
+          },
+          "finale_retained": 8
+        },
+        "NORMAL": {
+          "before": 191,
+          "after": 140,
+          "types": {
+            "flick": 17,
+            "tap": 119,
+            "hold": 4
+          },
+          "finale_retained": 18
+        },
+        "HARD": {
+          "before": 256,
+          "after": 240,
+          "types": {
+            "flick": 43,
+            "tap": 197
+          },
+          "finale_retained": 27
+        }
+      }
+    },
+    "song12": {
+      "bpm_configured": 164,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 120.459,
+      "charts": {
+        "EASY": {
+          "before": 102,
+          "after": 92,
+          "types": {
+            "flick": 7,
+            "tap": 85
+          },
+          "finale_retained": 10
+        },
+        "NORMAL": {
+          "before": 178,
+          "after": 174,
+          "types": {
+            "flick": 21,
+            "tap": 153
+          },
+          "finale_retained": 16
+        },
+        "HARD": {
+          "before": 267,
+          "after": 284,
+          "types": {
+            "flick": 47,
+            "tap": 237
+          },
+          "finale_retained": 23
+        }
+      }
+    },
+    "song13": {
+      "bpm_configured": 118,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.72,
+      "charts": {
+        "EASY": {
+          "before": 84,
+          "after": 83,
+          "types": {
+            "tap": 76,
+            "hold": 5,
+            "flick": 2
+          },
+          "finale_retained": 2
+        },
+        "NORMAL": {
+          "before": 180,
+          "after": 109,
+          "types": {
+            "tap": 88,
+            "slide": 5,
+            "hold": 4,
+            "flick": 12
+          },
+          "finale_retained": 7
+        },
+        "HARD": {
+          "before": 207,
+          "after": 204,
+          "types": {
+            "tap": 156,
+            "flick": 46,
+            "slide": 2
+          },
+          "finale_retained": 6
+        }
+      }
+    },
+    "lantern27": {
+      "bpm_configured": 88,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 121.083,
+      "charts": {
+        "EASY": {
+          "before": 62,
+          "after": 58,
+          "types": {
+            "tap": 51,
+            "hold": 6,
+            "flick": 1
+          },
+          "finale_retained": 4
+        },
+        "NORMAL": {
+          "before": 121,
+          "after": 99,
+          "types": {
+            "tap": 79,
+            "slide": 4,
+            "hold": 8,
+            "flick": 8
+          },
+          "finale_retained": 6
+        },
+        "HARD": {
+          "before": 179,
+          "after": 175,
+          "types": {
+            "tap": 140,
+            "slide": 5,
+            "flick": 30
+          },
+          "finale_retained": 9
+        }
+      }
+    },
+    "border26": {
+      "bpm_configured": 140,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 120.699,
+      "charts": {
+        "EASY": {
+          "before": 112,
+          "after": 101,
+          "types": {
+            "flick": 8,
+            "tap": 88,
+            "hold": 5
+          },
+          "finale_retained": 14
+        },
+        "NORMAL": {
+          "before": 167,
+          "after": 161,
+          "types": {
+            "flick": 18,
+            "tap": 141,
+            "hold": 2
+          },
+          "finale_retained": 20
+        },
+        "HARD": {
+          "before": 269,
+          "after": 255,
+          "types": {
+            "tap": 215,
+            "flick": 40
+          },
+          "finale_retained": 26
+        }
+      }
+    },
+    "temperature28": {
+      "bpm_configured": 116,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 121.35,
+      "charts": {
+        "EASY": {
+          "before": 95,
+          "after": 94,
+          "types": {
+            "tap": 86,
+            "hold": 6,
+            "flick": 2
+          },
+          "finale_retained": 4
+        },
+        "NORMAL": {
+          "before": 116,
+          "after": 119,
+          "types": {
+            "tap": 92,
+            "slide": 6,
+            "flick": 15,
+            "hold": 6
+          },
+          "finale_retained": 7
+        },
+        "HARD": {
+          "before": 208,
+          "after": 204,
+          "types": {
+            "tap": 160,
+            "flick": 40,
+            "slide": 4
+          },
+          "finale_retained": 13
+        }
+      }
+    },
+    "song17": {
+      "bpm_configured": 105,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 120.966,
+      "charts": {
+        "EASY": {
+          "before": 90,
+          "after": 96,
+          "types": {
+            "tap": 85,
+            "hold": 9,
+            "flick": 2
+          },
+          "finale_retained": 9
+        },
+        "NORMAL": {
+          "before": 119,
+          "after": 123,
+          "types": {
+            "flick": 18,
+            "tap": 96,
+            "slide": 4,
+            "hold": 5
+          },
+          "finale_retained": 18
+        },
+        "HARD": {
+          "before": 202,
+          "after": 202,
+          "types": {
+            "flick": 55,
+            "tap": 145,
+            "slide": 1,
+            "hold": 1
+          },
+          "finale_retained": 22
+        }
+      }
+    },
+    "song18": {
+      "bpm_configured": 152,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 120.915,
+      "charts": {
+        "EASY": {
+          "before": 85,
+          "after": 111,
+          "types": {
+            "tap": 105,
+            "flick": 6
+          },
+          "finale_retained": 10
+        },
+        "NORMAL": {
+          "before": 130,
+          "after": 148,
+          "types": {
+            "flick": 17,
+            "tap": 131
+          },
+          "finale_retained": 14
+        },
+        "HARD": {
+          "before": 173,
+          "after": 263,
+          "types": {
+            "flick": 45,
+            "tap": 217,
+            "hold": 1
+          },
+          "finale_retained": 24
+        }
+      }
+    },
+    "song19": {
+      "bpm_configured": 82,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 120.843,
+      "charts": {
+        "EASY": {
+          "before": 73,
+          "after": 69,
+          "types": {
+            "tap": 60,
+            "hold": 7,
+            "flick": 2
+          },
+          "finale_retained": 4
+        },
+        "NORMAL": {
+          "before": 118,
+          "after": 113,
+          "types": {
+            "tap": 86,
+            "slide": 6,
+            "flick": 19,
+            "hold": 2
+          },
+          "finale_retained": 7
+        },
+        "HARD": {
+          "before": 162,
+          "after": 156,
+          "types": {
+            "tap": 121,
+            "flick": 34,
+            "slide": 1
+          },
+          "finale_retained": 20
+        }
+      }
+    },
+    "song20": {
+      "bpm_configured": 118,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.819,
+      "charts": {
+        "EASY": {
+          "before": 94,
+          "after": 89,
+          "types": {
+            "tap": 81,
+            "hold": 6,
+            "flick": 2
+          },
+          "finale_retained": 7
+        },
+        "NORMAL": {
+          "before": 116,
+          "after": 114,
+          "types": {
+            "tap": 90,
+            "slide": 5,
+            "flick": 16,
+            "hold": 3
+          },
+          "finale_retained": 10
+        },
+        "HARD": {
+          "before": 229,
+          "after": 214,
+          "types": {
+            "tap": 161,
+            "hold": 1,
+            "flick": 50,
+            "slide": 2
+          },
+          "finale_retained": 21
+        }
+      }
+    },
+    "song21": {
+      "bpm_configured": 120,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 121.443,
+      "charts": {
+        "EASY": {
+          "before": 106,
+          "after": 102,
+          "types": {
+            "tap": 94,
+            "hold": 6,
+            "flick": 2
+          },
+          "finale_retained": 8
+        },
+        "NORMAL": {
+          "before": 131,
+          "after": 133,
+          "types": {
+            "flick": 16,
+            "tap": 105,
+            "slide": 6,
+            "hold": 6
+          },
+          "finale_retained": 12
+        },
+        "HARD": {
+          "before": 237,
+          "after": 236,
+          "types": {
+            "flick": 48,
+            "tap": 183,
+            "hold": 1,
+            "slide": 4
+          },
+          "finale_retained": 20
+        }
+      }
+    },
+    "song22": {
+      "bpm_configured": 172,
+      "tempo_class": "fast",
+      "audio_duration_seconds": 137.029,
+      "charts": {
+        "EASY": {
+          "before": 112,
+          "after": 112,
+          "types": {
+            "flick": 7,
+            "tap": 104,
+            "hold": 1
+          },
+          "finale_retained": 7
+        },
+        "NORMAL": {
+          "before": 175,
+          "after": 203,
+          "types": {
+            "flick": 17,
+            "tap": 185,
+            "slide": 1
+          },
+          "finale_retained": 10
+        },
+        "HARD": {
+          "before": 231,
+          "after": 364,
+          "types": {
+            "flick": 72,
+            "tap": 291,
+            "slide": 1
+          },
+          "finale_retained": 22
+        }
+      }
+    },
+    "dayoff23": {
+      "bpm_configured": 128,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.199,
+      "charts": {
+        "EASY": {
+          "before": 118,
+          "after": 118,
+          "types": {
+            "tap": 108,
+            "hold": 8,
+            "flick": 2
+          },
+          "finale_retained": 11
+        },
+        "NORMAL": {
+          "before": 136,
+          "after": 138,
+          "types": {
+            "tap": 111,
+            "slide": 5,
+            "hold": 6,
+            "flick": 16
+          },
+          "finale_retained": 14
+        },
+        "HARD": {
+          "before": 242,
+          "after": 240,
+          "types": {
+            "tap": 187,
+            "slide": 4,
+            "flick": 49
+          },
+          "finale_retained": 21
+        }
+      }
+    },
+    "threestars24": {
+      "bpm_configured": 76,
+      "tempo_class": "slow",
+      "audio_duration_seconds": 120.273,
+      "charts": {
+        "EASY": {
+          "before": 89,
+          "after": 80,
+          "types": {
+            "tap": 70,
+            "hold": 8,
+            "flick": 2
+          },
+          "finale_retained": 5
+        },
+        "NORMAL": {
+          "before": 134,
+          "after": 108,
+          "types": {
+            "tap": 84,
+            "slide": 5,
+            "flick": 14,
+            "hold": 5
+          },
+          "finale_retained": 6
+        },
+        "HARD": {
+          "before": 273,
+          "after": 148,
+          "types": {
+            "tap": 112,
+            "flick": 32,
+            "slide": 4
+          },
+          "finale_retained": 11
+        }
+      }
+    },
+    "countthree25": {
+      "bpm_configured": 110,
+      "tempo_class": "medium",
+      "audio_duration_seconds": 120.342,
+      "charts": {
+        "EASY": {
+          "before": 82,
+          "after": 82,
+          "types": {
+            "tap": 75,
+            "hold": 5,
+            "flick": 2
+          },
+          "finale_retained": 2
+        },
+        "NORMAL": {
+          "before": 127,
+          "after": 129,
+          "types": {
+            "tap": 112,
+            "slide": 3,
+            "flick": 12,
+            "hold": 2
+          },
+          "finale_retained": 8
+        },
+        "HARD": {
+          "before": 206,
+          "after": 209,
+          "types": {
+            "tap": 177,
+            "flick": 30,
+            "hold": 1,
+            "slide": 1
+          },
+          "finale_retained": 14
+        }
+      }
+    }
+  }
+}

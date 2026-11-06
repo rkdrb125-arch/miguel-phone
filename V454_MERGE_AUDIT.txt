@@ -1,0 +1,9 @@
+v454 integration
+Base: v453 track25 variation (25 songs x 3 charts)
+Cover source: v453 track14 cover (25 images)
+All 25 cover assets found and referenced.
+All precomputed chart data unchanged (exact JSON equality).
+All other base files byte-identical.
+JavaScript syntax check passed.
+Existing local storage, preview, game/audio ending code preserved; background auto mode uses song cover.
+Manual device play testing not performed.

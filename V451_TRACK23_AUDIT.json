@@ -1,0 +1,40 @@
+{
+  "track": "23번 곡 〈오늘은 휴무입니다〉",
+  "audio_seconds": 120.199,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 114,
+      "new_count": 118,
+      "types": {
+        "flick": 16,
+        "tap": 96,
+        "hold": 6
+      },
+      "preserved_finale": 11
+    },
+    "NORMAL": {
+      "old_count": 196,
+      "new_count": 136,
+      "types": {
+        "flick": 22,
+        "tap": 104,
+        "hold": 5,
+        "slide": 5
+      },
+      "preserved_finale": 14
+    },
+    "HARD": {
+      "old_count": 312,
+      "new_count": 242,
+      "types": {
+        "flick": 63,
+        "tap": 175,
+        "slide": 3,
+        "hold": 1
+      },
+      "preserved_finale": 21
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

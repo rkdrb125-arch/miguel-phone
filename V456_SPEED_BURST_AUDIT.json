@@ -1,0 +1,196 @@
+{
+  "base": "v455",
+  "method": "MP3 band-limited onset flux and local high-energy phrase detection; added notes to 7 fast tracks only, preserving original notes and finale; dynamic visual travel reduction for BPM >=140",
+  "note": "Automatic acoustic timing, not manual transcription or mobile playtest. Saved custom charts can override built-in charts.",
+  "tracks": {
+    "starlight": {
+      "bpm": 148,
+      "duration": 110.475,
+      "charts": {
+        "EASY": {
+          "original": 106,
+          "added": 0,
+          "final": 106,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 132,
+          "added": 28,
+          "final": 160,
+          "flick_added": 1,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 238,
+          "added": 19,
+          "final": 257,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        }
+      }
+    },
+    "song08": {
+      "bpm": 156,
+      "duration": 112.251,
+      "charts": {
+        "EASY": {
+          "original": 110,
+          "added": 0,
+          "final": 110,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 144,
+          "added": 22,
+          "final": 166,
+          "flick_added": 2,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 253,
+          "added": 8,
+          "final": 261,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        }
+      }
+    },
+    "song10": {
+      "bpm": 144,
+      "duration": 120.291,
+      "charts": {
+        "EASY": {
+          "original": 127,
+          "added": 0,
+          "final": 127,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 149,
+          "added": 22,
+          "final": 171,
+          "flick_added": 2,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 285,
+          "added": 10,
+          "final": 295,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        }
+      }
+    },
+    "song12": {
+      "bpm": 164,
+      "duration": 120.459,
+      "charts": {
+        "EASY": {
+          "original": 92,
+          "added": 7,
+          "final": 99,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 174,
+          "added": 9,
+          "final": 183,
+          "flick_added": 4,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 284,
+          "added": 25,
+          "final": 309,
+          "flick_added": 1,
+          "original_notes_unchanged": true
+        }
+      }
+    },
+    "border26": {
+      "bpm": 140,
+      "duration": 120.699,
+      "charts": {
+        "EASY": {
+          "original": 101,
+          "added": 1,
+          "final": 102,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 161,
+          "added": 9,
+          "final": 170,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 255,
+          "added": 43,
+          "final": 298,
+          "flick_added": 2,
+          "original_notes_unchanged": true
+        }
+      }
+    },
+    "song18": {
+      "bpm": 152,
+      "duration": 120.915,
+      "charts": {
+        "EASY": {
+          "original": 111,
+          "added": 3,
+          "final": 114,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 148,
+          "added": 14,
+          "final": 162,
+          "flick_added": 1,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 263,
+          "added": 26,
+          "final": 289,
+          "flick_added": 1,
+          "original_notes_unchanged": true
+        }
+      }
+    },
+    "song22": {
+      "bpm": 172,
+      "duration": 137.029,
+      "charts": {
+        "EASY": {
+          "original": 112,
+          "added": 0,
+          "final": 112,
+          "flick_added": 0,
+          "original_notes_unchanged": true
+        },
+        "NORMAL": {
+          "original": 203,
+          "added": 21,
+          "final": 224,
+          "flick_added": 4,
+          "original_notes_unchanged": true
+        },
+        "HARD": {
+          "original": 364,
+          "added": 23,
+          "final": 387,
+          "flick_added": 1,
+          "original_notes_unchanged": true
+        }
+      }
+    }
+  }
+}

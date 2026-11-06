@@ -1,0 +1,40 @@
+{
+  "track": "21번 곡 〈세 개는 당신 몫〉",
+  "audio_seconds": 121.44320833333333,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 110,
+      "new_count": 106,
+      "types": {
+        "flick": 14,
+        "tap": 85,
+        "hold": 7
+      },
+      "preserved_finale": 8
+    },
+    "NORMAL": {
+      "old_count": 201,
+      "new_count": 131,
+      "types": {
+        "flick": 24,
+        "tap": 95,
+        "slide": 6,
+        "hold": 6
+      },
+      "preserved_finale": 12
+    },
+    "HARD": {
+      "old_count": 306,
+      "new_count": 237,
+      "types": {
+        "flick": 71,
+        "tap": 162,
+        "slide": 3,
+        "hold": 1
+      },
+      "preserved_finale": 20
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

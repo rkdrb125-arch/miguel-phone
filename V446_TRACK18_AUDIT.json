@@ -1,0 +1,40 @@
+{
+  "track": "18번 곡",
+  "audio_seconds": 120.91470833333334,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 116,
+      "new_count": 85,
+      "types": {
+        "flick": 11,
+        "tap": 69,
+        "hold": 5
+      },
+      "preserved_finale": 10
+    },
+    "NORMAL": {
+      "old_count": 203,
+      "new_count": 130,
+      "types": {
+        "flick": 23,
+        "tap": 101,
+        "slide": 5,
+        "hold": 1
+      },
+      "preserved_finale": 14
+    },
+    "HARD": {
+      "old_count": 300,
+      "new_count": 173,
+      "types": {
+        "flick": 35,
+        "tap": 131,
+        "slide": 5,
+        "hold": 2
+      },
+      "preserved_finale": 24
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

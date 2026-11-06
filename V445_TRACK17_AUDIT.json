@@ -1,0 +1,39 @@
+{
+  "track": "17 우산 아래 두 사람",
+  "audio_seconds": 120.966375,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 112,
+      "new_count": 90,
+      "types": {
+        "flick": 13,
+        "tap": 71,
+        "hold": 6
+      },
+      "preserved_finale": 9
+    },
+    "NORMAL": {
+      "old_count": 206,
+      "new_count": 119,
+      "types": {
+        "flick": 23,
+        "tap": 87,
+        "slide": 4,
+        "hold": 5
+      },
+      "preserved_finale": 18
+    },
+    "HARD": {
+      "old_count": 312,
+      "new_count": 202,
+      "types": {
+        "flick": 63,
+        "tap": 137,
+        "slide": 2
+      },
+      "preserved_finale": 22
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

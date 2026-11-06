@@ -1,0 +1,39 @@
+{
+  "track": "20번 곡 〈AFTER THE COUNT〉",
+  "audio_seconds": 120.81870833333333,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 110,
+      "new_count": 94,
+      "types": {
+        "flick": 12,
+        "tap": 76,
+        "hold": 6
+      },
+      "preserved_finale": 7
+    },
+    "NORMAL": {
+      "old_count": 204,
+      "new_count": 116,
+      "types": {
+        "tap": 86,
+        "slide": 5,
+        "flick": 21,
+        "hold": 4
+      },
+      "preserved_finale": 10
+    },
+    "HARD": {
+      "old_count": 313,
+      "new_count": 229,
+      "types": {
+        "tap": 168,
+        "flick": 60,
+        "slide": 1
+      },
+      "preserved_finale": 21
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

@@ -1,0 +1,1 @@
+v453: Added user-provided TRACK 14 꺼지지 않는 등불 cover for selection carousel, selected preview and automatic play background. All other archive entries preserved from v452. Static JS syntax and ZIP integrity checked; not mobile playtested.

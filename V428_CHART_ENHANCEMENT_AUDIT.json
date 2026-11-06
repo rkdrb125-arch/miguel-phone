@@ -1,0 +1,1282 @@
+{
+  "scope": "All 25 songs and 75 difficulties; note timestamps and lanes unchanged; existing finale retained; added short holds and slides in safe middle gaps",
+  "limitations": "Pattern refinement, not a new human-transcribed musical chart or mobile playtest",
+  "results": [
+    {
+      "song": "original",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 98,
+        "hold": 2,
+        "flick": 4
+      },
+      "after": {
+        "tap": 95,
+        "hold": 5,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "original",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 156,
+        "flick": 18,
+        "slide": 4,
+        "hold": 1
+      },
+      "after": {
+        "tap": 149,
+        "flick": 18,
+        "slide": 6,
+        "hold": 6
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "original",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 212,
+        "flick": 69,
+        "slide": 2,
+        "hold": 1
+      },
+      "after": {
+        "tap": 201,
+        "flick": 69,
+        "slide": 6,
+        "hold": 8
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "forest",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 99,
+        "flick": 4
+      },
+      "after": {
+        "tap": 96,
+        "hold": 3,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "forest",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 152,
+        "flick": 36,
+        "slide": 1
+      },
+      "after": {
+        "tap": 145,
+        "flick": 36,
+        "hold": 5,
+        "slide": 3
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "forest",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 198,
+        "flick": 77
+      },
+      "after": {
+        "tap": 187,
+        "flick": 77,
+        "hold": 7,
+        "slide": 4
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "starlight",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 92,
+        "hold": 2,
+        "flick": 4
+      },
+      "after": {
+        "tap": 89,
+        "hold": 5,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "starlight",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 152,
+        "flick": 23,
+        "hold": 1,
+        "slide": 3
+      },
+      "after": {
+        "tap": 145,
+        "flick": 23,
+        "hold": 6,
+        "slide": 5
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "starlight",
+      "difficulty": "HARD",
+      "before": {
+        "flick": 71,
+        "tap": 194,
+        "hold": 2
+      },
+      "after": {
+        "flick": 71,
+        "tap": 183,
+        "hold": 9,
+        "slide": 4
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "daniel",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 94,
+        "hold": 5,
+        "flick": 4
+      },
+      "after": {
+        "tap": 91,
+        "hold": 8,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "daniel",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 156,
+        "flick": 30,
+        "hold": 2,
+        "slide": 1
+      },
+      "after": {
+        "tap": 149,
+        "flick": 30,
+        "hold": 7,
+        "slide": 3
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "daniel",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 214,
+        "flick": 74
+      },
+      "after": {
+        "tap": 203,
+        "flick": 74,
+        "hold": 7,
+        "slide": 4
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "night",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 99,
+        "flick": 4,
+        "hold": 1
+      },
+      "after": {
+        "tap": 96,
+        "hold": 4,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "night",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 140,
+        "hold": 2,
+        "flick": 32,
+        "slide": 3
+      },
+      "after": {
+        "tap": 133,
+        "hold": 7,
+        "slide": 5,
+        "flick": 32
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "night",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 206,
+        "flick": 70,
+        "slide": 4,
+        "hold": 2
+      },
+      "after": {
+        "tap": 198,
+        "flick": 70,
+        "slide": 7,
+        "hold": 7
+      },
+      "new_holds": 5,
+      "new_slides": 3
+    },
+    {
+      "song": "song06",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 99,
+        "hold": 4,
+        "flick": 4
+      },
+      "after": {
+        "tap": 96,
+        "hold": 7,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song06",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 169,
+        "flick": 26,
+        "slide": 2
+      },
+      "after": {
+        "tap": 162,
+        "flick": 26,
+        "hold": 5,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song06",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 238,
+        "flick": 68,
+        "slide": 2
+      },
+      "after": {
+        "tap": 231,
+        "flick": 68,
+        "slide": 5,
+        "hold": 4
+      },
+      "new_holds": 4,
+      "new_slides": 3
+    },
+    {
+      "song": "song07",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 100,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 97,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song07",
+      "difficulty": "NORMAL",
+      "before": {
+        "flick": 25,
+        "tap": 168,
+        "slide": 2,
+        "hold": 2
+      },
+      "after": {
+        "flick": 25,
+        "tap": 161,
+        "slide": 4,
+        "hold": 7
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song07",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 229,
+        "flick": 69,
+        "slide": 4,
+        "hold": 1
+      },
+      "after": {
+        "tap": 218,
+        "flick": 69,
+        "hold": 8,
+        "slide": 8
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song08",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 99,
+        "hold": 2,
+        "flick": 4
+      },
+      "after": {
+        "tap": 96,
+        "hold": 5,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song08",
+      "difficulty": "NORMAL",
+      "before": {
+        "flick": 29,
+        "tap": 157,
+        "slide": 2,
+        "hold": 1
+      },
+      "after": {
+        "flick": 29,
+        "tap": 150,
+        "hold": 6,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song08",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 205,
+        "flick": 71,
+        "slide": 4
+      },
+      "after": {
+        "tap": 194,
+        "flick": 71,
+        "hold": 7,
+        "slide": 8
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song09",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 103,
+        "hold": 4,
+        "flick": 4
+      },
+      "after": {
+        "tap": 100,
+        "hold": 7,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song09",
+      "difficulty": "NORMAL",
+      "before": {
+        "flick": 24,
+        "tap": 171,
+        "slide": 2,
+        "hold": 3
+      },
+      "after": {
+        "flick": 24,
+        "tap": 164,
+        "slide": 4,
+        "hold": 8
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song09",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 222,
+        "flick": 83,
+        "slide": 2
+      },
+      "after": {
+        "tap": 216,
+        "flick": 83,
+        "slide": 4,
+        "hold": 4
+      },
+      "new_holds": 4,
+      "new_slides": 2
+    },
+    {
+      "song": "song10",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 101,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 98,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song10",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 181,
+        "hold": 4,
+        "flick": 23
+      },
+      "after": {
+        "tap": 174,
+        "hold": 9,
+        "flick": 23,
+        "slide": 2
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song10",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 230,
+        "flick": 72,
+        "slide": 2,
+        "hold": 2
+      },
+      "after": {
+        "tap": 219,
+        "flick": 72,
+        "hold": 9,
+        "slide": 6
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song11",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 105,
+        "hold": 6,
+        "flick": 4
+      },
+      "after": {
+        "tap": 102,
+        "hold": 9,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song11",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 168,
+        "hold": 2,
+        "flick": 33
+      },
+      "after": {
+        "tap": 161,
+        "hold": 7,
+        "flick": 33,
+        "slide": 2
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song11",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 230,
+        "flick": 76,
+        "slide": 1,
+        "hold": 2
+      },
+      "after": {
+        "tap": 219,
+        "flick": 76,
+        "hold": 9,
+        "slide": 5
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song12",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 110,
+        "flick": 4,
+        "hold": 2
+      },
+      "after": {
+        "tap": 107,
+        "hold": 5,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song12",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 162,
+        "flick": 26,
+        "slide": 3,
+        "hold": 1
+      },
+      "after": {
+        "tap": 155,
+        "flick": 26,
+        "hold": 6,
+        "slide": 5
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song12",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 255,
+        "flick": 56,
+        "hold": 1
+      },
+      "after": {
+        "tap": 246,
+        "flick": 56,
+        "hold": 6,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 4
+    },
+    {
+      "song": "song13",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 101,
+        "hold": 4,
+        "flick": 4
+      },
+      "after": {
+        "tap": 98,
+        "hold": 7,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song13",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 182,
+        "flick": 21,
+        "slide": 3,
+        "hold": 1
+      },
+      "after": {
+        "tap": 175,
+        "flick": 21,
+        "hold": 6,
+        "slide": 5
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song13",
+      "difficulty": "HARD",
+      "before": {
+        "flick": 79,
+        "tap": 211,
+        "hold": 2,
+        "slide": 1
+      },
+      "after": {
+        "flick": 79,
+        "tap": 201,
+        "hold": 8,
+        "slide": 5
+      },
+      "new_holds": 6,
+      "new_slides": 4
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 109,
+        "hold": 3,
+        "flick": 3
+      },
+      "after": {
+        "tap": 106,
+        "hold": 6,
+        "flick": 3
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 156,
+        "flick": 31,
+        "hold": 3,
+        "slide": 1
+      },
+      "after": {
+        "tap": 149,
+        "flick": 31,
+        "slide": 3,
+        "hold": 8
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 224,
+        "flick": 69,
+        "slide": 3,
+        "hold": 1
+      },
+      "after": {
+        "tap": 213,
+        "flick": 69,
+        "slide": 7,
+        "hold": 8
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "border26",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 104,
+        "hold": 5,
+        "flick": 4
+      },
+      "after": {
+        "tap": 101,
+        "hold": 8,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "border26",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 181,
+        "flick": 19,
+        "hold": 3,
+        "slide": 2
+      },
+      "after": {
+        "tap": 174,
+        "flick": 19,
+        "hold": 8,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "border26",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 242,
+        "flick": 69,
+        "slide": 1
+      },
+      "after": {
+        "tap": 231,
+        "flick": 69,
+        "slide": 5,
+        "hold": 7
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 104,
+        "hold": 8,
+        "flick": 4
+      },
+      "after": {
+        "tap": 101,
+        "hold": 11,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 171,
+        "flick": 24,
+        "hold": 1,
+        "slide": 1
+      },
+      "after": {
+        "tap": 164,
+        "flick": 24,
+        "hold": 6,
+        "slide": 3
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 232,
+        "flick": 79,
+        "slide": 2
+      },
+      "after": {
+        "tap": 224,
+        "flick": 79,
+        "hold": 4,
+        "slide": 6
+      },
+      "new_holds": 4,
+      "new_slides": 4
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 103,
+        "hold": 1,
+        "flick": 4
+      },
+      "after": {
+        "tap": 100,
+        "hold": 4,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 173,
+        "flick": 18,
+        "hold": 2,
+        "slide": 2
+      },
+      "after": {
+        "tap": 166,
+        "flick": 18,
+        "hold": 7,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 226,
+        "flick": 71,
+        "slide": 3
+      },
+      "after": {
+        "tap": 219,
+        "flick": 71,
+        "slide": 7,
+        "hold": 3
+      },
+      "new_holds": 3,
+      "new_slides": 4
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 102,
+        "hold": 4,
+        "flick": 4
+      },
+      "after": {
+        "tap": 99,
+        "hold": 7,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 171,
+        "flick": 25,
+        "slide": 2,
+        "hold": 2
+      },
+      "after": {
+        "tap": 164,
+        "flick": 25,
+        "hold": 7,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 211,
+        "flick": 98,
+        "hold": 3
+      },
+      "after": {
+        "tap": 202,
+        "flick": 98,
+        "hold": 8,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 4
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 105,
+        "hold": 5,
+        "flick": 4
+      },
+      "after": {
+        "tap": 102,
+        "hold": 8,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 169,
+        "flick": 23,
+        "slide": 4
+      },
+      "after": {
+        "tap": 162,
+        "slide": 6,
+        "hold": 5,
+        "flick": 23
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 239,
+        "flick": 71,
+        "slide": 2
+      },
+      "after": {
+        "tap": 228,
+        "flick": 71,
+        "slide": 6,
+        "hold": 7
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song22",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 123,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 120,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song22",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 190,
+        "hold": 3,
+        "flick": 25,
+        "slide": 2
+      },
+      "after": {
+        "tap": 183,
+        "hold": 8,
+        "flick": 25,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song22",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 245,
+        "flick": 86,
+        "hold": 2,
+        "slide": 1
+      },
+      "after": {
+        "tap": 234,
+        "flick": 86,
+        "hold": 9,
+        "slide": 5
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song20",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 103,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 100,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song20",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 177,
+        "flick": 24,
+        "slide": 3
+      },
+      "after": {
+        "tap": 170,
+        "flick": 24,
+        "hold": 5,
+        "slide": 5
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song20",
+      "difficulty": "HARD",
+      "before": {
+        "flick": 61,
+        "tap": 249,
+        "hold": 1,
+        "slide": 2
+      },
+      "after": {
+        "flick": 61,
+        "tap": 238,
+        "hold": 8,
+        "slide": 6
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song18",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 109,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 106,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song18",
+      "difficulty": "NORMAL",
+      "before": {
+        "flick": 23,
+        "tap": 178,
+        "slide": 1,
+        "hold": 1
+      },
+      "after": {
+        "flick": 23,
+        "tap": 171,
+        "slide": 3,
+        "hold": 6
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song18",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 234,
+        "flick": 64,
+        "slide": 1,
+        "hold": 1
+      },
+      "after": {
+        "tap": 223,
+        "flick": 64,
+        "hold": 8,
+        "slide": 5
+      },
+      "new_holds": 7,
+      "new_slides": 4
+    },
+    {
+      "song": "song21",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 105,
+        "hold": 1,
+        "flick": 4
+      },
+      "after": {
+        "tap": 102,
+        "hold": 4,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song21",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 165,
+        "flick": 28,
+        "hold": 4,
+        "slide": 4
+      },
+      "after": {
+        "tap": 158,
+        "flick": 28,
+        "hold": 9,
+        "slide": 6
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song21",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 226,
+        "flick": 77,
+        "slide": 3
+      },
+      "after": {
+        "tap": 217,
+        "flick": 77,
+        "slide": 7,
+        "hold": 5
+      },
+      "new_holds": 5,
+      "new_slides": 4
+    },
+    {
+      "song": "song17",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 105,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 102,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song17",
+      "difficulty": "NORMAL",
+      "before": {
+        "flick": 23,
+        "tap": 181,
+        "hold": 2
+      },
+      "after": {
+        "flick": 23,
+        "tap": 174,
+        "hold": 7,
+        "slide": 2
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song17",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 242,
+        "flick": 69,
+        "hold": 1
+      },
+      "after": {
+        "tap": 235,
+        "flick": 69,
+        "hold": 6,
+        "slide": 2
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song19",
+      "difficulty": "EASY",
+      "before": {
+        "tap": 106,
+        "hold": 3,
+        "flick": 4
+      },
+      "after": {
+        "tap": 103,
+        "hold": 6,
+        "flick": 4
+      },
+      "new_holds": 3,
+      "new_slides": 0
+    },
+    {
+      "song": "song19",
+      "difficulty": "NORMAL",
+      "before": {
+        "tap": 152,
+        "flick": 40,
+        "slide": 2,
+        "hold": 2
+      },
+      "after": {
+        "tap": 145,
+        "flick": 40,
+        "hold": 7,
+        "slide": 4
+      },
+      "new_holds": 5,
+      "new_slides": 2
+    },
+    {
+      "song": "song19",
+      "difficulty": "HARD",
+      "before": {
+        "tap": 239,
+        "flick": 70,
+        "slide": 2,
+        "hold": 1
+      },
+      "after": {
+        "tap": 232,
+        "flick": 70,
+        "slide": 6,
+        "hold": 4
+      },
+      "new_holds": 3,
+      "new_slides": 4
+    }
+  ]
+}

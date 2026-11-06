@@ -1,0 +1,1 @@
+v423: Desktop app drawer supports mouse upward drag, wheel/trackpad downward scroll, and clickable bottom 'all apps' hint. Existing touch swipe and drawer functionality retained. No MP3, chart, cooking, or save changes. Node.js syntax and ZIP CRC validated; live browser test pending.\n

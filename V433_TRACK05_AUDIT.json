@@ -1,0 +1,37 @@
+{
+  "track": "05 한밤의 편지",
+  "duration": 110.59470833333333,
+  "method": "MP3 STFT spectral flux across bass, mid and high bands; gentle nocturnal bass accents, contrasting mid/high melodic accents and varied difficulty-specific patterns. Last 10 seconds preserved.",
+  "transient_candidates": 526,
+  "results": {
+    "EASY": {
+      "old": 104,
+      "new": 91,
+      "types": {
+        "tap": 89,
+        "flick": 2
+      },
+      "finale_preserved": 9
+    },
+    "NORMAL": {
+      "old": 177,
+      "new": 171,
+      "types": {
+        "flick": 9,
+        "tap": 162
+      },
+      "finale_preserved": 12
+    },
+    "HARD": {
+      "old": 282,
+      "new": 211,
+      "types": {
+        "flick": 10,
+        "tap": 200,
+        "slide": 1
+      },
+      "finale_preserved": 16
+    }
+  },
+  "limitations": "Automated audio analysis, not human musical transcription or mobile device playtest"
+}

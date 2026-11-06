@@ -1,0 +1,39 @@
+{
+  "track": "12 계획에 없던 변수",
+  "audio_seconds": 120.45870833333333,
+  "method": "Actual MP3 spectral flux by bass/mid/treble, distinct thresholds/gaps per difficulty; existing final 10s unchanged",
+  "results": {
+    "EASY": {
+      "old_count": 116,
+      "new_count": 102,
+      "types": {
+        "tap": 92,
+        "flick": 8,
+        "hold": 2
+      },
+      "preserved_finale": 10
+    },
+    "NORMAL": {
+      "old_count": 192,
+      "new_count": 178,
+      "types": {
+        "tap": 156,
+        "flick": 20,
+        "slide": 1,
+        "hold": 1
+      },
+      "preserved_finale": 16
+    },
+    "HARD": {
+      "old_count": 312,
+      "new_count": 267,
+      "types": {
+        "tap": 188,
+        "flick": 78,
+        "slide": 1
+      },
+      "preserved_finale": 23
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not manually transcribed or mobile playtested"
+}

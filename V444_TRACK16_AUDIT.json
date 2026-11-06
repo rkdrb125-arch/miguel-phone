@@ -1,0 +1,40 @@
+{
+  "track": "16 체온은 정상입니다",
+  "audio_seconds": 121.34966666666666,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 116,
+      "new_count": 95,
+      "types": {
+        "flick": 14,
+        "tap": 75,
+        "hold": 6
+      },
+      "preserved_finale": 4
+    },
+    "NORMAL": {
+      "old_count": 197,
+      "new_count": 116,
+      "types": {
+        "tap": 84,
+        "flick": 21,
+        "slide": 6,
+        "hold": 5
+      },
+      "preserved_finale": 7
+    },
+    "HARD": {
+      "old_count": 313,
+      "new_count": 208,
+      "types": {
+        "tap": 150,
+        "flick": 55,
+        "slide": 2,
+        "hold": 1
+      },
+      "preserved_finale": 13
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

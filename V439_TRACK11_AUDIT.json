@@ -1,0 +1,38 @@
+{
+  "track": "11 보고드립니다, 사랑입니다",
+  "audio_seconds": 120.00475,
+  "method": "Actual MP3 spectral flux by bass/mid/treble, distinct thresholds/gaps per difficulty; existing final 10s unchanged",
+  "results": {
+    "EASY": {
+      "old_count": 115,
+      "new_count": 105,
+      "types": {
+        "tap": 95,
+        "flick": 8,
+        "hold": 2
+      },
+      "preserved_finale": 8
+    },
+    "NORMAL": {
+      "old_count": 203,
+      "new_count": 191,
+      "types": {
+        "tap": 170,
+        "flick": 20,
+        "slide": 1
+      },
+      "preserved_finale": 18
+    },
+    "HARD": {
+      "old_count": 309,
+      "new_count": 256,
+      "types": {
+        "tap": 179,
+        "flick": 76,
+        "slide": 1
+      },
+      "preserved_finale": 27
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not manually transcribed or mobile playtested"
+}

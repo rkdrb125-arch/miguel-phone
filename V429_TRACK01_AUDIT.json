@@ -1,0 +1,39 @@
+{
+  "track": "01 미겔의 아침",
+  "duration": 111.19470833333334,
+  "method": "FFT spectral-flux transients separated into bass/mid/high accents, distinct note densities, safe single-note patterns, preserve last 10 seconds",
+  "results": {
+    "EASY": {
+      "before": 104,
+      "after": 86,
+      "types": {
+        "tap": 80,
+        "hold": 4,
+        "flick": 2
+      },
+      "finale_preserved": 7
+    },
+    "NORMAL": {
+      "before": 179,
+      "after": 181,
+      "types": {
+        "tap": 172,
+        "flick": 6,
+        "hold": 1,
+        "slide": 2
+      },
+      "finale_preserved": 12
+    },
+    "HARD": {
+      "before": 284,
+      "after": 298,
+      "types": {
+        "flick": 18,
+        "tap": 279,
+        "slide": 1
+      },
+      "finale_preserved": 21
+    }
+  },
+  "limitations": "Automated onset analysis, not hand-transcribed notes or real mobile playtest"
+}

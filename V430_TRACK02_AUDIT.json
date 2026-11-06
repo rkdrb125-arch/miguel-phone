@@ -1,0 +1,38 @@
+{
+  "track": "02 숲속 산책",
+  "duration": 111.26670833333333,
+  "method": "MP3 STFT spectral flux across bass, mid and high bands; peak-selected notes with different densities and accent-driven special types. Last 10 seconds preserved.",
+  "transient_candidates": 517,
+  "results": {
+    "EASY": {
+      "old": 103,
+      "new": 100,
+      "types": {
+        "hold": 1,
+        "tap": 97,
+        "flick": 2
+      },
+      "finale_preserved": 10
+    },
+    "NORMAL": {
+      "old": 189,
+      "new": 175,
+      "types": {
+        "tap": 166,
+        "slide": 2,
+        "flick": 7
+      },
+      "finale_preserved": 15
+    },
+    "HARD": {
+      "old": 275,
+      "new": 222,
+      "types": {
+        "tap": 211,
+        "flick": 11
+      },
+      "finale_preserved": 22
+    }
+  },
+  "limitations": "Automated audio analysis, not human musical transcription or mobile device playtest"
+}

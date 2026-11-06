@@ -1,0 +1,41 @@
+{
+  "track": "07 설탕 두 스푼, 사랑 세 스푼",
+  "duration": 120.45933333333333,
+  "method": "MP3 STFT spectral flux bass/mid/treble onset peaks; separate density thresholds and musical accent lane choices per difficulty; original last 10s retained",
+  "results": {
+    "EASY": {
+      "old": 107,
+      "new": 96,
+      "types": {
+        "flick": 3,
+        "tap": 93
+      },
+      "finale_preserved": 9,
+      "transients": 220
+    },
+    "NORMAL": {
+      "old": 197,
+      "new": 228,
+      "types": {
+        "tap": 218,
+        "flick": 7,
+        "slide": 2,
+        "hold": 1
+      },
+      "finale_preserved": 14,
+      "transients": 416
+    },
+    "HARD": {
+      "old": 303,
+      "new": 421,
+      "types": {
+        "tap": 390,
+        "flick": 30,
+        "slide": 1
+      },
+      "finale_preserved": 21,
+      "transients": 458
+    }
+  },
+  "limitations": "Automated transient analysis; not hand-transcribed or mobile-playtested"
+}

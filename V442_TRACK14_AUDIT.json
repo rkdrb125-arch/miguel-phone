@@ -1,0 +1,40 @@
+{
+  "track": "14 꺼지지 않는 등불",
+  "audio_seconds": 121.08270833333333,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 115,
+      "new_count": 62,
+      "types": {
+        "tap": 53,
+        "flick": 5,
+        "hold": 4
+      },
+      "preserved_finale": 4
+    },
+    "NORMAL": {
+      "old_count": 191,
+      "new_count": 121,
+      "types": {
+        "tap": 98,
+        "slide": 4,
+        "flick": 16,
+        "hold": 3
+      },
+      "preserved_finale": 6
+    },
+    "HARD": {
+      "old_count": 297,
+      "new_count": 179,
+      "types": {
+        "tap": 140,
+        "hold": 3,
+        "flick": 31,
+        "slide": 5
+      },
+      "preserved_finale": 9
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

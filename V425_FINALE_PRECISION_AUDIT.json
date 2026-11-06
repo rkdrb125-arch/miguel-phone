@@ -1,0 +1,716 @@
+{
+  "scope": "Last 9 seconds of 25 MP3s, 75 charts",
+  "method": "Measured MP3 envelope transients at 10ms resolution. Only existing finale flick/slide note times moved at most 105ms, if strong attack nearby and no collision. Musical manual playtest not performed.",
+  "report": [
+    {
+      "song": "original",
+      "difficulty": "EASY",
+      "notes": 104,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "original",
+      "difficulty": "NORMAL",
+      "notes": 179,
+      "finale_special": 4,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "original",
+      "difficulty": "HARD",
+      "notes": 284,
+      "finale_special": 9,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "forest",
+      "difficulty": "EASY",
+      "notes": 103,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "forest",
+      "difficulty": "NORMAL",
+      "notes": 189,
+      "finale_special": 6,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "forest",
+      "difficulty": "HARD",
+      "notes": 275,
+      "finale_special": 10,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "starlight",
+      "difficulty": "EASY",
+      "notes": 98,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "starlight",
+      "difficulty": "NORMAL",
+      "notes": 179,
+      "finale_special": 3,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "starlight",
+      "difficulty": "HARD",
+      "notes": 267,
+      "finale_special": 7,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.043
+      ]
+    },
+    {
+      "song": "daniel",
+      "difficulty": "EASY",
+      "notes": 103,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "daniel",
+      "difficulty": "NORMAL",
+      "notes": 189,
+      "finale_special": 4,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "daniel",
+      "difficulty": "HARD",
+      "notes": 288,
+      "finale_special": 10,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "night",
+      "difficulty": "EASY",
+      "notes": 104,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "night",
+      "difficulty": "NORMAL",
+      "notes": 177,
+      "finale_special": 5,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "night",
+      "difficulty": "HARD",
+      "notes": 282,
+      "finale_special": 8,
+      "adjusted": 2,
+      "adjustments_seconds": [
+        -0.05,
+        -0.054
+      ]
+    },
+    {
+      "song": "song06",
+      "difficulty": "EASY",
+      "notes": 107,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song06",
+      "difficulty": "NORMAL",
+      "notes": 197,
+      "finale_special": 6,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song06",
+      "difficulty": "HARD",
+      "notes": 308,
+      "finale_special": 7,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.085
+      ]
+    },
+    {
+      "song": "song07",
+      "difficulty": "EASY",
+      "notes": 107,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song07",
+      "difficulty": "NORMAL",
+      "notes": 197,
+      "finale_special": 3,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.088
+      ]
+    },
+    {
+      "song": "song07",
+      "difficulty": "HARD",
+      "notes": 303,
+      "finale_special": 11,
+      "adjusted": 3,
+      "adjustments_seconds": [
+        0.043,
+        0.084,
+        0.088
+      ]
+    },
+    {
+      "song": "song08",
+      "difficulty": "EASY",
+      "notes": 105,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.04
+      ]
+    },
+    {
+      "song": "song08",
+      "difficulty": "NORMAL",
+      "notes": 189,
+      "finale_special": 5,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song08",
+      "difficulty": "HARD",
+      "notes": 280,
+      "finale_special": 6,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song09",
+      "difficulty": "EASY",
+      "notes": 111,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song09",
+      "difficulty": "NORMAL",
+      "notes": 200,
+      "finale_special": 4,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song09",
+      "difficulty": "HARD",
+      "notes": 307,
+      "finale_special": 5,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song10",
+      "difficulty": "EASY",
+      "notes": 108,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        -0.095
+      ]
+    },
+    {
+      "song": "song10",
+      "difficulty": "NORMAL",
+      "notes": 208,
+      "finale_special": 5,
+      "adjusted": 2,
+      "adjustments_seconds": [
+        -0.095,
+        -0.072
+      ]
+    },
+    {
+      "song": "song10",
+      "difficulty": "HARD",
+      "notes": 306,
+      "finale_special": 13,
+      "adjusted": 5,
+      "adjustments_seconds": [
+        0.052,
+        -0.077,
+        -0.093,
+        -0.072,
+        0.04
+      ]
+    },
+    {
+      "song": "song11",
+      "difficulty": "EASY",
+      "notes": 115,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song11",
+      "difficulty": "NORMAL",
+      "notes": 203,
+      "finale_special": 4,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.093
+      ]
+    },
+    {
+      "song": "song11",
+      "difficulty": "HARD",
+      "notes": 309,
+      "finale_special": 10,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.094
+      ]
+    },
+    {
+      "song": "song12",
+      "difficulty": "EASY",
+      "notes": 116,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song12",
+      "difficulty": "NORMAL",
+      "notes": 192,
+      "finale_special": 4,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song12",
+      "difficulty": "HARD",
+      "notes": 312,
+      "finale_special": 8,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song13",
+      "difficulty": "EASY",
+      "notes": 109,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song13",
+      "difficulty": "NORMAL",
+      "notes": 207,
+      "finale_special": 3,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song13",
+      "difficulty": "HARD",
+      "notes": 293,
+      "finale_special": 6,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "EASY",
+      "notes": 115,
+      "finale_special": 1,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "NORMAL",
+      "notes": 191,
+      "finale_special": 3,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.046
+      ]
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "HARD",
+      "notes": 297,
+      "finale_special": 5,
+      "adjusted": 3,
+      "adjustments_seconds": [
+        -0.023,
+        -0.042,
+        -0.089
+      ]
+    },
+    {
+      "song": "border26",
+      "difficulty": "EASY",
+      "notes": 113,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        -0.061
+      ]
+    },
+    {
+      "song": "border26",
+      "difficulty": "NORMAL",
+      "notes": 205,
+      "finale_special": 5,
+      "adjusted": 2,
+      "adjustments_seconds": [
+        -0.061,
+        -0.061
+      ]
+    },
+    {
+      "song": "border26",
+      "difficulty": "HARD",
+      "notes": 312,
+      "finale_special": 9,
+      "adjusted": 6,
+      "adjustments_seconds": [
+        0.054,
+        0.047,
+        -0.032,
+        -0.032,
+        -0.061,
+        -0.06
+      ]
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "EASY",
+      "notes": 116,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "NORMAL",
+      "notes": 197,
+      "finale_special": 4,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "HARD",
+      "notes": 313,
+      "finale_special": 6,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "EASY",
+      "notes": 108,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "NORMAL",
+      "notes": 195,
+      "finale_special": 3,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "HARD",
+      "notes": 300,
+      "finale_special": 6,
+      "adjusted": 3,
+      "adjustments_seconds": [
+        0.041,
+        -0.097,
+        0.064
+      ]
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "EASY",
+      "notes": 110,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "NORMAL",
+      "notes": 200,
+      "finale_special": 3,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.044
+      ]
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "HARD",
+      "notes": 312,
+      "finale_special": 7,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.044
+      ]
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "EASY",
+      "notes": 114,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "NORMAL",
+      "notes": 196,
+      "finale_special": 3,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "HARD",
+      "notes": 312,
+      "finale_special": 6,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.037
+      ]
+    },
+    {
+      "song": "song22",
+      "difficulty": "EASY",
+      "notes": 130,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song22",
+      "difficulty": "NORMAL",
+      "notes": 220,
+      "finale_special": 3,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song22",
+      "difficulty": "HARD",
+      "notes": 334,
+      "finale_special": 9,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song20",
+      "difficulty": "EASY",
+      "notes": 110,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        -0.055
+      ]
+    },
+    {
+      "song": "song20",
+      "difficulty": "NORMAL",
+      "notes": 204,
+      "finale_special": 5,
+      "adjusted": 3,
+      "adjustments_seconds": [
+        0.093,
+        0.096,
+        0.028
+      ]
+    },
+    {
+      "song": "song20",
+      "difficulty": "HARD",
+      "notes": 313,
+      "finale_special": 7,
+      "adjusted": 7,
+      "adjustments_seconds": [
+        0.093,
+        0.034,
+        0.054,
+        0.096,
+        0.028,
+        -0.082,
+        -0.029
+      ]
+    },
+    {
+      "song": "song18",
+      "difficulty": "EASY",
+      "notes": 116,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        -0.033
+      ]
+    },
+    {
+      "song": "song18",
+      "difficulty": "NORMAL",
+      "notes": 203,
+      "finale_special": 5,
+      "adjusted": 2,
+      "adjustments_seconds": [
+        -0.029,
+        0.076
+      ]
+    },
+    {
+      "song": "song18",
+      "difficulty": "HARD",
+      "notes": 300,
+      "finale_special": 7,
+      "adjusted": 3,
+      "adjustments_seconds": [
+        0.076,
+        -0.033,
+        0.087
+      ]
+    },
+    {
+      "song": "song21",
+      "difficulty": "EASY",
+      "notes": 110,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        -0.087
+      ]
+    },
+    {
+      "song": "song21",
+      "difficulty": "NORMAL",
+      "notes": 201,
+      "finale_special": 4,
+      "adjusted": 4,
+      "adjustments_seconds": [
+        -0.085,
+        0.039,
+        -0.087,
+        0.044
+      ]
+    },
+    {
+      "song": "song21",
+      "difficulty": "HARD",
+      "notes": 306,
+      "finale_special": 11,
+      "adjusted": 7,
+      "adjustments_seconds": [
+        -0.04,
+        0.026,
+        0.039,
+        0.042,
+        0.092,
+        -0.06,
+        0.044
+      ]
+    },
+    {
+      "song": "song17",
+      "difficulty": "EASY",
+      "notes": 112,
+      "finale_special": 2,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song17",
+      "difficulty": "NORMAL",
+      "notes": 206,
+      "finale_special": 4,
+      "adjusted": 0,
+      "adjustments_seconds": []
+    },
+    {
+      "song": "song17",
+      "difficulty": "HARD",
+      "notes": 312,
+      "finale_special": 9,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        0.062
+      ]
+    },
+    {
+      "song": "song19",
+      "difficulty": "EASY",
+      "notes": 113,
+      "finale_special": 2,
+      "adjusted": 1,
+      "adjustments_seconds": [
+        -0.093
+      ]
+    },
+    {
+      "song": "song19",
+      "difficulty": "NORMAL",
+      "notes": 196,
+      "finale_special": 5,
+      "adjusted": 2,
+      "adjustments_seconds": [
+        0.047,
+        -0.053
+      ]
+    },
+    {
+      "song": "song19",
+      "difficulty": "HARD",
+      "notes": 312,
+      "finale_special": 7,
+      "adjusted": 6,
+      "adjustments_seconds": [
+        0.037,
+        0.044,
+        -0.053,
+        0.048,
+        -0.031,
+        -0.03
+      ]
+    }
+  ]
+}

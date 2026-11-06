@@ -1,0 +1,38 @@
+{
+  "track": "15 경계선 너머",
+  "audio_seconds": 120.69875,
+  "method": "MP3 spectral flux in bass, mid, treble with distinct difficulty thresholds and onset gaps; original final 10s preserved",
+  "results": {
+    "EASY": {
+      "old_count": 113,
+      "new_count": 112,
+      "types": {
+        "flick": 10,
+        "tap": 98,
+        "hold": 4
+      },
+      "preserved_finale": 14
+    },
+    "NORMAL": {
+      "old_count": 205,
+      "new_count": 167,
+      "types": {
+        "flick": 26,
+        "tap": 137,
+        "hold": 3,
+        "slide": 1
+      },
+      "preserved_finale": 20
+    },
+    "HARD": {
+      "old_count": 312,
+      "new_count": 269,
+      "types": {
+        "tap": 212,
+        "flick": 57
+      },
+      "preserved_finale": 26
+    }
+  },
+  "limitations": "Automatic acoustic analysis, not human transcription or device playtesting"
+}

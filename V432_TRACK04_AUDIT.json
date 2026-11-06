@@ -1,0 +1,38 @@
+{
+  "track": "04 다니엘의 행진",
+  "duration": 111.36270833333333,
+  "method": "MP3 STFT spectral flux across bass, mid and high bands; march-style alternating bass beats, contrasting mid/high melodic accents and varied difficulty-specific patterns. Last 10 seconds preserved.",
+  "transient_candidates": 458,
+  "results": {
+    "EASY": {
+      "old": 103,
+      "new": 116,
+      "types": {
+        "tap": 113,
+        "hold": 1,
+        "flick": 2
+      },
+      "finale_preserved": 12
+    },
+    "NORMAL": {
+      "old": 189,
+      "new": 226,
+      "types": {
+        "tap": 220,
+        "slide": 1,
+        "flick": 5
+      },
+      "finale_preserved": 17
+    },
+    "HARD": {
+      "old": 288,
+      "new": 257,
+      "types": {
+        "tap": 246,
+        "flick": 11
+      },
+      "finale_preserved": 28
+    }
+  },
+  "limitations": "Automated audio analysis, not human musical transcription or mobile device playtest"
+}

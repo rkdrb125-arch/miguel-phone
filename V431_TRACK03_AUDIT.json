@@ -1,0 +1,39 @@
+{
+  "track": "03 별빛 작전",
+  "duration": 110.47508333333333,
+  "method": "MP3 STFT spectral flux across bass, mid and high bands; starlight-specific fast rhythmic note density and melodic lane patterns. Last 10 seconds preserved.",
+  "transient_candidates": 508,
+  "results": {
+    "EASY": {
+      "old": 98,
+      "new": 111,
+      "types": {
+        "tap": 109,
+        "flick": 2
+      },
+      "finale_preserved": 7
+    },
+    "NORMAL": {
+      "old": 179,
+      "new": 154,
+      "types": {
+        "slide": 2,
+        "tap": 150,
+        "flick": 2
+      },
+      "finale_preserved": 9
+    },
+    "HARD": {
+      "old": 267,
+      "new": 257,
+      "types": {
+        "tap": 247,
+        "slide": 1,
+        "flick": 8,
+        "hold": 1
+      },
+      "finale_preserved": 15
+    }
+  },
+  "limitations": "Automated audio analysis, not human musical transcription or mobile device playtest"
+}

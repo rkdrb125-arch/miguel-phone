@@ -1,0 +1,36 @@
+{
+  "track": "10 작전명: 미겔 보호",
+  "audio_seconds": 120.290875,
+  "method": "MP3 spectral flux peaks by bass/mid/treble, distinct gap/thresholds per difficulty; previous final 10 seconds retained",
+  "results": {
+    "EASY": {
+      "old_count": 108,
+      "new_count": 130,
+      "types": {
+        "hold": 3,
+        "tap": 124,
+        "flick": 3
+      },
+      "preserved_finale": 10
+    },
+    "NORMAL": {
+      "old_count": 208,
+      "new_count": 207,
+      "types": {
+        "tap": 189,
+        "flick": 18
+      },
+      "preserved_finale": 19
+    },
+    "HARD": {
+      "old_count": 306,
+      "new_count": 333,
+      "types": {
+        "tap": 306,
+        "flick": 27
+      },
+      "preserved_finale": 32
+    }
+  },
+  "limitations": "Automatic onset analysis; not manually transcribed or mobile playtested"
+}

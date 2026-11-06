@@ -1,0 +1,39 @@
+{
+  "track": "09 당신의 옆자리",
+  "audio_seconds": 121.04466666666667,
+  "method": "MP3 spectral flux peaks by bass/mid/treble, distinct gap/thresholds per difficulty; previous final 10 seconds retained",
+  "results": {
+    "EASY": {
+      "old_count": 111,
+      "new_count": 115,
+      "types": {
+        "hold": 3,
+        "tap": 107,
+        "flick": 5
+      },
+      "preserved_finale": 5
+    },
+    "NORMAL": {
+      "old_count": 200,
+      "new_count": 179,
+      "types": {
+        "hold": 2,
+        "tap": 168,
+        "flick": 8,
+        "slide": 1
+      },
+      "preserved_finale": 8
+    },
+    "HARD": {
+      "old_count": 307,
+      "new_count": 269,
+      "types": {
+        "tap": 251,
+        "flick": 17,
+        "slide": 1
+      },
+      "preserved_finale": 13
+    }
+  },
+  "limitations": "Automatic onset analysis; not manually transcribed or mobile playtested"
+}

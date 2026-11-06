@@ -1,0 +1,39 @@
+{
+  "track": "06 보고 싶어서 그랬어요",
+  "duration": 120.05575,
+  "method": "MP3 STFT spectral flux across bass, mid and high bands; warm jazz-pop bass accents, contrasting mid/high melodic accents and varied difficulty-specific patterns. Last 10 seconds preserved.",
+  "transient_candidates": 565,
+  "results": {
+    "EASY": {
+      "old": 107,
+      "new": 97,
+      "types": {
+        "hold": 2,
+        "tap": 93,
+        "flick": 2
+      },
+      "finale_preserved": 7
+    },
+    "NORMAL": {
+      "old": 197,
+      "new": 180,
+      "types": {
+        "tap": 171,
+        "flick": 7,
+        "hold": 1,
+        "slide": 1
+      },
+      "finale_preserved": 14
+    },
+    "HARD": {
+      "old": 308,
+      "new": 236,
+      "types": {
+        "tap": 224,
+        "flick": 12
+      },
+      "finale_preserved": 21
+    }
+  },
+  "limitations": "Automated audio analysis, not human musical transcription or mobile device playtest"
+}

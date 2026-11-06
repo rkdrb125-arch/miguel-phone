@@ -1,0 +1,706 @@
+{
+  "method": "Finale accents on existing note times, 9 seconds before MP3 end. No beat claims beyond existing timing. Converted selected taps to flick and occasional short slides; EASY kept accessible.",
+  "changes": [
+    {
+      "song": "original",
+      "difficulty": "EASY",
+      "finale_window_notes": 7,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 111.195
+    },
+    {
+      "song": "original",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 111.195
+    },
+    {
+      "song": "original",
+      "difficulty": "HARD",
+      "finale_window_notes": 14,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 111.195
+    },
+    {
+      "song": "forest",
+      "difficulty": "EASY",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 111.267
+    },
+    {
+      "song": "forest",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 10,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 111.267
+    },
+    {
+      "song": "forest",
+      "difficulty": "HARD",
+      "finale_window_notes": 14,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 111.267
+    },
+    {
+      "song": "starlight",
+      "difficulty": "EASY",
+      "finale_window_notes": 5,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 110.475
+    },
+    {
+      "song": "starlight",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 110.475
+    },
+    {
+      "song": "starlight",
+      "difficulty": "HARD",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 110.475
+    },
+    {
+      "song": "daniel",
+      "difficulty": "EASY",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 111.363
+    },
+    {
+      "song": "daniel",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 14,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 111.363
+    },
+    {
+      "song": "daniel",
+      "difficulty": "HARD",
+      "finale_window_notes": 19,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 111.363
+    },
+    {
+      "song": "night",
+      "difficulty": "EASY",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 110.595
+    },
+    {
+      "song": "night",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 10,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 110.595
+    },
+    {
+      "song": "night",
+      "difficulty": "HARD",
+      "finale_window_notes": 12,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 110.595
+    },
+    {
+      "song": "song06",
+      "difficulty": "EASY",
+      "finale_window_notes": 6,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.056
+    },
+    {
+      "song": "song06",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.056
+    },
+    {
+      "song": "song06",
+      "difficulty": "HARD",
+      "finale_window_notes": 15,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.056
+    },
+    {
+      "song": "song07",
+      "difficulty": "EASY",
+      "finale_window_notes": 7,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.459
+    },
+    {
+      "song": "song07",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 10,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.459
+    },
+    {
+      "song": "song07",
+      "difficulty": "HARD",
+      "finale_window_notes": 10,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 120.459
+    },
+    {
+      "song": "song08",
+      "difficulty": "EASY",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 112.251
+    },
+    {
+      "song": "song08",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 11,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 112.251
+    },
+    {
+      "song": "song08",
+      "difficulty": "HARD",
+      "finale_window_notes": 13,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 112.251
+    },
+    {
+      "song": "song09",
+      "difficulty": "EASY",
+      "finale_window_notes": 3,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 121.045
+    },
+    {
+      "song": "song09",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 3,
+      "converted": {
+        "flick": 1,
+        "slide": 1
+      },
+      "duration": 121.045
+    },
+    {
+      "song": "song09",
+      "difficulty": "HARD",
+      "finale_window_notes": 11,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 121.045
+    },
+    {
+      "song": "song10",
+      "difficulty": "EASY",
+      "finale_window_notes": 10,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.291
+    },
+    {
+      "song": "song10",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 15,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.291
+    },
+    {
+      "song": "song10",
+      "difficulty": "HARD",
+      "finale_window_notes": 21,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.291
+    },
+    {
+      "song": "song11",
+      "difficulty": "EASY",
+      "finale_window_notes": 6,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.005
+    },
+    {
+      "song": "song11",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 14,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.005
+    },
+    {
+      "song": "song11",
+      "difficulty": "HARD",
+      "finale_window_notes": 16,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.005
+    },
+    {
+      "song": "song12",
+      "difficulty": "EASY",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.459
+    },
+    {
+      "song": "song12",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 12,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.459
+    },
+    {
+      "song": "song12",
+      "difficulty": "HARD",
+      "finale_window_notes": 16,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.459
+    },
+    {
+      "song": "song13",
+      "difficulty": "EASY",
+      "finale_window_notes": 2,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.72
+    },
+    {
+      "song": "song13",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 7,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.72
+    },
+    {
+      "song": "song13",
+      "difficulty": "HARD",
+      "finale_window_notes": 4,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 120.72
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "EASY",
+      "finale_window_notes": 2,
+      "converted": {
+        "flick": 1
+      },
+      "duration": 121.083
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 4,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 121.083
+    },
+    {
+      "song": "lantern27",
+      "difficulty": "HARD",
+      "finale_window_notes": 6,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 121.083
+    },
+    {
+      "song": "border26",
+      "difficulty": "EASY",
+      "finale_window_notes": 11,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.699
+    },
+    {
+      "song": "border26",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 15,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.699
+    },
+    {
+      "song": "border26",
+      "difficulty": "HARD",
+      "finale_window_notes": 18,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.699
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "EASY",
+      "finale_window_notes": 2,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 121.35
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 4,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 121.35
+    },
+    {
+      "song": "temperature28",
+      "difficulty": "HARD",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 121.35
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "EASY",
+      "finale_window_notes": 2,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.342
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.342
+    },
+    {
+      "song": "countthree25",
+      "difficulty": "HARD",
+      "finale_window_notes": 11,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 120.342
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "EASY",
+      "finale_window_notes": 4,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.273
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 5,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.273
+    },
+    {
+      "song": "threestars24",
+      "difficulty": "HARD",
+      "finale_window_notes": 4,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.273
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "EASY",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.199
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 12,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.199
+    },
+    {
+      "song": "dayoff23",
+      "difficulty": "HARD",
+      "finale_window_notes": 16,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 120.199
+    },
+    {
+      "song": "song22",
+      "difficulty": "EASY",
+      "finale_window_notes": 6,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 137.029
+    },
+    {
+      "song": "song22",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 8,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 137.029
+    },
+    {
+      "song": "song22",
+      "difficulty": "HARD",
+      "finale_window_notes": 15,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 137.029
+    },
+    {
+      "song": "song20",
+      "difficulty": "EASY",
+      "finale_window_notes": 5,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.819
+    },
+    {
+      "song": "song20",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 7,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.819
+    },
+    {
+      "song": "song20",
+      "difficulty": "HARD",
+      "finale_window_notes": 16,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 120.819
+    },
+    {
+      "song": "song18",
+      "difficulty": "EASY",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.915
+    },
+    {
+      "song": "song18",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 10,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.915
+    },
+    {
+      "song": "song18",
+      "difficulty": "HARD",
+      "finale_window_notes": 17,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.915
+    },
+    {
+      "song": "song21",
+      "difficulty": "EASY",
+      "finale_window_notes": 7,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 121.443
+    },
+    {
+      "song": "song21",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 9,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 121.443
+    },
+    {
+      "song": "song21",
+      "difficulty": "HARD",
+      "finale_window_notes": 11,
+      "converted": {
+        "flick": 3,
+        "slide": 1
+      },
+      "duration": 121.443
+    },
+    {
+      "song": "song17",
+      "difficulty": "EASY",
+      "finale_window_notes": 7,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.966
+    },
+    {
+      "song": "song17",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 15,
+      "converted": {
+        "flick": 3
+      },
+      "duration": 120.966
+    },
+    {
+      "song": "song17",
+      "difficulty": "HARD",
+      "finale_window_notes": 14,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.966
+    },
+    {
+      "song": "song19",
+      "difficulty": "EASY",
+      "finale_window_notes": 4,
+      "converted": {
+        "flick": 2
+      },
+      "duration": 120.843
+    },
+    {
+      "song": "song19",
+      "difficulty": "NORMAL",
+      "finale_window_notes": 5,
+      "converted": {
+        "flick": 2,
+        "slide": 1
+      },
+      "duration": 120.843
+    },
+    {
+      "song": "song19",
+      "difficulty": "HARD",
+      "finale_window_notes": 17,
+      "converted": {
+        "flick": 4
+      },
+      "duration": 120.843
+    }
+  ]
+}

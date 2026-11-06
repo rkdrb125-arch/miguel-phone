@@ -1,0 +1,35 @@
+{
+  "track": "08 심장 박동 이상 없음!",
+  "audio_seconds": 112.25070833333334,
+  "method": "Onset detection and frequency-band transient analysis; finale preserved. Automatically generated; not manually playtested.",
+  "report": {
+    "EASY": {
+      "old_count": 105,
+      "new_count": 131,
+      "types": {
+        "flick": 3,
+        "tap": 127,
+        "hold": 1
+      }
+    },
+    "NORMAL": {
+      "old_count": 189,
+      "new_count": 207,
+      "types": {
+        "flick": 11,
+        "tap": 194,
+        "slide": 1,
+        "hold": 1
+      }
+    },
+    "HARD": {
+      "old_count": 280,
+      "new_count": 289,
+      "types": {
+        "flick": 23,
+        "tap": 265,
+        "slide": 1
+      }
+    }
+  }
+}

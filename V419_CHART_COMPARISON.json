@@ -1,0 +1,1493 @@
+{
+  "version": "v419",
+  "note": "Structure-only comparison; musical sync requires playback validation.",
+  "charts": [
+    {
+      "songId": "original",
+      "difficulty": "EASY",
+      "notes": 104,
+      "durationSeconds": 111.195,
+      "notesPerMinute": 56.12,
+      "noteTypes": {
+        "tap": 102,
+        "hold": 2
+      },
+      "meanGapSeconds": 1.052,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 16,
+        "1": 31,
+        "2": 24,
+        "3": 32
+      }
+    },
+    {
+      "songId": "original",
+      "difficulty": "NORMAL",
+      "notes": 179,
+      "durationSeconds": 111.195,
+      "notesPerMinute": 96.59,
+      "noteTypes": {
+        "tap": 163,
+        "flick": 13,
+        "slide": 2,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.609,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 22,
+        "1": 63,
+        "2": 34,
+        "3": 59
+      }
+    },
+    {
+      "songId": "original",
+      "difficulty": "HARD",
+      "notes": 284,
+      "durationSeconds": 111.195,
+      "notesPerMinute": 153.24,
+      "noteTypes": {
+        "tap": 222,
+        "flick": 60,
+        "slide": 1,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.383,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 38,
+        "1": 83,
+        "2": 66,
+        "3": 96
+      }
+    },
+    {
+      "songId": "forest",
+      "difficulty": "EASY",
+      "notes": 103,
+      "durationSeconds": 111.267,
+      "notesPerMinute": 55.54,
+      "noteTypes": {
+        "tap": 103
+      },
+      "meanGapSeconds": 1.054,
+      "minGapSeconds": 0.539,
+      "laneTransitions": {
+        "0": 16,
+        "1": 27,
+        "2": 27,
+        "3": 32
+      }
+    },
+    {
+      "songId": "forest",
+      "difficulty": "NORMAL",
+      "notes": 189,
+      "durationSeconds": 111.267,
+      "notesPerMinute": 101.92,
+      "noteTypes": {
+        "tap": 159,
+        "flick": 29,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.576,
+      "minGapSeconds": 0.319,
+      "laneTransitions": {
+        "0": 23,
+        "1": 57,
+        "2": 35,
+        "3": 73
+      }
+    },
+    {
+      "songId": "forest",
+      "difficulty": "HARD",
+      "notes": 275,
+      "durationSeconds": 111.267,
+      "notesPerMinute": 148.29,
+      "noteTypes": {
+        "tap": 208,
+        "flick": 67
+      },
+      "meanGapSeconds": 0.397,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 38,
+        "1": 81,
+        "2": 72,
+        "3": 83
+      }
+    },
+    {
+      "songId": "starlight",
+      "difficulty": "EASY",
+      "notes": 98,
+      "durationSeconds": 110.475,
+      "notesPerMinute": 53.22,
+      "noteTypes": {
+        "tap": 96,
+        "hold": 2
+      },
+      "meanGapSeconds": 1.097,
+      "minGapSeconds": 0.498,
+      "laneTransitions": {
+        "0": 8,
+        "1": 27,
+        "2": 28,
+        "3": 34
+      }
+    },
+    {
+      "songId": "starlight",
+      "difficulty": "NORMAL",
+      "notes": 179,
+      "durationSeconds": 110.475,
+      "notesPerMinute": 97.22,
+      "noteTypes": {
+        "tap": 159,
+        "flick": 18,
+        "hold": 1,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.597,
+      "minGapSeconds": 0.319,
+      "laneTransitions": {
+        "0": 24,
+        "1": 52,
+        "2": 42,
+        "3": 60
+      }
+    },
+    {
+      "songId": "starlight",
+      "difficulty": "HARD",
+      "notes": 267,
+      "durationSeconds": 110.475,
+      "notesPerMinute": 145.01,
+      "noteTypes": {
+        "flick": 61,
+        "tap": 204,
+        "hold": 2
+      },
+      "meanGapSeconds": 0.4,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 41,
+        "1": 90,
+        "2": 49,
+        "3": 86
+      }
+    },
+    {
+      "songId": "daniel",
+      "difficulty": "EASY",
+      "notes": 103,
+      "durationSeconds": 111.363,
+      "notesPerMinute": 55.49,
+      "noteTypes": {
+        "tap": 98,
+        "hold": 5
+      },
+      "meanGapSeconds": 1.05,
+      "minGapSeconds": 0.439,
+      "laneTransitions": {
+        "0": 14,
+        "1": 34,
+        "2": 30,
+        "3": 24
+      }
+    },
+    {
+      "songId": "daniel",
+      "difficulty": "NORMAL",
+      "notes": 189,
+      "durationSeconds": 111.363,
+      "notesPerMinute": 101.83,
+      "noteTypes": {
+        "tap": 163,
+        "flick": 23,
+        "hold": 2,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.573,
+      "minGapSeconds": 0.32,
+      "laneTransitions": {
+        "0": 27,
+        "1": 58,
+        "2": 37,
+        "3": 66
+      }
+    },
+    {
+      "songId": "daniel",
+      "difficulty": "HARD",
+      "notes": 288,
+      "durationSeconds": 111.363,
+      "notesPerMinute": 155.17,
+      "noteTypes": {
+        "tap": 224,
+        "flick": 64
+      },
+      "meanGapSeconds": 0.375,
+      "minGapSeconds": 0.2,
+      "laneTransitions": {
+        "0": 42,
+        "1": 95,
+        "2": 61,
+        "3": 89
+      }
+    },
+    {
+      "songId": "night",
+      "difficulty": "EASY",
+      "notes": 104,
+      "durationSeconds": 110.595,
+      "notesPerMinute": 56.42,
+      "noteTypes": {
+        "tap": 103,
+        "hold": 1
+      },
+      "meanGapSeconds": 1.037,
+      "minGapSeconds": 0.439,
+      "laneTransitions": {
+        "0": 15,
+        "1": 28,
+        "2": 29,
+        "3": 31
+      }
+    },
+    {
+      "songId": "night",
+      "difficulty": "NORMAL",
+      "notes": 177,
+      "durationSeconds": 110.595,
+      "notesPerMinute": 96.03,
+      "noteTypes": {
+        "tap": 147,
+        "hold": 2,
+        "flick": 26,
+        "slide": 2
+      },
+      "meanGapSeconds": 0.607,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 27,
+        "1": 43,
+        "2": 42,
+        "3": 64
+      }
+    },
+    {
+      "songId": "night",
+      "difficulty": "HARD",
+      "notes": 282,
+      "durationSeconds": 110.595,
+      "notesPerMinute": 152.99,
+      "noteTypes": {
+        "tap": 216,
+        "flick": 63,
+        "slide": 2,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.381,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 39,
+        "1": 83,
+        "2": 80,
+        "3": 79
+      }
+    },
+    {
+      "songId": "song06",
+      "difficulty": "EASY",
+      "notes": 107,
+      "durationSeconds": 120.056,
+      "notesPerMinute": 53.48,
+      "noteTypes": {
+        "tap": 103,
+        "hold": 4
+      },
+      "meanGapSeconds": 1.108,
+      "minGapSeconds": 0.479,
+      "laneTransitions": {
+        "0": 17,
+        "1": 38,
+        "2": 21,
+        "3": 30
+      }
+    },
+    {
+      "songId": "song06",
+      "difficulty": "NORMAL",
+      "notes": 197,
+      "durationSeconds": 120.056,
+      "notesPerMinute": 98.45,
+      "noteTypes": {
+        "tap": 176,
+        "flick": 20,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.599,
+      "minGapSeconds": 0.319,
+      "laneTransitions": {
+        "0": 28,
+        "1": 59,
+        "2": 42,
+        "3": 67
+      }
+    },
+    {
+      "songId": "song06",
+      "difficulty": "HARD",
+      "notes": 308,
+      "durationSeconds": 120.056,
+      "notesPerMinute": 153.93,
+      "noteTypes": {
+        "tap": 248,
+        "flick": 58,
+        "slide": 2
+      },
+      "meanGapSeconds": 0.382,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 41,
+        "1": 97,
+        "2": 68,
+        "3": 101
+      }
+    },
+    {
+      "songId": "song07",
+      "difficulty": "EASY",
+      "notes": 107,
+      "durationSeconds": 120.459,
+      "notesPerMinute": 53.3,
+      "noteTypes": {
+        "tap": 104,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.107,
+      "minGapSeconds": 0.459,
+      "laneTransitions": {
+        "0": 13,
+        "1": 33,
+        "2": 23,
+        "3": 37
+      }
+    },
+    {
+      "songId": "song07",
+      "difficulty": "NORMAL",
+      "notes": 197,
+      "durationSeconds": 120.459,
+      "notesPerMinute": 98.12,
+      "noteTypes": {
+        "flick": 19,
+        "tap": 175,
+        "slide": 1,
+        "hold": 2
+      },
+      "meanGapSeconds": 0.599,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 25,
+        "1": 68,
+        "2": 51,
+        "3": 52
+      }
+    },
+    {
+      "songId": "song07",
+      "difficulty": "HARD",
+      "notes": 303,
+      "durationSeconds": 120.459,
+      "notesPerMinute": 150.92,
+      "noteTypes": {
+        "tap": 239,
+        "flick": 60,
+        "slide": 3,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.389,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 45,
+        "1": 99,
+        "2": 62,
+        "3": 96
+      }
+    },
+    {
+      "songId": "song08",
+      "difficulty": "EASY",
+      "notes": 105,
+      "durationSeconds": 112.251,
+      "notesPerMinute": 56.12,
+      "noteTypes": {
+        "tap": 103,
+        "hold": 2
+      },
+      "meanGapSeconds": 1.049,
+      "minGapSeconds": 0.459,
+      "laneTransitions": {
+        "0": 8,
+        "1": 33,
+        "2": 25,
+        "3": 38
+      }
+    },
+    {
+      "songId": "song08",
+      "difficulty": "NORMAL",
+      "notes": 189,
+      "durationSeconds": 112.251,
+      "notesPerMinute": 101.02,
+      "noteTypes": {
+        "flick": 22,
+        "tap": 164,
+        "slide": 2,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.579,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 21,
+        "1": 49,
+        "2": 58,
+        "3": 60
+      }
+    },
+    {
+      "songId": "song08",
+      "difficulty": "HARD",
+      "notes": 280,
+      "durationSeconds": 112.251,
+      "notesPerMinute": 149.66,
+      "noteTypes": {
+        "tap": 215,
+        "flick": 62,
+        "slide": 3
+      },
+      "meanGapSeconds": 0.39,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 42,
+        "1": 83,
+        "2": 60,
+        "3": 94
+      }
+    },
+    {
+      "songId": "song09",
+      "difficulty": "EASY",
+      "notes": 111,
+      "durationSeconds": 121.045,
+      "notesPerMinute": 55.02,
+      "noteTypes": {
+        "tap": 107,
+        "hold": 4
+      },
+      "meanGapSeconds": 1.027,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 13,
+        "1": 43,
+        "2": 25,
+        "3": 29
+      }
+    },
+    {
+      "songId": "song09",
+      "difficulty": "NORMAL",
+      "notes": 200,
+      "durationSeconds": 121.045,
+      "notesPerMinute": 99.14,
+      "noteTypes": {
+        "flick": 19,
+        "tap": 177,
+        "slide": 1,
+        "hold": 3
+      },
+      "meanGapSeconds": 0.591,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 30,
+        "1": 63,
+        "2": 55,
+        "3": 51
+      }
+    },
+    {
+      "songId": "song09",
+      "difficulty": "HARD",
+      "notes": 307,
+      "durationSeconds": 121.045,
+      "notesPerMinute": 152.17,
+      "noteTypes": {
+        "tap": 232,
+        "flick": 75
+      },
+      "meanGapSeconds": 0.384,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 45,
+        "1": 79,
+        "2": 71,
+        "3": 111
+      }
+    },
+    {
+      "songId": "song10",
+      "difficulty": "EASY",
+      "notes": 108,
+      "durationSeconds": 120.291,
+      "notesPerMinute": 53.87,
+      "noteTypes": {
+        "tap": 105,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.092,
+      "minGapSeconds": 0.499,
+      "laneTransitions": {
+        "0": 12,
+        "1": 37,
+        "2": 29,
+        "3": 29
+      }
+    },
+    {
+      "songId": "song10",
+      "difficulty": "NORMAL",
+      "notes": 208,
+      "durationSeconds": 120.291,
+      "notesPerMinute": 103.75,
+      "noteTypes": {
+        "tap": 188,
+        "hold": 3,
+        "flick": 17
+      },
+      "meanGapSeconds": 0.566,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 20,
+        "1": 74,
+        "2": 52,
+        "3": 61
+      }
+    },
+    {
+      "songId": "song10",
+      "difficulty": "HARD",
+      "notes": 306,
+      "durationSeconds": 120.291,
+      "notesPerMinute": 152.63,
+      "noteTypes": {
+        "tap": 240,
+        "flick": 64,
+        "slide": 1,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.386,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 41,
+        "1": 110,
+        "2": 58,
+        "3": 96
+      }
+    },
+    {
+      "songId": "song11",
+      "difficulty": "EASY",
+      "notes": 115,
+      "durationSeconds": 120.005,
+      "notesPerMinute": 57.5,
+      "noteTypes": {
+        "tap": 109,
+        "hold": 6
+      },
+      "meanGapSeconds": 1.025,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 12,
+        "1": 44,
+        "2": 26,
+        "3": 32
+      }
+    },
+    {
+      "songId": "song11",
+      "difficulty": "NORMAL",
+      "notes": 203,
+      "durationSeconds": 120.005,
+      "notesPerMinute": 101.5,
+      "noteTypes": {
+        "tap": 175,
+        "hold": 2,
+        "flick": 26
+      },
+      "meanGapSeconds": 0.581,
+      "minGapSeconds": 0.259,
+      "laneTransitions": {
+        "0": 26,
+        "1": 65,
+        "2": 51,
+        "3": 60
+      }
+    },
+    {
+      "songId": "song11",
+      "difficulty": "HARD",
+      "notes": 309,
+      "durationSeconds": 120.005,
+      "notesPerMinute": 154.49,
+      "noteTypes": {
+        "tap": 240,
+        "flick": 67,
+        "slide": 1,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.381,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 44,
+        "1": 98,
+        "2": 60,
+        "3": 106
+      }
+    },
+    {
+      "songId": "song12",
+      "difficulty": "EASY",
+      "notes": 116,
+      "durationSeconds": 120.459,
+      "notesPerMinute": 57.78,
+      "noteTypes": {
+        "tap": 114,
+        "hold": 2
+      },
+      "meanGapSeconds": 1.022,
+      "minGapSeconds": 0.519,
+      "laneTransitions": {
+        "0": 11,
+        "1": 36,
+        "2": 22,
+        "3": 46
+      }
+    },
+    {
+      "songId": "song12",
+      "difficulty": "NORMAL",
+      "notes": 192,
+      "durationSeconds": 120.459,
+      "notesPerMinute": 95.63,
+      "noteTypes": {
+        "tap": 169,
+        "flick": 20,
+        "slide": 3
+      },
+      "meanGapSeconds": 0.615,
+      "minGapSeconds": 0.319,
+      "laneTransitions": {
+        "0": 26,
+        "1": 69,
+        "2": 38,
+        "3": 58
+      }
+    },
+    {
+      "songId": "song12",
+      "difficulty": "HARD",
+      "notes": 312,
+      "durationSeconds": 120.459,
+      "notesPerMinute": 155.41,
+      "noteTypes": {
+        "tap": 265,
+        "flick": 47
+      },
+      "meanGapSeconds": 0.378,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 33,
+        "1": 100,
+        "2": 68,
+        "3": 110
+      }
+    },
+    {
+      "songId": "song13",
+      "difficulty": "EASY",
+      "notes": 109,
+      "durationSeconds": 120.72,
+      "notesPerMinute": 54.17,
+      "noteTypes": {
+        "tap": 105,
+        "hold": 4
+      },
+      "meanGapSeconds": 1.064,
+      "minGapSeconds": 0.439,
+      "laneTransitions": {
+        "0": 12,
+        "1": 36,
+        "2": 23,
+        "3": 37
+      }
+    },
+    {
+      "songId": "song13",
+      "difficulty": "NORMAL",
+      "notes": 207,
+      "durationSeconds": 120.72,
+      "notesPerMinute": 102.88,
+      "noteTypes": {
+        "tap": 189,
+        "flick": 16,
+        "slide": 1,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.57,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 27,
+        "1": 60,
+        "2": 42,
+        "3": 77
+      }
+    },
+    {
+      "songId": "song13",
+      "difficulty": "HARD",
+      "notes": 293,
+      "durationSeconds": 120.72,
+      "notesPerMinute": 145.63,
+      "noteTypes": {
+        "flick": 70,
+        "tap": 221,
+        "hold": 2
+      },
+      "meanGapSeconds": 0.402,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 44,
+        "1": 87,
+        "2": 71,
+        "3": 90
+      }
+    },
+    {
+      "songId": "lantern27",
+      "difficulty": "EASY",
+      "notes": 115,
+      "durationSeconds": 121.083,
+      "notesPerMinute": 56.99,
+      "noteTypes": {
+        "tap": 112,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.008,
+      "minGapSeconds": 0.439,
+      "laneTransitions": {
+        "0": 15,
+        "1": 35,
+        "2": 29,
+        "3": 35
+      }
+    },
+    {
+      "songId": "lantern27",
+      "difficulty": "NORMAL",
+      "notes": 191,
+      "durationSeconds": 121.083,
+      "notesPerMinute": 94.65,
+      "noteTypes": {
+        "tap": 163,
+        "flick": 25,
+        "hold": 3
+      },
+      "meanGapSeconds": 0.605,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 30,
+        "1": 56,
+        "2": 48,
+        "3": 56
+      }
+    },
+    {
+      "songId": "lantern27",
+      "difficulty": "HARD",
+      "notes": 297,
+      "durationSeconds": 121.083,
+      "notesPerMinute": 147.17,
+      "noteTypes": {
+        "tap": 234,
+        "flick": 62,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.388,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 41,
+        "1": 93,
+        "2": 78,
+        "3": 84
+      }
+    },
+    {
+      "songId": "border26",
+      "difficulty": "EASY",
+      "notes": 113,
+      "durationSeconds": 120.699,
+      "notesPerMinute": 56.17,
+      "noteTypes": {
+        "tap": 108,
+        "hold": 5
+      },
+      "meanGapSeconds": 1.047,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 8,
+        "1": 35,
+        "2": 27,
+        "3": 42
+      }
+    },
+    {
+      "songId": "border26",
+      "difficulty": "NORMAL",
+      "notes": 205,
+      "durationSeconds": 120.699,
+      "notesPerMinute": 101.91,
+      "noteTypes": {
+        "tap": 188,
+        "flick": 13,
+        "hold": 3,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.575,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 23,
+        "1": 65,
+        "2": 51,
+        "3": 65
+      }
+    },
+    {
+      "songId": "border26",
+      "difficulty": "HARD",
+      "notes": 312,
+      "durationSeconds": 120.699,
+      "notesPerMinute": 155.1,
+      "noteTypes": {
+        "tap": 252,
+        "flick": 59,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.378,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 43,
+        "1": 102,
+        "2": 69,
+        "3": 97
+      }
+    },
+    {
+      "songId": "temperature28",
+      "difficulty": "EASY",
+      "notes": 116,
+      "durationSeconds": 121.35,
+      "notesPerMinute": 57.35,
+      "noteTypes": {
+        "tap": 108,
+        "hold": 8
+      },
+      "meanGapSeconds": 0.998,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 19,
+        "1": 29,
+        "2": 23,
+        "3": 44
+      }
+    },
+    {
+      "songId": "temperature28",
+      "difficulty": "NORMAL",
+      "notes": 197,
+      "durationSeconds": 121.35,
+      "notesPerMinute": 97.4,
+      "noteTypes": {
+        "tap": 178,
+        "flick": 19
+      },
+      "meanGapSeconds": 0.586,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 23,
+        "1": 67,
+        "2": 48,
+        "3": 58
+      }
+    },
+    {
+      "songId": "temperature28",
+      "difficulty": "HARD",
+      "notes": 313,
+      "durationSeconds": 121.35,
+      "notesPerMinute": 154.76,
+      "noteTypes": {
+        "tap": 242,
+        "flick": 70,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.368,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 47,
+        "1": 103,
+        "2": 82,
+        "3": 80
+      }
+    },
+    {
+      "songId": "countthree25",
+      "difficulty": "EASY",
+      "notes": 108,
+      "durationSeconds": 120.342,
+      "notesPerMinute": 53.85,
+      "noteTypes": {
+        "tap": 107,
+        "hold": 1
+      },
+      "meanGapSeconds": 1.067,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 8,
+        "1": 30,
+        "2": 25,
+        "3": 44
+      }
+    },
+    {
+      "songId": "countthree25",
+      "difficulty": "NORMAL",
+      "notes": 195,
+      "durationSeconds": 120.342,
+      "notesPerMinute": 97.22,
+      "noteTypes": {
+        "tap": 180,
+        "flick": 12,
+        "hold": 2,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.597,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 24,
+        "1": 55,
+        "2": 59,
+        "3": 56
+      }
+    },
+    {
+      "songId": "countthree25",
+      "difficulty": "HARD",
+      "notes": 300,
+      "durationSeconds": 120.342,
+      "notesPerMinute": 149.57,
+      "noteTypes": {
+        "tap": 236,
+        "flick": 62,
+        "slide": 2
+      },
+      "meanGapSeconds": 0.388,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 44,
+        "1": 90,
+        "2": 73,
+        "3": 92
+      }
+    },
+    {
+      "songId": "threestars24",
+      "difficulty": "EASY",
+      "notes": 110,
+      "durationSeconds": 120.273,
+      "notesPerMinute": 54.88,
+      "noteTypes": {
+        "tap": 106,
+        "hold": 4
+      },
+      "meanGapSeconds": 1.063,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 14,
+        "1": 27,
+        "2": 26,
+        "3": 42
+      }
+    },
+    {
+      "songId": "threestars24",
+      "difficulty": "NORMAL",
+      "notes": 200,
+      "durationSeconds": 120.273,
+      "notesPerMinute": 99.77,
+      "noteTypes": {
+        "tap": 178,
+        "flick": 20,
+        "slide": 1,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.582,
+      "minGapSeconds": 0.279,
+      "laneTransitions": {
+        "0": 31,
+        "1": 61,
+        "2": 45,
+        "3": 62
+      }
+    },
+    {
+      "songId": "threestars24",
+      "difficulty": "HARD",
+      "notes": 312,
+      "durationSeconds": 120.273,
+      "notesPerMinute": 155.65,
+      "noteTypes": {
+        "tap": 220,
+        "flick": 90,
+        "hold": 2
+      },
+      "meanGapSeconds": 0.372,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 45,
+        "1": 90,
+        "2": 69,
+        "3": 107
+      }
+    },
+    {
+      "songId": "dayoff23",
+      "difficulty": "EASY",
+      "notes": 114,
+      "durationSeconds": 120.199,
+      "notesPerMinute": 56.91,
+      "noteTypes": {
+        "tap": 109,
+        "hold": 5
+      },
+      "meanGapSeconds": 1.037,
+      "minGapSeconds": 0.458,
+      "laneTransitions": {
+        "0": 13,
+        "1": 36,
+        "2": 30,
+        "3": 34
+      }
+    },
+    {
+      "songId": "dayoff23",
+      "difficulty": "NORMAL",
+      "notes": 196,
+      "durationSeconds": 120.199,
+      "notesPerMinute": 97.84,
+      "noteTypes": {
+        "tap": 176,
+        "flick": 18,
+        "slide": 2
+      },
+      "meanGapSeconds": 0.601,
+      "minGapSeconds": 0.32,
+      "laneTransitions": {
+        "0": 20,
+        "1": 65,
+        "2": 48,
+        "3": 62
+      }
+    },
+    {
+      "songId": "dayoff23",
+      "difficulty": "HARD",
+      "notes": 312,
+      "durationSeconds": 120.199,
+      "notesPerMinute": 155.74,
+      "noteTypes": {
+        "tap": 249,
+        "flick": 62,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.376,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 44,
+        "1": 87,
+        "2": 70,
+        "3": 110
+      }
+    },
+    {
+      "songId": "song22",
+      "difficulty": "EASY",
+      "notes": 130,
+      "durationSeconds": 137.029,
+      "notesPerMinute": 56.92,
+      "noteTypes": {
+        "tap": 127,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.043,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 13,
+        "1": 43,
+        "2": 35,
+        "3": 38
+      }
+    },
+    {
+      "songId": "song22",
+      "difficulty": "NORMAL",
+      "notes": 220,
+      "durationSeconds": 137.029,
+      "notesPerMinute": 96.33,
+      "noteTypes": {
+        "tap": 197,
+        "hold": 2,
+        "flick": 20,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.615,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 31,
+        "1": 77,
+        "2": 41,
+        "3": 70
+      }
+    },
+    {
+      "songId": "song22",
+      "difficulty": "HARD",
+      "notes": 334,
+      "durationSeconds": 137.029,
+      "notesPerMinute": 146.25,
+      "noteTypes": {
+        "tap": 255,
+        "flick": 77,
+        "hold": 2
+      },
+      "meanGapSeconds": 0.404,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 50,
+        "1": 113,
+        "2": 79,
+        "3": 91
+      }
+    },
+    {
+      "songId": "song20",
+      "difficulty": "EASY",
+      "notes": 110,
+      "durationSeconds": 120.819,
+      "notesPerMinute": 54.63,
+      "noteTypes": {
+        "tap": 107,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.059,
+      "minGapSeconds": 0.459,
+      "laneTransitions": {
+        "0": 15,
+        "1": 36,
+        "2": 28,
+        "3": 30
+      }
+    },
+    {
+      "songId": "song20",
+      "difficulty": "NORMAL",
+      "notes": 204,
+      "durationSeconds": 120.819,
+      "notesPerMinute": 101.31,
+      "noteTypes": {
+        "tap": 184,
+        "flick": 19,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.575,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 27,
+        "1": 69,
+        "2": 51,
+        "3": 56
+      }
+    },
+    {
+      "songId": "song20",
+      "difficulty": "HARD",
+      "notes": 313,
+      "durationSeconds": 120.819,
+      "notesPerMinute": 155.44,
+      "noteTypes": {
+        "flick": 53,
+        "tap": 259,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.378,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 39,
+        "1": 116,
+        "2": 74,
+        "3": 83
+      }
+    },
+    {
+      "songId": "song18",
+      "difficulty": "EASY",
+      "notes": 116,
+      "durationSeconds": 120.915,
+      "notesPerMinute": 57.56,
+      "noteTypes": {
+        "tap": 113,
+        "hold": 3
+      },
+      "meanGapSeconds": 0.999,
+      "minGapSeconds": 0.439,
+      "laneTransitions": {
+        "0": 7,
+        "1": 41,
+        "2": 29,
+        "3": 38
+      }
+    },
+    {
+      "songId": "song18",
+      "difficulty": "NORMAL",
+      "notes": 203,
+      "durationSeconds": 120.915,
+      "notesPerMinute": 100.73,
+      "noteTypes": {
+        "flick": 17,
+        "tap": 185,
+        "slide": 1
+      },
+      "meanGapSeconds": 0.571,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 25,
+        "1": 64,
+        "2": 57,
+        "3": 56
+      }
+    },
+    {
+      "songId": "song18",
+      "difficulty": "HARD",
+      "notes": 300,
+      "durationSeconds": 120.915,
+      "notesPerMinute": 148.86,
+      "noteTypes": {
+        "tap": 244,
+        "flick": 55,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.386,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 35,
+        "1": 100,
+        "2": 76,
+        "3": 88
+      }
+    },
+    {
+      "songId": "song21",
+      "difficulty": "EASY",
+      "notes": 110,
+      "durationSeconds": 121.443,
+      "notesPerMinute": 54.35,
+      "noteTypes": {
+        "tap": 109,
+        "hold": 1
+      },
+      "meanGapSeconds": 1.092,
+      "minGapSeconds": 0.419,
+      "laneTransitions": {
+        "0": 13,
+        "1": 33,
+        "2": 27,
+        "3": 36
+      }
+    },
+    {
+      "songId": "song21",
+      "difficulty": "NORMAL",
+      "notes": 201,
+      "durationSeconds": 121.443,
+      "notesPerMinute": 99.31,
+      "noteTypes": {
+        "tap": 172,
+        "flick": 23,
+        "hold": 4,
+        "slide": 2
+      },
+      "meanGapSeconds": 0.599,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 29,
+        "1": 67,
+        "2": 46,
+        "3": 58
+      }
+    },
+    {
+      "songId": "song21",
+      "difficulty": "HARD",
+      "notes": 306,
+      "durationSeconds": 121.443,
+      "notesPerMinute": 151.18,
+      "noteTypes": {
+        "tap": 236,
+        "flick": 68,
+        "slide": 2
+      },
+      "meanGapSeconds": 0.393,
+      "minGapSeconds": 0.179,
+      "laneTransitions": {
+        "0": 48,
+        "1": 91,
+        "2": 67,
+        "3": 99
+      }
+    },
+    {
+      "songId": "song17",
+      "difficulty": "EASY",
+      "notes": 112,
+      "durationSeconds": 120.966,
+      "notesPerMinute": 55.55,
+      "noteTypes": {
+        "tap": 109,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.062,
+      "minGapSeconds": 0.459,
+      "laneTransitions": {
+        "0": 16,
+        "1": 28,
+        "2": 33,
+        "3": 34
+      }
+    },
+    {
+      "songId": "song17",
+      "difficulty": "NORMAL",
+      "notes": 206,
+      "durationSeconds": 120.966,
+      "notesPerMinute": 102.18,
+      "noteTypes": {
+        "flick": 17,
+        "tap": 188,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.58,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 26,
+        "1": 62,
+        "2": 60,
+        "3": 57
+      }
+    },
+    {
+      "songId": "song17",
+      "difficulty": "HARD",
+      "notes": 312,
+      "durationSeconds": 120.966,
+      "notesPerMinute": 154.75,
+      "noteTypes": {
+        "tap": 252,
+        "flick": 60
+      },
+      "meanGapSeconds": 0.382,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 40,
+        "1": 105,
+        "2": 75,
+        "3": 91
+      }
+    },
+    {
+      "songId": "song19",
+      "difficulty": "EASY",
+      "notes": 113,
+      "durationSeconds": 120.843,
+      "notesPerMinute": 56.11,
+      "noteTypes": {
+        "tap": 110,
+        "hold": 3
+      },
+      "meanGapSeconds": 1.022,
+      "minGapSeconds": 0.439,
+      "laneTransitions": {
+        "0": 17,
+        "1": 33,
+        "2": 26,
+        "3": 36
+      }
+    },
+    {
+      "songId": "song19",
+      "difficulty": "NORMAL",
+      "notes": 196,
+      "durationSeconds": 120.843,
+      "notesPerMinute": 97.32,
+      "noteTypes": {
+        "tap": 159,
+        "flick": 35,
+        "hold": 2
+      },
+      "meanGapSeconds": 0.596,
+      "minGapSeconds": 0.299,
+      "laneTransitions": {
+        "0": 29,
+        "1": 53,
+        "2": 49,
+        "3": 64
+      }
+    },
+    {
+      "songId": "song19",
+      "difficulty": "HARD",
+      "notes": 312,
+      "durationSeconds": 120.843,
+      "notesPerMinute": 154.91,
+      "noteTypes": {
+        "tap": 249,
+        "flick": 60,
+        "slide": 2,
+        "hold": 1
+      },
+      "meanGapSeconds": 0.379,
+      "minGapSeconds": 0.199,
+      "laneTransitions": {
+        "0": 36,
+        "1": 99,
+        "2": 66,
+        "3": 110
+      }
+    }
+  ]
+}

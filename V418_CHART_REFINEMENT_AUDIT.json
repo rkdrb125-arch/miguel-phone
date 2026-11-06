@@ -1,0 +1,1073 @@
+{
+  "method": "Per-song MP3 decoded at 8 kHz; short-window RMS novelty used to identify weak transients. Modest removal of weak TAP notes, preserving original timings and all HOLD/FLICK/SLIDE. This is not human transcription or beat-perfect validation.",
+  "changes": {
+    "removed_weak_taps": 1141,
+    "songs": 25,
+    "charts": 75
+  },
+  "limitations": "No mobile touch playtest, melody separation or verified beat grid; note removal alone does not guarantee natural musical phrasing.",
+  "songs": [
+    {
+      "song": "original",
+      "audio_sec": 111.195,
+      "strong_transients": 241,
+      "charts": {
+        "EASY": {
+          "before": 116,
+          "after": 104,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 102,
+            "hold": 2
+          },
+          "first_time": 1.157,
+          "last_time": 109.511
+        },
+        "NORMAL": {
+          "before": 200,
+          "after": 179,
+          "removed_weak_taps": 21,
+          "types": {
+            "tap": 163,
+            "flick": 13,
+            "slide": 2,
+            "hold": 1
+          },
+          "first_time": 1.157,
+          "last_time": 109.511
+        },
+        "HARD": {
+          "before": 294,
+          "after": 284,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 222,
+            "flick": 60,
+            "slide": 1,
+            "hold": 1
+          },
+          "first_time": 1.157,
+          "last_time": 109.511
+        }
+      }
+    },
+    {
+      "song": "forest",
+      "audio_sec": 111.267,
+      "strong_transients": 251,
+      "charts": {
+        "EASY": {
+          "before": 116,
+          "after": 103,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 103
+          },
+          "first_time": 1.058,
+          "last_time": 108.553
+        },
+        "NORMAL": {
+          "before": 200,
+          "after": 189,
+          "removed_weak_taps": 11,
+          "types": {
+            "tap": 159,
+            "flick": 29,
+            "slide": 1
+          },
+          "first_time": 1.058,
+          "last_time": 109.411
+        },
+        "HARD": {
+          "before": 294,
+          "after": 275,
+          "removed_weak_taps": 19,
+          "types": {
+            "tap": 208,
+            "flick": 67
+          },
+          "first_time": 1.058,
+          "last_time": 109.711
+        }
+      }
+    },
+    {
+      "song": "starlight",
+      "audio_sec": 110.475,
+      "strong_transients": 253,
+      "charts": {
+        "EASY": {
+          "before": 115,
+          "after": 98,
+          "removed_weak_taps": 17,
+          "types": {
+            "tap": 96,
+            "hold": 2
+          },
+          "first_time": 1.237,
+          "last_time": 107.655
+        },
+        "NORMAL": {
+          "before": 199,
+          "after": 179,
+          "removed_weak_taps": 20,
+          "types": {
+            "tap": 159,
+            "flick": 18,
+            "hold": 1,
+            "slide": 1
+          },
+          "first_time": 1.237,
+          "last_time": 107.456
+        },
+        "HARD": {
+          "before": 293,
+          "after": 267,
+          "removed_weak_taps": 26,
+          "types": {
+            "flick": 61,
+            "tap": 204,
+            "hold": 2
+          },
+          "first_time": 1.237,
+          "last_time": 107.655
+        }
+      }
+    },
+    {
+      "song": "daniel",
+      "audio_sec": 111.363,
+      "strong_transients": 239,
+      "charts": {
+        "EASY": {
+          "before": 116,
+          "after": 103,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 98,
+            "hold": 5
+          },
+          "first_time": 1.217,
+          "last_time": 108.354
+        },
+        "NORMAL": {
+          "before": 202,
+          "after": 189,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 163,
+            "flick": 23,
+            "hold": 2,
+            "slide": 1
+          },
+          "first_time": 1.038,
+          "last_time": 108.793
+        },
+        "HARD": {
+          "before": 295,
+          "after": 288,
+          "removed_weak_taps": 7,
+          "types": {
+            "tap": 224,
+            "flick": 64
+          },
+          "first_time": 1.038,
+          "last_time": 108.793
+        }
+      }
+    },
+    {
+      "song": "night",
+      "audio_sec": 110.595,
+      "strong_transients": 233,
+      "charts": {
+        "EASY": {
+          "before": 116,
+          "after": 104,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 103,
+            "hold": 1
+          },
+          "first_time": 1.038,
+          "last_time": 107.875
+        },
+        "NORMAL": {
+          "before": 201,
+          "after": 177,
+          "removed_weak_taps": 24,
+          "types": {
+            "tap": 147,
+            "hold": 2,
+            "flick": 26,
+            "slide": 2
+          },
+          "first_time": 1.038,
+          "last_time": 107.875
+        },
+        "HARD": {
+          "before": 294,
+          "after": 282,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 216,
+            "flick": 63,
+            "slide": 2,
+            "hold": 1
+          },
+          "first_time": 1.038,
+          "last_time": 108.134
+        }
+      }
+    },
+    {
+      "song": "song06",
+      "audio_sec": 120.056,
+      "strong_transients": 253,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 107,
+          "removed_weak_taps": 19,
+          "types": {
+            "tap": 103,
+            "hold": 4
+          },
+          "first_time": 1.018,
+          "last_time": 118.431
+        },
+        "NORMAL": {
+          "before": 216,
+          "after": 197,
+          "removed_weak_taps": 19,
+          "types": {
+            "tap": 176,
+            "flick": 20,
+            "slide": 1
+          },
+          "first_time": 1.018,
+          "last_time": 118.431
+        },
+        "HARD": {
+          "before": 318,
+          "after": 308,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 248,
+            "flick": 58,
+            "slide": 2
+          },
+          "first_time": 1.018,
+          "last_time": 118.431
+        }
+      }
+    },
+    {
+      "song": "song07",
+      "audio_sec": 120.459,
+      "strong_transients": 255,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 107,
+          "removed_weak_taps": 19,
+          "types": {
+            "tap": 104,
+            "hold": 3
+          },
+          "first_time": 1.078,
+          "last_time": 118.411
+        },
+        "NORMAL": {
+          "before": 216,
+          "after": 197,
+          "removed_weak_taps": 19,
+          "types": {
+            "flick": 19,
+            "tap": 175,
+            "slide": 1,
+            "hold": 2
+          },
+          "first_time": 1.078,
+          "last_time": 119.861
+        },
+        "HARD": {
+          "before": 320,
+          "after": 303,
+          "removed_weak_taps": 17,
+          "types": {
+            "tap": 239,
+            "flick": 60,
+            "slide": 3,
+            "hold": 1
+          },
+          "first_time": 1.078,
+          "last_time": 118.411
+        }
+      }
+    },
+    {
+      "song": "song08",
+      "audio_sec": 112.251,
+      "strong_transients": 257,
+      "charts": {
+        "EASY": {
+          "before": 117,
+          "after": 105,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 103,
+            "hold": 2
+          },
+          "first_time": 0.918,
+          "last_time": 109.99
+        },
+        "NORMAL": {
+          "before": 203,
+          "after": 189,
+          "removed_weak_taps": 14,
+          "types": {
+            "flick": 22,
+            "tap": 164,
+            "slide": 2,
+            "hold": 1
+          },
+          "first_time": 0.918,
+          "last_time": 111.3
+        },
+        "HARD": {
+          "before": 299,
+          "after": 280,
+          "removed_weak_taps": 19,
+          "types": {
+            "tap": 215,
+            "flick": 62,
+            "slide": 3
+          },
+          "first_time": 0.918,
+          "last_time": 109.85
+        }
+      }
+    },
+    {
+      "song": "song09",
+      "audio_sec": 121.045,
+      "strong_transients": 253,
+      "charts": {
+        "EASY": {
+          "before": 127,
+          "after": 111,
+          "removed_weak_taps": 16,
+          "types": {
+            "tap": 107,
+            "hold": 4
+          },
+          "first_time": 1.237,
+          "last_time": 114.22
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 200,
+          "removed_weak_taps": 17,
+          "types": {
+            "flick": 19,
+            "tap": 177,
+            "slide": 1,
+            "hold": 3
+          },
+          "first_time": 1.237,
+          "last_time": 118.79
+        },
+        "HARD": {
+          "before": 320,
+          "after": 307,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 232,
+            "flick": 75
+          },
+          "first_time": 1.237,
+          "last_time": 118.79
+        }
+      }
+    },
+    {
+      "song": "song10",
+      "audio_sec": 120.291,
+      "strong_transients": 263,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 108,
+          "removed_weak_taps": 18,
+          "types": {
+            "tap": 105,
+            "hold": 3
+          },
+          "first_time": 0.938,
+          "last_time": 117.832
+        },
+        "NORMAL": {
+          "before": 218,
+          "after": 208,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 188,
+            "hold": 3,
+            "flick": 17
+          },
+          "first_time": 0.938,
+          "last_time": 118.072
+        },
+        "HARD": {
+          "before": 318,
+          "after": 306,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 240,
+            "flick": 64,
+            "slide": 1,
+            "hold": 1
+          },
+          "first_time": 0.938,
+          "last_time": 118.63
+        }
+      }
+    },
+    {
+      "song": "song11",
+      "audio_sec": 120.005,
+      "strong_transients": 259,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 115,
+          "removed_weak_taps": 11,
+          "types": {
+            "tap": 109,
+            "hold": 6
+          },
+          "first_time": 1.058,
+          "last_time": 117.872
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 203,
+          "removed_weak_taps": 14,
+          "types": {
+            "tap": 175,
+            "hold": 2,
+            "flick": 26
+          },
+          "first_time": 1.058,
+          "last_time": 118.331
+        },
+        "HARD": {
+          "before": 319,
+          "after": 309,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 240,
+            "flick": 67,
+            "slide": 1,
+            "hold": 1
+          },
+          "first_time": 1.058,
+          "last_time": 118.331
+        }
+      }
+    },
+    {
+      "song": "song12",
+      "audio_sec": 120.459,
+      "strong_transients": 267,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 116,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 114,
+            "hold": 2
+          },
+          "first_time": 1.038,
+          "last_time": 118.551
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 192,
+          "removed_weak_taps": 25,
+          "types": {
+            "tap": 169,
+            "flick": 20,
+            "slide": 3
+          },
+          "first_time": 1.038,
+          "last_time": 118.551
+        },
+        "HARD": {
+          "before": 319,
+          "after": 312,
+          "removed_weak_taps": 7,
+          "types": {
+            "tap": 265,
+            "flick": 47
+          },
+          "first_time": 1.038,
+          "last_time": 118.75
+        }
+      }
+    },
+    {
+      "song": "song13",
+      "audio_sec": 120.72,
+      "strong_transients": 276,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 109,
+          "removed_weak_taps": 17,
+          "types": {
+            "tap": 105,
+            "hold": 4
+          },
+          "first_time": 1.576,
+          "last_time": 116.495
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 207,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 189,
+            "flick": 16,
+            "slide": 1,
+            "hold": 1
+          },
+          "first_time": 1.078,
+          "last_time": 118.411
+        },
+        "HARD": {
+          "before": 321,
+          "after": 293,
+          "removed_weak_taps": 28,
+          "types": {
+            "flick": 70,
+            "tap": 221,
+            "hold": 2
+          },
+          "first_time": 1.078,
+          "last_time": 118.411
+        }
+      }
+    },
+    {
+      "song": "lantern27",
+      "audio_sec": 121.083,
+      "strong_transients": 261,
+      "charts": {
+        "EASY": {
+          "before": 127,
+          "after": 115,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 112,
+            "hold": 3
+          },
+          "first_time": 1.058,
+          "last_time": 115.937
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 191,
+          "removed_weak_taps": 26,
+          "types": {
+            "tap": 163,
+            "flick": 25,
+            "hold": 3
+          },
+          "first_time": 1.058,
+          "last_time": 115.937
+        },
+        "HARD": {
+          "before": 320,
+          "after": 297,
+          "removed_weak_taps": 23,
+          "types": {
+            "tap": 234,
+            "flick": 62,
+            "slide": 1
+          },
+          "first_time": 1.058,
+          "last_time": 115.937
+        }
+      }
+    },
+    {
+      "song": "border26",
+      "audio_sec": 120.699,
+      "strong_transients": 287,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 113,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 108,
+            "hold": 5
+          },
+          "first_time": 1.257,
+          "last_time": 118.491
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 205,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 188,
+            "flick": 13,
+            "hold": 3,
+            "slide": 1
+          },
+          "first_time": 1.257,
+          "last_time": 118.491
+        },
+        "HARD": {
+          "before": 319,
+          "after": 312,
+          "removed_weak_taps": 7,
+          "types": {
+            "tap": 252,
+            "flick": 59,
+            "slide": 1
+          },
+          "first_time": 1.257,
+          "last_time": 118.67
+        }
+      }
+    },
+    {
+      "song": "temperature28",
+      "audio_sec": 121.35,
+      "strong_transients": 243,
+      "charts": {
+        "EASY": {
+          "before": 127,
+          "after": 116,
+          "removed_weak_taps": 11,
+          "types": {
+            "tap": 108,
+            "hold": 8
+          },
+          "first_time": 1.217,
+          "last_time": 115.976
+        },
+        "NORMAL": {
+          "before": 218,
+          "after": 197,
+          "removed_weak_taps": 21,
+          "types": {
+            "tap": 178,
+            "flick": 19
+          },
+          "first_time": 1.217,
+          "last_time": 115.976
+        },
+        "HARD": {
+          "before": 321,
+          "after": 313,
+          "removed_weak_taps": 8,
+          "types": {
+            "tap": 242,
+            "flick": 70,
+            "slide": 1
+          },
+          "first_time": 1.217,
+          "last_time": 115.976
+        }
+      }
+    },
+    {
+      "song": "countthree25",
+      "audio_sec": 120.342,
+      "strong_transients": 277,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 108,
+          "removed_weak_taps": 18,
+          "types": {
+            "tap": 107,
+            "hold": 1
+          },
+          "first_time": 1.177,
+          "last_time": 115.318
+        },
+        "NORMAL": {
+          "before": 216,
+          "after": 195,
+          "removed_weak_taps": 21,
+          "types": {
+            "tap": 180,
+            "flick": 12,
+            "hold": 2,
+            "slide": 1
+          },
+          "first_time": 1.177,
+          "last_time": 117.054
+        },
+        "HARD": {
+          "before": 319,
+          "after": 300,
+          "removed_weak_taps": 19,
+          "types": {
+            "tap": 236,
+            "flick": 62,
+            "slide": 2
+          },
+          "first_time": 1.177,
+          "last_time": 117.054
+        }
+      }
+    },
+    {
+      "song": "threestars24",
+      "audio_sec": 120.273,
+      "strong_transients": 262,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 110,
+          "removed_weak_taps": 16,
+          "types": {
+            "tap": 106,
+            "hold": 4
+          },
+          "first_time": 0.918,
+          "last_time": 116.755
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 200,
+          "removed_weak_taps": 17,
+          "types": {
+            "tap": 178,
+            "flick": 20,
+            "slide": 1,
+            "hold": 1
+          },
+          "first_time": 0.918,
+          "last_time": 116.755
+        },
+        "HARD": {
+          "before": 319,
+          "after": 312,
+          "removed_weak_taps": 7,
+          "types": {
+            "tap": 220,
+            "flick": 90,
+            "hold": 2
+          },
+          "first_time": 0.918,
+          "last_time": 116.755
+        }
+      }
+    },
+    {
+      "song": "dayoff23",
+      "audio_sec": 120.199,
+      "strong_transients": 286,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 114,
+          "removed_weak_taps": 12,
+          "types": {
+            "tap": 109,
+            "hold": 5
+          },
+          "first_time": 1.297,
+          "last_time": 119.941
+        },
+        "NORMAL": {
+          "before": 216,
+          "after": 196,
+          "removed_weak_taps": 20,
+          "types": {
+            "tap": 176,
+            "flick": 18,
+            "slide": 2
+          },
+          "first_time": 1.297,
+          "last_time": 118.491
+        },
+        "HARD": {
+          "before": 319,
+          "after": 312,
+          "removed_weak_taps": 7,
+          "types": {
+            "tap": 249,
+            "flick": 62,
+            "slide": 1
+          },
+          "first_time": 1.656,
+          "last_time": 118.73
+        }
+      }
+    },
+    {
+      "song": "song22",
+      "audio_sec": 137.029,
+      "strong_transients": 296,
+      "charts": {
+        "EASY": {
+          "before": 143,
+          "after": 130,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 127,
+            "hold": 3
+          },
+          "first_time": 0.958,
+          "last_time": 135.552
+        },
+        "NORMAL": {
+          "before": 246,
+          "after": 220,
+          "removed_weak_taps": 26,
+          "types": {
+            "tap": 197,
+            "hold": 2,
+            "flick": 20,
+            "slide": 1
+          },
+          "first_time": 0.958,
+          "last_time": 135.552
+        },
+        "HARD": {
+          "before": 363,
+          "after": 334,
+          "removed_weak_taps": 29,
+          "types": {
+            "tap": 255,
+            "flick": 77,
+            "hold": 2
+          },
+          "first_time": 0.958,
+          "last_time": 135.552
+        }
+      }
+    },
+    {
+      "song": "song20",
+      "audio_sec": 120.819,
+      "strong_transients": 281,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 110,
+          "removed_weak_taps": 16,
+          "types": {
+            "tap": 107,
+            "hold": 3
+          },
+          "first_time": 1.217,
+          "last_time": 116.615
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 204,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 184,
+            "flick": 19,
+            "slide": 1
+          },
+          "first_time": 1.217,
+          "last_time": 117.912
+        },
+        "HARD": {
+          "before": 321,
+          "after": 313,
+          "removed_weak_taps": 8,
+          "types": {
+            "flick": 53,
+            "tap": 259,
+            "hold": 1
+          },
+          "first_time": 1.217,
+          "last_time": 119.189
+        }
+      }
+    },
+    {
+      "song": "song18",
+      "audio_sec": 120.915,
+      "strong_transients": 271,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 116,
+          "removed_weak_taps": 10,
+          "types": {
+            "tap": 113,
+            "hold": 3
+          },
+          "first_time": 2.514,
+          "last_time": 117.413
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 203,
+          "removed_weak_taps": 14,
+          "types": {
+            "flick": 17,
+            "tap": 185,
+            "slide": 1
+          },
+          "first_time": 2.514,
+          "last_time": 117.832
+        },
+        "HARD": {
+          "before": 320,
+          "after": 300,
+          "removed_weak_taps": 20,
+          "types": {
+            "tap": 244,
+            "flick": 55,
+            "hold": 1
+          },
+          "first_time": 2.335,
+          "last_time": 119.282
+        }
+      }
+    },
+    {
+      "song": "song21",
+      "audio_sec": 121.443,
+      "strong_transients": 259,
+      "charts": {
+        "EASY": {
+          "before": 127,
+          "after": 110,
+          "removed_weak_taps": 17,
+          "types": {
+            "tap": 109,
+            "hold": 1
+          },
+          "first_time": 1.018,
+          "last_time": 120.067
+        },
+        "NORMAL": {
+          "before": 218,
+          "after": 201,
+          "removed_weak_taps": 17,
+          "types": {
+            "tap": 172,
+            "flick": 23,
+            "hold": 4,
+            "slide": 2
+          },
+          "first_time": 1.018,
+          "last_time": 120.766
+        },
+        "HARD": {
+          "before": 322,
+          "after": 306,
+          "removed_weak_taps": 16,
+          "types": {
+            "tap": 236,
+            "flick": 68,
+            "slide": 2
+          },
+          "first_time": 1.018,
+          "last_time": 120.766
+        }
+      }
+    },
+    {
+      "song": "song17",
+      "audio_sec": 120.966,
+      "strong_transients": 282,
+      "charts": {
+        "EASY": {
+          "before": 127,
+          "after": 112,
+          "removed_weak_taps": 15,
+          "types": {
+            "tap": 109,
+            "hold": 3
+          },
+          "first_time": 1.317,
+          "last_time": 119.189
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 206,
+          "removed_weak_taps": 11,
+          "types": {
+            "flick": 17,
+            "tap": 188,
+            "hold": 1
+          },
+          "first_time": 1.157,
+          "last_time": 120.047
+        },
+        "HARD": {
+          "before": 320,
+          "after": 312,
+          "removed_weak_taps": 8,
+          "types": {
+            "tap": 252,
+            "flick": 60
+          },
+          "first_time": 1.157,
+          "last_time": 120.047
+        }
+      }
+    },
+    {
+      "song": "song19",
+      "audio_sec": 120.843,
+      "strong_transients": 252,
+      "charts": {
+        "EASY": {
+          "before": 126,
+          "after": 113,
+          "removed_weak_taps": 13,
+          "types": {
+            "tap": 110,
+            "hold": 3
+          },
+          "first_time": 1.098,
+          "last_time": 115.557
+        },
+        "NORMAL": {
+          "before": 217,
+          "after": 196,
+          "removed_weak_taps": 21,
+          "types": {
+            "tap": 159,
+            "flick": 35,
+            "hold": 2
+          },
+          "first_time": 1.098,
+          "last_time": 117.373
+        },
+        "HARD": {
+          "before": 320,
+          "after": 312,
+          "removed_weak_taps": 8,
+          "types": {
+            "tap": 249,
+            "flick": 60,
+            "slide": 2,
+            "hold": 1
+          },
+          "first_time": 1.098,
+          "last_time": 118.87
+        }
+      }
+    }
+  ]
+}

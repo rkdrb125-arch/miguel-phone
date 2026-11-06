@@ -1,0 +1,1818 @@
+{
+  "method": "Audio onset strength (RMS transient + spectral change) with track-specific seeded motifs, 3 difficulty densities, selected holds/flicks/slides. Automated analysis; NOT manually transcribed or mobile playtested.",
+  "validation": "75 charts: no same-lane overlap, max 2 simultaneous inputs, all timestamps inside measured MP3 duration; 25 distinct opening patterns; JS syntax; ZIP CRC.",
+  "tracks": [
+    {
+      "song": "original",
+      "duration": 111.195,
+      "audio_peak_count": 443,
+      "charts": {
+        "EASY": {
+          "notes": 116,
+          "types": {
+            "tap": 114,
+            "hold": 2
+          },
+          "opening_lanes": [
+            2,
+            0,
+            2,
+            1,
+            2,
+            3,
+            0,
+            3,
+            1,
+            0,
+            1,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 200,
+          "types": {
+            "tap": 184,
+            "flick": 13,
+            "slide": 2,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            3,
+            0,
+            2,
+            3,
+            0,
+            3,
+            3,
+            1,
+            0,
+            1,
+            3
+          ]
+        },
+        "HARD": {
+          "notes": 294,
+          "types": {
+            "tap": 232,
+            "flick": 60,
+            "slide": 1,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            3,
+            0,
+            1,
+            0,
+            2,
+            1,
+            1,
+            0,
+            3,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "forest",
+      "duration": 111.267,
+      "audio_peak_count": 475,
+      "charts": {
+        "EASY": {
+          "notes": 116,
+          "types": {
+            "tap": 116
+          },
+          "opening_lanes": [
+            3,
+            2,
+            1,
+            0,
+            1,
+            2,
+            3,
+            3,
+            2,
+            3,
+            2,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 200,
+          "types": {
+            "tap": 170,
+            "flick": 29,
+            "slide": 1
+          },
+          "opening_lanes": [
+            3,
+            2,
+            1,
+            3,
+            1,
+            0,
+            3,
+            3,
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 294,
+          "types": {
+            "tap": 227,
+            "flick": 67
+          },
+          "opening_lanes": [
+            3,
+            2,
+            0,
+            3,
+            1,
+            2,
+            3,
+            3,
+            1,
+            2,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "starlight",
+      "duration": 110.475,
+      "audio_peak_count": 503,
+      "charts": {
+        "EASY": {
+          "notes": 115,
+          "types": {
+            "tap": 113,
+            "hold": 2
+          },
+          "opening_lanes": [
+            2,
+            0,
+            3,
+            2,
+            1,
+            0,
+            2,
+            0,
+            2,
+            1,
+            0,
+            1
+          ]
+        },
+        "NORMAL": {
+          "notes": 199,
+          "types": {
+            "tap": 179,
+            "flick": 18,
+            "hold": 1,
+            "slide": 1
+          },
+          "opening_lanes": [
+            2,
+            0,
+            1,
+            2,
+            1,
+            2,
+            3,
+            3,
+            1,
+            3,
+            0,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 293,
+          "types": {
+            "flick": 61,
+            "tap": 230,
+            "hold": 2
+          },
+          "opening_lanes": [
+            2,
+            3,
+            0,
+            2,
+            0,
+            3,
+            2,
+            2,
+            3,
+            0,
+            2,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "song": "daniel",
+      "duration": 111.363,
+      "audio_peak_count": 475,
+      "charts": {
+        "EASY": {
+          "notes": 116,
+          "types": {
+            "tap": 111,
+            "hold": 5
+          },
+          "opening_lanes": [
+            1,
+            3,
+            1,
+            2,
+            3,
+            1,
+            0,
+            0,
+            1,
+            3,
+            1,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 202,
+          "types": {
+            "tap": 176,
+            "flick": 23,
+            "hold": 2,
+            "slide": 1
+          },
+          "opening_lanes": [
+            1,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            3,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 295,
+          "types": {
+            "tap": 231,
+            "flick": 64
+          },
+          "opening_lanes": [
+            1,
+            2,
+            1,
+            3,
+            2,
+            3,
+            1,
+            1,
+            3,
+            0,
+            3,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "song": "night",
+      "duration": 110.595,
+      "audio_peak_count": 444,
+      "charts": {
+        "EASY": {
+          "notes": 116,
+          "types": {
+            "tap": 115,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            1,
+            3,
+            2,
+            0,
+            1,
+            0,
+            0,
+            3,
+            1,
+            0,
+            1
+          ]
+        },
+        "NORMAL": {
+          "notes": 201,
+          "types": {
+            "tap": 171,
+            "hold": 2,
+            "flick": 26,
+            "slide": 2
+          },
+          "opening_lanes": [
+            2,
+            3,
+            1,
+            3,
+            1,
+            2,
+            3,
+            3,
+            2,
+            1,
+            3,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 294,
+          "types": {
+            "tap": 228,
+            "flick": 63,
+            "slide": 2,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            0,
+            3,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "song": "song06",
+      "duration": 120.056,
+      "audio_peak_count": 467,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 122,
+            "hold": 4
+          },
+          "opening_lanes": [
+            2,
+            1,
+            0,
+            1,
+            2,
+            3,
+            2,
+            2,
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        "NORMAL": {
+          "notes": 216,
+          "types": {
+            "tap": 195,
+            "flick": 20,
+            "slide": 1
+          },
+          "opening_lanes": [
+            2,
+            1,
+            3,
+            0,
+            3,
+            2,
+            3,
+            3,
+            1,
+            0,
+            1,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 318,
+          "types": {
+            "tap": 258,
+            "flick": 58,
+            "slide": 2
+          },
+          "opening_lanes": [
+            2,
+            3,
+            2,
+            1,
+            2,
+            1,
+            3,
+            3,
+            1,
+            2,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "song": "song07",
+      "duration": 120.459,
+      "audio_peak_count": 508,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 123,
+            "hold": 3
+          },
+          "opening_lanes": [
+            3,
+            1,
+            3,
+            1,
+            3,
+            1,
+            2,
+            1,
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 216,
+          "types": {
+            "flick": 19,
+            "tap": 194,
+            "slide": 1,
+            "hold": 2
+          },
+          "opening_lanes": [
+            3,
+            2,
+            0,
+            2,
+            3,
+            1,
+            3,
+            3,
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 320,
+          "types": {
+            "tap": 256,
+            "flick": 60,
+            "slide": 3,
+            "hold": 1
+          },
+          "opening_lanes": [
+            3,
+            2,
+            1,
+            3,
+            0,
+            1,
+            2,
+            2,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "song": "song08",
+      "duration": 112.251,
+      "audio_peak_count": 506,
+      "charts": {
+        "EASY": {
+          "notes": 117,
+          "types": {
+            "tap": 115,
+            "hold": 2
+          },
+          "opening_lanes": [
+            0,
+            2,
+            3,
+            2,
+            1,
+            0,
+            2,
+            2,
+            3,
+            1,
+            3,
+            0
+          ]
+        },
+        "NORMAL": {
+          "notes": 203,
+          "types": {
+            "flick": 22,
+            "tap": 178,
+            "slide": 2,
+            "hold": 1
+          },
+          "opening_lanes": [
+            0,
+            2,
+            1,
+            2,
+            3,
+            2,
+            1,
+            1,
+            0,
+            2,
+            1,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 299,
+          "types": {
+            "tap": 234,
+            "flick": 62,
+            "slide": 3
+          },
+          "opening_lanes": [
+            0,
+            3,
+            2,
+            3,
+            2,
+            3,
+            0,
+            0,
+            1,
+            2,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "song09",
+      "duration": 121.045,
+      "audio_peak_count": 494,
+      "charts": {
+        "EASY": {
+          "notes": 127,
+          "types": {
+            "tap": 123,
+            "hold": 4
+          },
+          "opening_lanes": [
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            2,
+            2,
+            1,
+            3,
+            1,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "flick": 19,
+            "tap": 194,
+            "slide": 1,
+            "hold": 3
+          },
+          "opening_lanes": [
+            0,
+            3,
+            1,
+            2,
+            3,
+            2,
+            3,
+            3,
+            2,
+            0,
+            3,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 320,
+          "types": {
+            "tap": 245,
+            "flick": 75
+          },
+          "opening_lanes": [
+            0,
+            3,
+            0,
+            2,
+            3,
+            2,
+            1,
+            1,
+            0,
+            2,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "song": "song10",
+      "duration": 120.291,
+      "audio_peak_count": 565,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 123,
+            "hold": 3
+          },
+          "opening_lanes": [
+            2,
+            1,
+            3,
+            2,
+            3,
+            0,
+            3,
+            3,
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        "NORMAL": {
+          "notes": 218,
+          "types": {
+            "tap": 198,
+            "hold": 3,
+            "flick": 17
+          },
+          "opening_lanes": [
+            2,
+            0,
+            2,
+            3,
+            1,
+            2,
+            3,
+            3,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        "HARD": {
+          "notes": 318,
+          "types": {
+            "tap": 252,
+            "flick": 64,
+            "slide": 1,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            0,
+            2,
+            1,
+            3,
+            1,
+            2,
+            2,
+            3,
+            0,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "song11",
+      "duration": 120.005,
+      "audio_peak_count": 528,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 120,
+            "hold": 6
+          },
+          "opening_lanes": [
+            2,
+            0,
+            3,
+            0,
+            1,
+            3,
+            2,
+            2,
+            3,
+            2,
+            0,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 189,
+            "hold": 2,
+            "flick": 26
+          },
+          "opening_lanes": [
+            2,
+            1,
+            0,
+            3,
+            0,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            0
+          ]
+        },
+        "HARD": {
+          "notes": 319,
+          "types": {
+            "tap": 250,
+            "flick": 67,
+            "slide": 1,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            3,
+            2,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "song12",
+      "duration": 120.459,
+      "audio_peak_count": 592,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 124,
+            "hold": 2
+          },
+          "opening_lanes": [
+            1,
+            2,
+            1,
+            3,
+            1,
+            2,
+            1,
+            1,
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 194,
+            "flick": 20,
+            "slide": 3
+          },
+          "opening_lanes": [
+            1,
+            2,
+            1,
+            2,
+            3,
+            0,
+            3,
+            3,
+            2,
+            3,
+            2,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 319,
+          "types": {
+            "tap": 272,
+            "flick": 47
+          },
+          "opening_lanes": [
+            1,
+            2,
+            1,
+            3,
+            0,
+            3,
+            2,
+            2,
+            3,
+            1,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "song": "song13",
+      "duration": 120.72,
+      "audio_peak_count": 534,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 122,
+            "hold": 4
+          },
+          "opening_lanes": [
+            0,
+            2,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 199,
+            "flick": 16,
+            "slide": 1,
+            "hold": 1
+          },
+          "opening_lanes": [
+            0,
+            1,
+            0,
+            1,
+            3,
+            1,
+            2,
+            2,
+            1,
+            3,
+            2,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 321,
+          "types": {
+            "flick": 70,
+            "tap": 249,
+            "hold": 2
+          },
+          "opening_lanes": [
+            0,
+            3,
+            2,
+            1,
+            0,
+            2,
+            0,
+            3,
+            3,
+            1,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "song": "lantern27",
+      "duration": 121.083,
+      "audio_peak_count": 568,
+      "charts": {
+        "EASY": {
+          "notes": 127,
+          "types": {
+            "tap": 124,
+            "hold": 3
+          },
+          "opening_lanes": [
+            3,
+            2,
+            3,
+            2,
+            1,
+            3,
+            1,
+            1,
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 189,
+            "flick": 25,
+            "hold": 3
+          },
+          "opening_lanes": [
+            3,
+            2,
+            3,
+            1,
+            0,
+            3,
+            1,
+            1,
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 320,
+          "types": {
+            "tap": 257,
+            "flick": 62,
+            "slide": 1
+          },
+          "opening_lanes": [
+            3,
+            2,
+            1,
+            2,
+            1,
+            2,
+            0,
+            0,
+            2,
+            3,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "song": "border26",
+      "duration": 120.699,
+      "audio_peak_count": 556,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 121,
+            "hold": 5
+          },
+          "opening_lanes": [
+            2,
+            1,
+            3,
+            2,
+            3,
+            2,
+            0,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 200,
+            "flick": 13,
+            "hold": 3,
+            "slide": 1
+          },
+          "opening_lanes": [
+            2,
+            3,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 319,
+          "types": {
+            "tap": 259,
+            "flick": 59,
+            "slide": 1
+          },
+          "opening_lanes": [
+            2,
+            0,
+            2,
+            1,
+            2,
+            0,
+            1,
+            1,
+            3,
+            0,
+            3,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "song": "temperature28",
+      "duration": 121.35,
+      "audio_peak_count": 477,
+      "charts": {
+        "EASY": {
+          "notes": 127,
+          "types": {
+            "tap": 119,
+            "hold": 8
+          },
+          "opening_lanes": [
+            0,
+            2,
+            1,
+            2,
+            1,
+            0,
+            3,
+            3,
+            1,
+            0,
+            1,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 218,
+          "types": {
+            "tap": 199,
+            "flick": 19
+          },
+          "opening_lanes": [
+            0,
+            3,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            1,
+            2,
+            0,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 321,
+          "types": {
+            "tap": 250,
+            "flick": 70,
+            "slide": 1
+          },
+          "opening_lanes": [
+            0,
+            2,
+            3,
+            1,
+            2,
+            0,
+            1,
+            1,
+            0,
+            2,
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "song": "countthree25",
+      "duration": 120.342,
+      "audio_peak_count": 546,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 125,
+            "hold": 1
+          },
+          "opening_lanes": [
+            3,
+            2,
+            1,
+            2,
+            1,
+            3,
+            1,
+            1,
+            0,
+            3,
+            0,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 216,
+          "types": {
+            "tap": 201,
+            "flick": 12,
+            "hold": 2,
+            "slide": 1
+          },
+          "opening_lanes": [
+            3,
+            2,
+            3,
+            0,
+            2,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 319,
+          "types": {
+            "tap": 255,
+            "flick": 62,
+            "slide": 2
+          },
+          "opening_lanes": [
+            3,
+            0,
+            3,
+            1,
+            0,
+            1,
+            3,
+            3,
+            1,
+            3,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "threestars24",
+      "duration": 120.273,
+      "audio_peak_count": 569,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 122,
+            "hold": 4
+          },
+          "opening_lanes": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            0,
+            1,
+            3,
+            2,
+            3,
+            1,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 195,
+            "flick": 20,
+            "slide": 1,
+            "hold": 1
+          },
+          "opening_lanes": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            2,
+            1,
+            3
+          ]
+        },
+        "HARD": {
+          "notes": 319,
+          "types": {
+            "tap": 227,
+            "flick": 90,
+            "hold": 2
+          },
+          "opening_lanes": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            3,
+            3,
+            1,
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "song": "dayoff23",
+      "duration": 120.199,
+      "audio_peak_count": 479,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 121,
+            "hold": 5
+          },
+          "opening_lanes": [
+            0,
+            3,
+            2,
+            0,
+            1,
+            3,
+            0,
+            1,
+            0,
+            1,
+            3,
+            0
+          ]
+        },
+        "NORMAL": {
+          "notes": 216,
+          "types": {
+            "tap": 196,
+            "flick": 18,
+            "slide": 2
+          },
+          "opening_lanes": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            1,
+            3,
+            0,
+            1,
+            2,
+            3,
+            1
+          ]
+        },
+        "HARD": {
+          "notes": 319,
+          "types": {
+            "tap": 256,
+            "flick": 62,
+            "slide": 1
+          },
+          "opening_lanes": [
+            0,
+            1,
+            3,
+            2,
+            1,
+            3,
+            0,
+            3,
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "song": "song22",
+      "duration": 137.029,
+      "audio_peak_count": 713,
+      "charts": {
+        "EASY": {
+          "notes": 143,
+          "types": {
+            "tap": 140,
+            "hold": 3
+          },
+          "opening_lanes": [
+            3,
+            1,
+            3,
+            1,
+            3,
+            0,
+            2,
+            2,
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 246,
+          "types": {
+            "tap": 223,
+            "hold": 2,
+            "flick": 20,
+            "slide": 1
+          },
+          "opening_lanes": [
+            3,
+            2,
+            3,
+            1,
+            3,
+            2,
+            1,
+            1,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "HARD": {
+          "notes": 363,
+          "types": {
+            "tap": 284,
+            "flick": 77,
+            "hold": 2
+          },
+          "opening_lanes": [
+            3,
+            2,
+            3,
+            2,
+            1,
+            3,
+            0,
+            0,
+            1,
+            3,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "song": "song20",
+      "duration": 120.819,
+      "audio_peak_count": 521,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 123,
+            "hold": 3
+          },
+          "opening_lanes": [
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            3,
+            1,
+            3
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 197,
+            "flick": 19,
+            "slide": 1
+          },
+          "opening_lanes": [
+            2,
+            1,
+            3,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            3
+          ]
+        },
+        "HARD": {
+          "notes": 321,
+          "types": {
+            "flick": 53,
+            "tap": 267,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            3,
+            1,
+            3,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "song": "song18",
+      "duration": 120.915,
+      "audio_peak_count": 558,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 123,
+            "hold": 3
+          },
+          "opening_lanes": [
+            1,
+            2,
+            0,
+            3,
+            1,
+            2,
+            1,
+            1,
+            3,
+            0,
+            3,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "flick": 17,
+            "tap": 199,
+            "slide": 1
+          },
+          "opening_lanes": [
+            1,
+            0,
+            1,
+            0,
+            3,
+            2,
+            0,
+            1,
+            2,
+            0,
+            2,
+            0
+          ]
+        },
+        "HARD": {
+          "notes": 320,
+          "types": {
+            "tap": 264,
+            "flick": 55,
+            "hold": 1
+          },
+          "opening_lanes": [
+            1,
+            0,
+            2,
+            3,
+            0,
+            3,
+            2,
+            1,
+            0,
+            1,
+            3,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "song": "song21",
+      "duration": 121.443,
+      "audio_peak_count": 498,
+      "charts": {
+        "EASY": {
+          "notes": 127,
+          "types": {
+            "tap": 126,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            1,
+            0,
+            2,
+            3,
+            2,
+            1,
+            0,
+            2,
+            1,
+            3,
+            2
+          ]
+        },
+        "NORMAL": {
+          "notes": 218,
+          "types": {
+            "tap": 189,
+            "flick": 23,
+            "hold": 4,
+            "slide": 2
+          },
+          "opening_lanes": [
+            2,
+            0,
+            2,
+            1,
+            3,
+            2,
+            3,
+            3,
+            1,
+            0,
+            1,
+            2
+          ]
+        },
+        "HARD": {
+          "notes": 322,
+          "types": {
+            "tap": 252,
+            "flick": 68,
+            "slide": 2
+          },
+          "opening_lanes": [
+            2,
+            1,
+            3,
+            2,
+            0,
+            3,
+            0,
+            0,
+            3,
+            1,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "song": "song17",
+      "duration": 120.966,
+      "audio_peak_count": 561,
+      "charts": {
+        "EASY": {
+          "notes": 127,
+          "types": {
+            "tap": 124,
+            "hold": 3
+          },
+          "opening_lanes": [
+            0,
+            2,
+            3,
+            2,
+            0,
+            1,
+            2,
+            2,
+            1,
+            3,
+            2,
+            1
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "flick": 17,
+            "tap": 199,
+            "hold": 1
+          },
+          "opening_lanes": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            0,
+            1,
+            3,
+            0
+          ]
+        },
+        "HARD": {
+          "notes": 320,
+          "types": {
+            "tap": 260,
+            "flick": 60
+          },
+          "opening_lanes": [
+            0,
+            2,
+            1,
+            2,
+            1,
+            3,
+            0,
+            0,
+            2,
+            3,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "song": "song19",
+      "duration": 120.843,
+      "audio_peak_count": 537,
+      "charts": {
+        "EASY": {
+          "notes": 126,
+          "types": {
+            "tap": 123,
+            "hold": 3
+          },
+          "opening_lanes": [
+            2,
+            3,
+            0,
+            1,
+            0,
+            2,
+            3,
+            3,
+            1,
+            3,
+            2,
+            1
+          ]
+        },
+        "NORMAL": {
+          "notes": 217,
+          "types": {
+            "tap": 180,
+            "flick": 35,
+            "hold": 2
+          },
+          "opening_lanes": [
+            2,
+            1,
+            2,
+            3,
+            2,
+            1,
+            2,
+            2,
+            3,
+            1,
+            2,
+            3
+          ]
+        },
+        "HARD": {
+          "notes": 320,
+          "types": {
+            "tap": 257,
+            "flick": 60,
+            "slide": 2,
+            "hold": 1
+          },
+          "opening_lanes": [
+            2,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            3,
+            0,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}

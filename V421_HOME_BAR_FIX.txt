@@ -1,0 +1,1 @@
+v421: Centered white home indicator using equal left/right insets instead of viewport 50% and transform. Fixed home return scroll reset. All music, charts, saved data structures and other app assets unchanged. JS syntax and ZIP CRC checked. Real-device check pending.

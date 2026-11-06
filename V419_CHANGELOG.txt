@@ -1,0 +1,1 @@
+v419: Added read-only chart density/type comparisons for 25 songs / 75 charts and session diagnostic filtering by song, difficulty, and time range with JSON export. Existing raw diagnostic export unchanged. No audio, charts, save structure, gameplay logic or other apps modified. JS syntax and ZIP CRC checked. Mobile play testing not performed.

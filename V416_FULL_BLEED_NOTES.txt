@@ -1,0 +1,1 @@
+v416: Active rhythm game screen removes nested card border, rounded board, shadow and horizontal padding, making the playfield edge-to-edge within the phone app. Compact HUD retained. No JS, chart, audio, diagnostic, save or other app changes. JS syntax and ZIP CRC validated; mobile browser layout needs real-device confirmation.\n

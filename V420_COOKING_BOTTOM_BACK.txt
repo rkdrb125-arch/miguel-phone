@@ -1,0 +1,1 @@
+v420: Added a bottom Back button to all Cooking Miguel views, returning to Miguel Phone home via existing go(home) navigation. Existing top back arrow retained. No music, charts, assets, saves or other app logic changed. JS syntax and ZIP CRC verified.

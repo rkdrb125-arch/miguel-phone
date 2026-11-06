@@ -1,0 +1,1 @@
+v422: Anchored tasting dish to center of the dining table in front of Daniel, independent of the scene phase and plate entry animation. CSS-only, keeps fork drag coordinates calculated from the actual plate bounding box. Preserves audio, charts, saves and other apps. JS syntax and ZIP CRC verified; real-device visual verification pending.

@@ -1,0 +1,1 @@
+v390: MP3 sessions no longer finish from the chart duration threshold. Only the active HTMLAudioElement's ended event can finish the game; the legacy generated-audio mode retains its timer. Existing song metadata, MP3s, charts, save keys, and other assets are unchanged. Node.js syntax and ZIP integrity verified. Browser playback not tested.

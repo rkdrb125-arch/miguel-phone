@@ -1,0 +1,1 @@
+v389: Restored valid JavaScript after the precomputed chart JSON, which had been corrupted in versions after v380. Preserved latest v388 track list, audio assets and all precomputed charts. Node.js syntax checked. Browser playback not tested.

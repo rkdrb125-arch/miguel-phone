@@ -1,0 +1,1 @@
+v393: Music select carousel previews the selected real MP3 when scrolling settles. Preview stops on song change, game start and navigation. Tracks without audio retain original synthesized preview. Existing songs, charts, saves and assets preserved. JS syntax and ZIP integrity checked; browser interaction not tested.

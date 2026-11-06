@@ -1,0 +1,1 @@
+v391: Fixed stale locally saved charts overriding newly added precomputed charts. Precomputed charts are the default when present. Added settings toggle for saved custom charts; all existing saved charts remain intact. Preserves v390 audio completion fix and all MP3/assets. Static syntax and ZIP checks only.

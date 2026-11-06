@@ -1,0 +1,18 @@
+v361: 16 tracks x EASY/NORMAL/HARD refreshed from existing audio-onset timestamps. Reduced density, distinct per-track patterns, no simultaneous notes, and exclusive holds. No audio files or saved data keys removed. Previously saved user charts remain and are filtered during gameplay. Browser playtesting not performed.
+
+original: EASY 108, NORMAL 141, HARD 204
+forest: EASY 110, NORMAL 162, HARD 180
+starlight: EASY 100, NORMAL 159, HARD 226
+daniel: EASY 120, NORMAL 148, HARD 232
+night: EASY 96, NORMAL 131, HARD 155
+song06: EASY 107, NORMAL 171, HARD 192
+song07: EASY 117, NORMAL 157, HARD 232
+song08: EASY 106, NORMAL 166, HARD 240
+song09: EASY 128, NORMAL 189, HARD 191
+song10: EASY 116, NORMAL 179, HARD 278
+song11: EASY 128, NORMAL 174, HARD 250
+song12: EASY 127, NORMAL 200, HARD 294
+song13: EASY 85, NORMAL 128, HARD 164
+lantern27: EASY 79, NORMAL 104, HARD 146
+border26: EASY 119, NORMAL 163, HARD 238
+temperature28: EASY 110, NORMAL 206, HARD 207

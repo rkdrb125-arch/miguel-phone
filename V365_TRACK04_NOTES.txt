@@ -1,0 +1,1 @@
+v365: Track 04 다니엘의 행진. Onset-based EASY/NORMAL/HARD charts from supplied MP3. Holds do not overlap taps or other holds. Full MP3 duration metadata. Inherited v364 audio-ended completion fix, other app functionality and assets. Automatic analysis, not manually playtested. Saved custom charts may override built-in charts.

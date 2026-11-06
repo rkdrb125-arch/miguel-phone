@@ -1,0 +1,1 @@
+v377: Track 16 체온은 정상입니다 (user refers to 너와 나의 온도). Onset-based EASY/NORMAL/HARD charts from supplied MP3. Holds do not overlap taps or other holds. Full MP3 duration metadata. Inherited audio-ended completion fix and other app functionality and assets. Automatic analysis, not manually playtested. Saved custom charts may override built-in charts.

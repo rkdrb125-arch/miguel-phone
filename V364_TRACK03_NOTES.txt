@@ -1,0 +1,1 @@
+v364: 03 별빛 작전 - separate onset-based EASY/NORMAL/HARD charts. Fixed MP3 playthrough ending: result screen only after HTML audio ended, not chart duration. Existing app/assets/storage keys untouched. Automated analysis, not manually playtested. Custom saved charts override built-in charts until reset.

@@ -1,0 +1,1 @@
+v363: Track 02 숲속 산책 only. Onset detection from user supplied MP3; three distinct density levels. Exclusive holds; no simultaneous taps, no note overlap. Remaining 15 charts and all assets untouched. Automated alignment, not human playtested. Previously saved custom charts take precedence until reset in chart editor.

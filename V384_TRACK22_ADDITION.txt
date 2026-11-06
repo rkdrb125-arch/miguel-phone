@@ -1,0 +1,1 @@
+v382: Replaced only track 24 audio with supplied 거리 유지 실패!(1).mp3; regenerated EASY/NORMAL/HARD onset-based charts and duration metadata. Existing tracks 24-25, tracks 1-16, all other assets and save structures retained. No note/hold overlap. Automated static validation only, not manual browser playtesting.

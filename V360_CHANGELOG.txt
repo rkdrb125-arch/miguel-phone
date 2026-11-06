@@ -1,0 +1,1 @@
+v360: Reduced note density by difficulty. Prevented notes overlapping any active hold/slide, including cross-lane. Preserved note timestamps and original MP3 files. Applies at playtime even to locally saved charts; editor displays filtered defaults.

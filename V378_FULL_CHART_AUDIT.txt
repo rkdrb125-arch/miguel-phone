@@ -1,0 +1,7 @@
+v378 full 16-track / 48-chart static audit
+Source: v377. Existing assets, audio, app code, and persistent data schema preserved.
+Confirmed issues: track 11 duration metadata exceeded actual MP3 by ~0.715 seconds; track 11 and 13 charts were identical despite different MP3 files.
+Corrections: regenerated track 11 and track 13 EASY/NORMAL/HARD charts independently from their respective MP3 onset envelopes, updated durations.
+Validated: all 48 charts contain valid lanes, ordered note times, no overlapping note/hold intervals, and no notes past actual MP3 durations.
+Existing audio ended completion guard verified in source; not browser-playtested. Saved custom charts can override built-in charts.
+Automated onset extraction is not equivalent to human playtesting or perceptual beat accuracy verification.

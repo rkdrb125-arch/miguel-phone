@@ -1,0 +1,1 @@
+v376: Track 15 경계선 너머. Onset-based EASY/NORMAL/HARD charts from supplied MP3. Holds do not overlap taps or other holds. Full MP3 duration metadata. Inherited audio-ended completion fix and other app functionality and assets. Automatic analysis, not manually playtested. Saved custom charts may override built-in charts.

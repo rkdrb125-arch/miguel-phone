@@ -1,0 +1,1 @@
+v379: Added original MP3 for existing 25th song 앞으로도, 셋을 세며. Added onset-based EASY/NORMAL/HARD charts. Kept prior tracks and functionality. Automatic analysis, not manually playtested.

@@ -1,0 +1,1 @@
+v396: Added the previously empty song19 slot (existing title: 당신이 떠난 자리), supplied MP3 duration 120.843s, EASY/NORMAL/HARD onset-based charts with holds and flicks. Same-lane hold collisions checked; all existing assets and saved-data logic preserved. Static checks only, not browser playtested.

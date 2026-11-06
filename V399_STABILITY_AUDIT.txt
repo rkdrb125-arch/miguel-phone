@@ -1,0 +1,2 @@
+v399: Static audit of 25 songs / 75 charts. Note bounds, lane occupancy and hold/slide conflicts validated. Keyboard slide destination key handling improved. Removed preview audio forced 15-second seek/restart; preview now continues until real end. Flick miss timing aligned to pointer start window. MP3 assets, chart JSON, and existing save keys preserved. Node.js syntax and ZIP integrity verified. Browser/device end-to-end testing not performed.
+{'charts': 75, 'notes': 11181, 'tap': 9467, 'hold': 1262, 'flick': 330, 'slide': 122}
